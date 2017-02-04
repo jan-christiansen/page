@@ -1,40 +1,35 @@
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    line-height: 1.5;
-    margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0px;
 }
 
 @media (min-width: 768px) {
-    body {
-        font-size: 15px;
-    }
+  body {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 992px) {
-    body {
-        font-size: 17px;
-    }
+  body {
+    font-size: 17px;
+  }
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
-#header, #content, .footer-content {
-    margin: auto;
-    max-width: 800px;
-    width: 100%;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
+#header, #content {
+  margin: auto;
+  max-width: 800px;
+  width: 90%;
 }
 
-@media (min-width: 768px) {
-    #header, #content, .footer-content {
-        width: 90%;
-    }
+#header {
+  padding: 20px;
 }
 
 .figure {
@@ -56,56 +51,56 @@ h1, h2, h3 {
 }
 
 h1 {
-    text-transform: uppercase;
-    font-size: 2.5em;
-    color: #666;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: #666;
 }
 
 h2 {
-    font-size: 1.5em;
-    color: #666;
+  font-size: 1.5em;
+  color: #666;
 }
 
 h3 {
-    font-size: 1.1em;
-    color: #666;
+  font-size: 1.1em;
+  color: #666;
 }
 
 .info {
-    text-align: right;
-    color: #777;
-    font-weight: 200;
+  text-align: right;
+  color: #777;
+  font-weight: 200;
 }
 
 a {
-    color: rgb(62, 152, 197);
-    font-weight: normal;
-    text-decoration: none;
+  color: rgb(62, 152, 197);
+  font-weight: normal;
+  text-decoration: none;
 }
 
 a:hover {
-    color: rgb(62, 152, 197, 0.7);
-    text-decoration: none;
+  color: rgb(62, 152, 197, 0.7);
+  text-decoration: none;
 }
 
 #navigation a {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 #content {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #footer {
-    clear: both;
-    background-color: #777;
-    color: #FFF;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: right;
-    font-weight: 200;
+  clear: both;
+  background-color: #777;
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-weight: 200;
 }
 
 #footer a {
