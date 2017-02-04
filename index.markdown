@@ -6,7 +6,7 @@ published: 2017-02-04
 ![](/images/me.jpg)
 
 I am a professor of computer science at the
-[Flenburg University of Applied Sciences](http://www.hs-flensburg.de). I am
+[Flensburg University of Applied Sciences](http://www.hs-flensburg.de). I am
 interested in programming languages as well theoretical and practical aspects of
 programming and software verification. For example, I am interested in
 
