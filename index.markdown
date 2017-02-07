@@ -10,4 +10,5 @@ programming and software verification. For example, I am interested in
 
 * algorithms [(ICFP 2016)](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf)
 * free theorems [(PLPV 2010)](http://www.janis-voigtlaender.eu/papers/FreeTheoremsForFunctionalLogicPrograms.pdf),
-* and testing [(FLOPS 2008)](http://www-ps.informatik.uni-kiel.de/~sebf/data/pub/flops08.pdf).
+* testing [(FLOPS 2008)](http://www-ps.informatik.uni-kiel.de/~sebf/data/pub/flops08.pdf),
+* and formal verification.

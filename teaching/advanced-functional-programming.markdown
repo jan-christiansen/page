@@ -1,18 +1,52 @@
 ---
 title: Fortgeschrittene funktionale Programmierung
-published: 2012-07-07
+published: 2017-02-07
 ---
+
+
+<!-- ## Inhalt
+
+Die Ideen der funktionalen Programmierung halten zunehmend Einzug in die
+kommerzielle Software­entwicklung, wie zum Beispiel durch die Entwicklung der
+funktional objekt-orientierten Programmier­sprache Swift deutlich wird.
+
+In der Vorlesung lernen Sie die Prinzipien und Entwicklungs­muster der
+funktionalen Programmierung anhand der stark-getypten, rein-funktionalen
+Programmiersprache Haskell kennen. Neben Grundlagen wie Lazy Evaluation,
+Higher-Order Functions und Polymorphismus werden Abstraktions­mechanismen wie
+Monoide, Funktoren und Monaden vorgestellt.
+
+Am Ende arbeiten Sie sich eigenständig in ein fortgeschrittenes Thema Ihrer Wahl
+ein. Mögliche Themen sind zum Beispiel: funktionale Datenstrukturen, typsichere
+Webentwicklung (PureScript/Elm, Servant), freie Theoreme, Grundlagen der
+Kategorientheorie.
+
+
+## Lernvoraussetzungen
+
+Obwohl die Vorlesung "fortgeschritten" heißt, werden alle Konzepte von Grund auf
+eingeführt; es werden keinerlei Kenntnisse in der funktionalen Programmierung
+vorausgesetzt. Es wird jedoch erwartet, dass Sie bereits praktische Erfahrungen
+in der Programmierung in anderen Programmier­sprachen wie JavaScript, Java oder
+C# mitbringen und somit in der Lage sind, schnell eine neue Programmier­sprache
+zu erlernen.
+
+
+## Literatur
+
+M. Lipovaca: Learn You a Haskell for Great Good!. No Starch Press (2011)
+B. O'Sullivan, J. Goerzen, D.B. Stewart: Real World Haskell. O'Reilly (2010) -->
 
 
 ## Vortrag
 
-Um euch eine Idee zu geben, wie ihr einen guten Vortrag haltet, möchte ich euch
-einen Vortrag von Simon Peyton-Jones ans Herz legen mit dem Titel ["How to give
-a great research talk"][GoodTalks]. Simon Peyton-Jones ist einer der beiden
+Als Anhaltspunkt für gute Vorträge kann der Vortrag
+["How to give a great research talk"][GoodTalks] von Simon Peyton-Jones genutzt
+werden. Simon Peyton-Jones ist einer der beiden
 Hauptentwickler des ghc, eine der treibenden Kräfte der funktionalen
 Programmierung in den letzten 30 Jahren und einer der bekanntesten Forscher in
 diesem Bereich. Nebenbei hält er noch sehr unterhaltsame Vorträge zu Arbeiten
-mit eigentlich sehr kompliziertem Inhalt.
+mit eigentlich recht kompliziertem Inhalt.
 
 [GoodTalks]: https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/
 
@@ -25,7 +59,7 @@ mit eigentlich sehr kompliziertem Inhalt.
 
 #### Theorems for free! - P. Wadler (1989)
 
-Freie Theoreme sind Aussagen über funktionale Programme, die allein vom Typ einer Funktion abgeleitet werden können. Diese Aussagen hängen im Wesentlichen mit der Tatsache zusammen, dass polymorphe Funktionen keine Werte des polymorphen Typen erfinden können. Da eine Funktion außerdem keine Seiteneffekte ausführen kann, erhält man vergleichsweise starke Aussagen über polymorphe Funktionen, ohne deren Implementierung zu kennen. Die Arbeit war sehr einflussreich und freie Theoreme werden in vielen Bereichen genutzt, um Aussagen über funktionale Programme zu beweisen. [Veröffentlichung](http://www.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf)
+Freie Theoreme sind Aussagen über funktionale Programme, die allein vom Typ einer Funktion abgeleitet werden können. Diese Aussagen hängen im Wesentlichen mit der Tatsache zusammen, dass polymorphe Funktionen keine Werte des polymorphen Typs erfinden können. Da eine Funktion außerdem keine Seiteneffekte ausführen kann, erhält man vergleichsweise starke Aussagen über polymorphe Funktionen, ohne deren Implementierung zu kennen. Die Arbeit war sehr einflussreich und freie Theoreme werden in vielen Bereichen genutzt, um Aussagen über funktionale Programme zu beweisen. [Veröffentlichung](http://www.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf)
 
 
 #### Uniqueness typing simplified - E. De Vries and R. Plasmeijer and D. M. Abrahamson (2007)
@@ -35,12 +69,12 @@ In einem Typsystem mit _uniqueness types_ können bestimmte Variablen nur ein ei
 
 #### Liquidhaskell: Experience with refinement types in the real world - N. Vazou and E. L. Seidel and R. Jhala (2014)
 
-Liquidhaskell ist eine Implementierung von _refinement types_ für Haskell. Ein Typsystem mit _refinement types_ erlaubt es, sehr viel stärkere Aussagen über Programme zu treffen als es mit Typsystemen wie dem von Haskell möglich ist. So ist es zum Beispiel möglich im Typen die Länge einer Liste auszudrücken. Damit erhält man zum Beispiel die Garantie, dass man nie versucht, auf einen Index außerhalb einer Liste zuzugreifen. Typsysteme wie _refinement types_ eignen sich gut, um sicherheitskritische Anwendungen zu entwickeln. Die Arbeit stellt die Haskell-Bibliothek an einer Reihe von Beispielen vor und zeigt, welche Arten von Garantieren, man mit Hilfe dieser Typen über Programme erhält. [Veröffentlichung](http://goto.ucsd.edu/~nvazou/real_world_liquid.pdf)
+Liquidhaskell ist eine Implementierung von _refinement types_ für Haskell. Ein Typsystem mit _refinement types_ erlaubt es, sehr viel stärkere Aussagen über Programme zu treffen als es mit Typsystemen wie dem von Haskell möglich ist. So ist es zum Beispiel möglich im Typ die Länge einer Liste auszudrücken. Damit erhält man zum Beispiel die Garantie, dass man nie versucht, auf einen Index außerhalb einer Liste zuzugreifen. Typsysteme wie _refinement types_ eignen sich gut, um sicherheitskritische Anwendungen zu entwickeln. Die Arbeit stellt die Haskell-Bibliothek an einer Reihe von Beispielen vor und zeigt, welche Arten von Garantieren, man mit Hilfe dieser Typen über Programme erhält. [Veröffentlichung](http://goto.ucsd.edu/~nvazou/real_world_liquid.pdf)
 
 
 #### Propositions as types - P. Wadler (2015)
 
-In dieser Arbeit geht es um den Zusammenhang zwischen Logik und den Typen in einer funktionalen Programmiersprache. Die Arbeit ist relativ verständlich geschrieben und erfordert wenig Vorwissen, da es sich nicht um eine wissenschaftliche Veröffentlichung sondern um eine Art Zeitschriftenartikel handelt. Der Artikel ist in den Communications of the ACM erschienen, einer monatlichen Serie von Artikeln der amerikanischen Gesellschaft für Informatik. Daher adressiert der Artikel Personen aus allen Bereichen der Informatik. Das Thema an sich ist aber sehr abstrakt und beleuchtet einen sehr grundlegenden Zusammenhang zwischen zwei formalen Systemen. [Veröffentlichung](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.673.269&rep=rep1&type=pdf)
+In dieser Arbeit geht es um den Zusammenhang zwischen Logik und den Typen in einer funktionalen Programmiersprache. Die Arbeit ist relativ verständlich geschrieben und erfordert wenig Vorwissen, da es sich nicht um eine wissenschaftliche Veröffentlichung sondern um eine Art Zeitschriftenartikel handelt. Der Artikel ist in den Communications of the ACM erschienen, einer monatlichen Serie von Artikeln der amerikanischen Gesellschaft für Informatik. Daher adressiert der Artikel Personen aus allen Bereichen der Informatik. Das Thema an sich ist aber sehr abstrakt und beleuchtet einen sehr grundlegenden Zusammenhang zwischen zwei formalen Systemen. Daher erfordert er ein Grundverständnis von formalen Systemen in der Informatik. [Veröffentlichung](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.673.269&rep=rep1&type=pdf)
 
 
 ### Compiler-Optimierungen
@@ -71,12 +105,12 @@ In dieser Arbeit werden _monad transformer_ vorgestellt. Diese erlauben es, mehr
 
 #### Programming with arrows - J. Hughes (2004)
 
-Arrows sind, ähnlich wie Monaden ein allgemeines Konzept zur Abstraktion. Die Arbeit stellt die Idee der _arrows_ so wie praktische Anwendungen dieser Abstraktion vor. Die Arbeit ist vergleichsweise lang, dafür setzt sie aber nur ein geringes Vorwissen voraus, da es sich um den Inhalt einer vorgeschrittenen Vorlesung handelt. [Veröffentlichung](https://karczmarczuk.users.greyc.fr/TEACH/Doc/afp-arrows.pdf)
+Arrows sind, ähnlich wie Monaden ein allgemeines Konzept zur Abstraktion. Die Arbeit stellt die Idee der _arrows_ sowie praktische Anwendungen dieser Abstraktion vor. Die Arbeit ist vergleichsweise lang, dafür setzt sie aber nur ein geringes Vorwissen voraus, da es sich um den Inhalt einer fortgeschrittenen Vorlesung handelt. [Veröffentlichung](https://karczmarczuk.users.greyc.fr/TEACH/Doc/afp-arrows.pdf)
 
 
 #### Generics for the masses - R. Hinze (2004)
 
-Diese Arbeit stellt einen Ansatz zur generischen Programmierung in Haskell vor. Die generische Programmierung erlaubt es, eine einzelne Funktion zu definieren, die auf einer Vielzahl von Typen genutzt werden kann. Im Unterschied zu einer polymorphen Funktion verhält sich eine generische Funktion nicht für alle Typen gleich, sondern trifft Entscheidungen abhängig von der Struktur des Typen. Typische Beispiele für generische Funktionen sind zum Beispiel die strukturelle Gleichheit von Werten oder die Funktion _show_. [Veröffentlichung](http://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP04.pdf)
+Diese Arbeit stellt einen Ansatz zur generischen Programmierung in Haskell vor. Die generische Programmierung erlaubt es, eine einzelne Funktion zu definieren, die auf einer Vielzahl von Typen genutzt werden kann. Im Unterschied zu einer polymorphen Funktion verhält sich eine generische Funktion nicht für alle Typen gleich, sondern trifft Entscheidungen abhängig von der Struktur des Typs. Typische Beispiele für generische Funktionen sind zum Beispiel die strukturelle Gleichheit von Werten oder die Funktion _show_. [Veröffentlichung](http://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP04.pdf)
 
 
 #### Applicative programming with effects - C. McBride and R. Paterson (2008)
@@ -99,7 +133,7 @@ Die Arbeit führt die Datenstruktur _binomial heap_ ein und ist explizit für Le
 
 #### Inductive graphs and functional graph algorithms - M. Erwig (2001)
 
-Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden, da Werte in funktionalen Sprachen immer auf Wertgleichheit getestet werden und nicht auf Referenzgleichheit. Daher lassen sich die klassischen Implementierungen von Graphalgorithmen nicht elegant in eine funktionale Programmiersprache übersetzen. Diese Arbeit stellt stellt eine Modellierung von Graphen vor, die sich sehr viel besser in das funktionale Programmierparadigma passt. [Veröffentlichung](https://www.researchgate.net/profile/Martin_Erwig/publication/2364482_Inductive_Graphs_and_Functional_Graph_Algorithms/links/5439ae4f0cf2d6698be167f3.pdf)
+Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden, da Werte in funktionalen Sprachen immer auf Wertgleichheit getestet werden und nicht auf Referenzgleichheit. Daher lassen sich die klassischen Implementierungen von Graphalgorithmen nicht direkt in eine funktionale Programmiersprache übersetzen. Diese Arbeit stellt eine Modellierung von Graphen vor, die sehr viel besser in das funktionale Programmierparadigma passt. [Veröffentlichung](https://www.researchgate.net/profile/Martin_Erwig/publication/2364482_Inductive_Graphs_and_Functional_Graph_Algorithms/links/5439ae4f0cf2d6698be167f3.pdf)
 
 
 ### Testen
@@ -107,7 +141,7 @@ Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden,
 
 #### QuickCheck: a lightweight tool for random testing of Haskell programs - K. Claessen and J. Hughes (2000)
 
-Diese Arbeit stellt eine Bibliothek mit dem Namen QuickCheck und das Konzept des _property-based testing_ vor. Während bei einem Unit-Test normalerweise eine Eigenschaft für ein paar Beispieleingaben getestet wird, wird beim _property-based testing_ eine Eigenschaft sehr viele, zufällig generierte Eingaben getestet. Auf diese Weise kann eine Funktion ohne großen Aufwand für eine Vielzahl von Testfällen getestet werden. Die Erzeugung der Testeingaben wird durch die Struktur des Typs der Eingaben geleitet. Die Idee des _property-based testing_ hat inzwischen Einzug in fast alle stark getypten Programmiersprachen gehalten. So gibt es reimplementieren des QuickCheck-Ansatzes in Programmiersprachen wie Scala, Java, Swift und Objective-C. [Veröffentlichung](http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf)
+Diese Arbeit stellt eine Bibliothek mit dem Namen QuickCheck und das Konzept des _property-based testing_ vor. Während bei einem Unit-Test normalerweise eine Eigenschaft für ein paar Beispieleingaben getestet wird, wird beim _property-based testing_ eine Eigenschaft für sehr viele, zufällig generierte Eingaben getestet. Auf diese Weise kann eine Funktion ohne großen Aufwand für eine Vielzahl von Testfällen getestet werden. Die Erzeugung der Testeingaben wird durch die Struktur des Typs der Eingaben geleitet. Die Idee des _property-based testing_ hat inzwischen Einzug in fast alle stark getypten Programmiersprachen gehalten. So gibt es reimplementieren des QuickCheck-Ansatzes in Programmiersprachen wie Scala, Java, Swift und Objective-C. [Veröffentlichung](http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf)
 
 
 #### Debugging Haskell by Observing Intermediate Data Structures - A. Gill (2000)
@@ -120,12 +154,12 @@ Da funktionale Programme sehr viel abstrakter sind als imperative Programme, las
 
 #### Tackling the awkward squad - S. P. Jones (2010)
 
-Die Arbeit zeigt, wie einige Konzepte der imperativen Programmierung in Haskell integriert werden. Zuerst wird illustriert, wie die IO-Monade implementiert und wie diese formal modelliert werden kann. Daneben werden noch Konzepte wie veränderbare Speicherzellen, Nebenläufigkeit, Ausnahmebehandlung und das Foreign Function Interface (FFI) vorgestellt. Das FFI stellt ein Konzept zur Verfügung, um andere Programmiersprachen, zum Beispiel C an Haskell anzubinden. Es handelt sich bei der Arbeit um Lecture Notes, die Simon Peyton Jones bereits im Jahr 2000 bei einer Summer School verwendet hat. Das Dokument wurde seitdem mehrfach überarbeitet und an den aktuellen Stand angepasst. [Veröffentlichung](http://research.microsoft.com/en-us/um/people/simonpj/Papers/marktoberdorf/mark.pdf.gz)
+Die Arbeit zeigt, wie einige Konzepte der imperativen Programmierung in Haskell integriert werden. Zuerst wird illustriert, wie die IO-Monade implementiert ist und wie diese formal modelliert werden kann. Daneben werden noch Konzepte wie veränderbare Speicherzellen, Nebenläufigkeit, Ausnahmebehandlung und das Foreign Function Interface (FFI) vorgestellt. Das FFI stellt ein Konzept zur Verfügung, um andere Programmiersprachen, zum Beispiel C, an Haskell anzubinden. Es handelt sich bei der Arbeit um Lecture Notes, die Simon Peyton Jones bereits im Jahr 2000 bei einer Summer School verwendet hat. Das Dokument wurde seitdem mehrfach überarbeitet und an den aktuellen Stand angepasst. [Veröffentlichung](http://research.microsoft.com/en-us/um/people/simonpj/Papers/marktoberdorf/mark.pdf.gz)
 
 
 #### Concurrent haskell - S. P. Jones and A. Gordon and S. Finne (1996)
 
-Die Arbeit stellt die Bibliothek Concurrent Haskell vor. Diese Bibliothek kann genutzt werden, um nebenläufige Programme also Programme mit Threads und geteilten Ressourcen in Haskell zu schreiben. Während das Abstraktionsniveau der Bibliothek relativ niedrig ist, da es sich um die erste Bibliothek dieser Art für Haskell handelt, sind Konzepte wie geteilte Variable und Semaphore so klar umgesetzt, dass die Bibliothek sich immer noch gut eignet, um grundlegende Algorithmen der nebenläufigen Programmierung klar zu modellieren. [Veröffentlichung](http://research.microsoft.com/en-us/um/people/simonpj/papers/concurrent-haskell.pdf)
+Die Arbeit stellt die Bibliothek Concurrent Haskell vor. Diese Bibliothek kann genutzt werden, um nebenläufige Programme, also Programme mit Threads und geteilten Ressourcen, in Haskell zu schreiben. Während das Abstraktionsniveau der Bibliothek relativ niedrig ist, da es sich um die erste Bibliothek dieser Art für Haskell handelt, sind Konzepte wie geteilte Variable und Semaphore so klar umgesetzt, dass die Bibliothek sich immer noch gut eignet, um grundlegende Algorithmen der nebenläufigen Programmierung klar zu modellieren. [Veröffentlichung](http://research.microsoft.com/en-us/um/people/simonpj/papers/concurrent-haskell.pdf)
 
 
 #### Composable memory transactions - T. Harris and S. Marlow and S. Peyton-Jones and M. Herlihy (2005)
@@ -146,7 +180,7 @@ In dieser Arbeit wird eine Bibliothek für _Mandatory Access Control (MAC)_ oder
 
 #### Monadic parsing in Haskell - G. Hutton and E. Meijer (1998)
 
-Diese Arbeit stellt die Idee der Parserkombinatoren vor. Ein Parser ist eine Funktion, die eine Zeichenkette analysiert, zerlegt und in einen strukturierten Datentypen umwandelt. Parserkombinatoren bieten die Möglichkeit einen solchen Parser einfach zu definieren, indem die zur Verfügung gestellten Kombinatoren verwendet werden. Die Idee der Parserkombinatoren wurde inzwischen in einer Vielzahl von Programmiersprachen implementiert, so gibt es Bibliotheken für Parserkombinatoren zum Beispiel in Java, C#, Ruby, C++, Python und JavaScript. [Veröffentlichung](http://www.cs.nott.ac.uk/~pszgmh/pearl.pdf)
+Diese Arbeit stellt die Idee der Parserkombinatoren vor. Ein Parser ist eine Funktion, die eine Zeichenkette analysiert, zerlegt und in einen strukturierten Datentyp umwandelt. Parserkombinatoren bieten die Möglichkeit einen solchen Parser einfach zu definieren, indem die zur Verfügung gestellten Kombinatoren verwendet werden. Die Idee der Parserkombinatoren wurde inzwischen in einer Vielzahl von Programmiersprachen implementiert, so gibt es Bibliotheken für Parserkombinatoren zum Beispiel in Java, C#, Ruby, C++, Python und JavaScript. [Veröffentlichung](http://www.cs.nott.ac.uk/~pszgmh/pearl.pdf)
 
 
 #### Probabilistic functional programming in Haskell - M. Erwig and S. Kollmansberger (2006)
@@ -164,12 +198,12 @@ Servant ist eine Haskell-Bibliothek zur Entwicklung von Http-Servern. Die Biblio
 
 #### Vorstellung der Programmiersprache Elm
 
-Die Programmiersprache Elm ist im Rahmen einer Masterarbeit entstanden und ist stark an Haskell angelegt. Die Sprache ist als Alternative für die Entwicklung des Frontends von Webanwendungen gedacht. Die Sprache setzte ursprünglich die Konzepte der funktional reaktiven Programmierung ein. Da es keine gut lesbare Veröffentlichung zu Elm gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutzbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden. [Internetseite](http://elm-lang.org)
+Die Programmiersprache Elm ist im Rahmen einer Masterarbeit entstanden und ist stark an Haskell angelehnt. Die Sprache ist als Alternative für die Entwicklung des Frontends von Webanwendungen gedacht. Die Sprache setzte ursprünglich die Konzepte der funktional reaktiven Programmierung ein. Da es keine gut lesbare Veröffentlichung zu Elm gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutzbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden. [Internetseite](http://elm-lang.org)
 
 
 #### Vorstellung der Programmiersprache PureScript
 
-Die Programmiersprache PureScript ist ebenfalls sehr eng an die Programmiersprache Haskell angelegt. Die Sprache wird nach JavaScript übersetzt und ist als Alternative für JavaScript gedacht. Ein Ziel der Entwicklung war ein Compiler, der gut lesbaren JavaScript-Code erzeugt. Da es keine Veröffentlichung zu PureScript gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutzbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden. [Internetseite](http://www.purescript.org)
+Die Programmiersprache PureScript ist ebenfalls sehr eng an die Programmiersprache Haskell angelehnt. Die Sprache wird nach JavaScript übersetzt und ist als Alternative für JavaScript gedacht. Ein Ziel der Entwicklung war ein Compiler, der gut lesbaren JavaScript-Code erzeugt. Da es keine Veröffentlichung zu PureScript gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutzbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden. [Internetseite](http://www.purescript.org)
 
 
 ### Weitere Programmiersprachen
@@ -177,4 +211,4 @@ Die Programmiersprache PureScript ist ebenfalls sehr eng an die Programmiersprac
 
 #### Vorstellung der Programmiersprache Coq
 
-Coq ist eine funktionale Programmiersprache, die außerdem einen interaktiven Beweisassistenten zur Verfügung stellt, um Aussagen über die Programme zu beweisen. Das heißt, man kann zum Beispiel funktionale Programme in Coq schreiben und dann Aussagen über diese Programme beweisen. Ein Beweis besteht dabei aus einer Reihe von Schritten, die man ebenfalls in die Programmdatei schreibt. Der Compiler überprüft dann beim Übersetzen des Programms, ob die Schritte des Beweises richtig sind. Man kann mit Hilfe von Coq aber nicht nur Aussagen über funktionale Programme beweisen. So wurde zum Beispiel mit Hilfe von Coq die Korrektheit eines C-Compilers bewiesen (http://compcert.inria.fr), der zum Beispiel bei der Entwicklung von hoch-sicherheitskritischen Systemen wie Atomkraftwerken zum Einsatz kommt. Die Korrektheit des C-Compilers stellt sicher, dass der C-Compiler bei der Übersetzung und Optimierung des Codes die Bedeutung des Programms nicht verändert. [Internetseite](https://coq.inria.fr)
+Coq ist eine funktionale Programmiersprache, die außerdem einen interaktiven Beweisassistenten zur Verfügung stellt, um Aussagen über die Programme zu beweisen. Das heißt, man kann zum Beispiel funktionale Programme in Coq schreiben und dann Aussagen über diese Programme beweisen. Ein Beweis besteht dabei aus einer Reihe von Schritten, die man ebenfalls in die Programmdatei schreibt. Der Compiler überprüft dann beim Übersetzen des Programms, ob die Schritte des Beweises richtig sind. Man kann mit Hilfe von Coq aber nicht nur Aussagen über funktionale Programme beweisen. So wurde zum Beispiel mit Hilfe von Coq die Korrektheit eines [C-Compilers](http://compcert.inria.fr) bewiesen, der zum Beispiel bei der Entwicklung von hoch-sicherheitskritischen Systemen wie Atomkraftwerken zum Einsatz kommt. Die Korrektheit des C-Compilers stellt sicher, dass der C-Compiler bei der Übersetzung und Optimierung des Codes die Bedeutung des Programms nicht verändert. [Internetseite](https://coq.inria.fr)
