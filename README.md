@@ -1,3 +1,3 @@
 # page
 
-My homepage, deployed to [http://plancalculus.github.io/page/](http://plancalculus.github.io/page).
+My homepage, deployed to [http://jan-christiansen.github.io/page/](http://jan-christiansen.github.io/page).
