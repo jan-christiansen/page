@@ -19,7 +19,7 @@
         <div id="content">
             <h1>Abschlussarbeiten/Projekte</h1>
             <div class="info">
-    Last changed on February  7, 2017
+    Last changed on February 15, 2017
     
 </div>
 
@@ -32,8 +32,23 @@
 <h4 id="analyse-von-freien-theoremen-in-java">Analyse von freien Theoremen in Java</h4>
 <p>Ein <a href="http://www.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf">freies Theorem</a> ist eine Aussage über eine Funktion/Methode, die allein an Hand des Typs der Funktion/Methode getroffen werden kann. Eine Einführung zu freien Theoremen im Kontext von Java bietet zum Beispiel <a href="http://data.tmorris.net/talks/yow-west-2016/1d388b6263e7cbeedfbea224997648daa1d7862d/parametricity.pdf">dieser Vortrag</a>. Die Idee der freien Theoreme stammt aus dem Bereich der funktionalen Programmierung, da Seiteneffekte diese Art von Aussagen häufig zunichte machen. In dieser Arbeit soll geklärt werden, welche Sprachkonstrukte freie Theorem in der Programmiersprache Java zerstören. So kann man zum Beispiel durch Typumwandlungen und durch eine Fallunterscheidung über einen Typ die Aussagen zerstören. Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche der Java-Sprachkonstrukte freie Theoreme zerstören und unter welchen zusätzlichen Randbedingungen die Aussagen wieder gelten. Als Voraussetzung für diese Arbeit bringt man im besten Fall gute Kenntnisse der Programmiersprache Java und ein Grundverständnis für formale Aussagen mit.</p>
 <h3 id="algorithmen">Algorithmen</h3>
-<h4 id="zufälliges-aufzählen-von-permutationen-mittels-sortieren">Zufälliges Aufzählen von Permutationen mittels Sortieren</h4>
+<h4 id="zufälliges-erzeugen-von-permutationen-mittels-sortieren">Zufälliges Erzeugen von Permutationen mittels Sortieren</h4>
 <p>In der Arbeit <a href="https://www.google.de/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwiGhrmdrN_RAhWqDMAKHdUdAzUQFggfMAA&amp;url=http%3A%2F%2Finformatik.uni-kiel.de%2F~sad%2Ficfp2016-preprint.pdf&amp;usg=AFQjCNEj488KS-YwcQNA9QVFGFiqSiwZ1A">All Sorts of Permutations</a> werden in der Programmiersprache Haskell verschiedene Sortieralgorithmen betrachtet. Genauer gesagt werden monadische Erweiterungen von Sortieralgorithmen betrachtet. Betrachtet man von einer solchen monadischen Erweiterung die Instanz der Identitäts-Monade, so erhält man die Original-Sortieralgorithmus. Betrachtet man dagegen die Instanz der Listen-Monade, so erhält man eine Funktion, die alle Permutationen seines Argumentes aufzählt. In dieser Arbeit soll eine andere Monaden-Instanz einer solchen Sortierfunktion betrachtet werden, nämlich die Zufalls-Monade. Betrachtet man diese Instanz der Sortierfunktion, so erhält man eine Funktion, die zufällig eine Permutation liefert. Solche zufälligen Permutationen haben zum Beispiel in der Kryptographie wichtige Anwendungen. In dieser Arbeit sollen die Verteilungen der Permutationen untersucht werden, die man durch den Einsatz verschiedener Sortieralgorithmen erhält. Dabei stellt sich insbesondere die Frage, ob man auf diese Weise auch Algorithmen erhält, die den klassischen Algorithmen zur Generierung von zufälligen Permutationen entsprechen. Voraussetzung für diese Arbeit ist Vorwissen in der Programmiersprache Haskell und ein Interesse an Algorithmen.</p>
+<!-- #### Berechnung von Machtindizes gewichteter Mehrheitsspiele in Haskell
+
+In dieser Arbeit soll die Berechnung von
+[Machtindizes](https://de.wikipedia.org/wiki/Machtindex)
+von gewichteten Mehrheitsspielen in Haskell implementiert werden. Gewichtete
+Mehrheitsspiele sind ein Teilbereich der Spieltheorie und werden vor allem genutzt,
+um Entscheidungen politischer Gremien zu modellieren. Ein Machtindex beschreibt
+die Macht der einzelnen Spieler eines Spieles. In dieser Arbeit
+sollen einige Algorithmen aus der Doktorarbeit
+[A QOBDD-based Approach to Simple Games](http://macau.uni-kiel.de/servlets/MCRFileNodeServlet/dissertation_derivate_00004392/diss_bolus.pdf)
+in Haskell implementiert werden. Als Vorlage für die Implementierung kann
+eine bereits existierende Implementierung in JavaScript genutzt werden.  -->
+<h3 id="interaktive-theorembeweiser">Interaktive Theorembeweiser</h3>
+<h4 id="übersetzung-von-haskell-nach-coq">Übersetzung von Haskell nach Coq</h4>
+<p>Die Programmiersprache Coq ist eine funktionale Sprache, die auch als interaktiver Theorembeweiser genutzt werden kann. Das heißt, man kann in dieser Sprache nicht nur funktionale Programme schreiben, sondern auch Aussagen über diese Programme programmieren. In dieser Arbeit sollen die Grundlagen geschaffen werden, um Aussagen über Haskell Programme in Coq zu führen. Dazu muss ein Haskell-Programm in ein Coq-Programm übersetzt werden. Um das Verhalten des Haskell-Programms korrekt in Coq abzubilden, wird ein monadisches Coq-Programm erzeugt. In dieser Arbeit soll ein Haskell-Programm entwickelt werden, das diese Transformation übernimmt. Dabei soll ein Schwerpunkt auf der Terminierungsanalyse von Coq liegen. In Coq können nur Funktionen definiert werden, bei denen erkannt wird, dass alle rekursiven Aufrufe auf einem Teil des Orginalargument durchgeführt werden. Es soll untersucht werden, wie die Transformation durchgeführt werden muss, um möglichst viele erzeugte Programme als terminierend zu erkennen.</p>
 
         </div>
 
