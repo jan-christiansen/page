@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2017-02-07
+published: 2017-02-15
 ---
 
 Die hier aufgeführten Masterarbeiten können zum Teil auch in Form von
@@ -58,7 +58,7 @@ Programmiersprache Java und ein Grundverständnis für formale Aussagen mit.
 
 ### Algorithmen
 
-#### Zufälliges Aufzählen von Permutationen mittels Sortieren
+#### Zufälliges Erzeugen von Permutationen mittels Sortieren
 
 In der Arbeit [All Sorts of Permutations](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0ahUKEwiGhrmdrN_RAhWqDMAKHdUdAzUQFggfMAA&url=http%3A%2F%2Finformatik.uni-kiel.de%2F~sad%2Ficfp2016-preprint.pdf&usg=AFQjCNEj488KS-YwcQNA9QVFGFiqSiwZ1A) werden in der Programmiersprache Haskell verschiedene Sortieralgorithmen
 betrachtet. Genauer gesagt werden monadische Erweiterungen von Sortieralgorithmen
@@ -76,3 +76,37 @@ sich insbesondere die Frage, ob man auf diese Weise auch Algorithmen erhält,
 die den klassischen Algorithmen zur Generierung von zufälligen Permutationen
 entsprechen. Voraussetzung für diese Arbeit ist Vorwissen in der Programmiersprache
 Haskell und ein Interesse an Algorithmen.
+
+
+<!-- #### Berechnung von Machtindizes gewichteter Mehrheitsspiele in Haskell
+
+In dieser Arbeit soll die Berechnung von
+[Machtindizes](https://de.wikipedia.org/wiki/Machtindex)
+von gewichteten Mehrheitsspielen in Haskell implementiert werden. Gewichtete
+Mehrheitsspiele sind ein Teilbereich der Spieltheorie und werden vor allem genutzt,
+um Entscheidungen politischer Gremien zu modellieren. Ein Machtindex beschreibt
+die Macht der einzelnen Spieler eines Spieles. In dieser Arbeit
+sollen einige Algorithmen aus der Doktorarbeit
+[A QOBDD-based Approach to Simple Games](http://macau.uni-kiel.de/servlets/MCRFileNodeServlet/dissertation_derivate_00004392/diss_bolus.pdf)
+in Haskell implementiert werden. Als Vorlage für die Implementierung kann
+eine bereits existierende Implementierung in JavaScript genutzt werden.  -->
+
+
+### Interaktive Theorembeweiser
+
+#### Übersetzung von Haskell nach Coq
+
+Die Programmiersprache Coq ist eine funktionale Sprache, die auch als
+interaktiver Theorembeweiser genutzt werden kann. Das heißt, man kann in dieser
+Sprache nicht nur funktionale Programme schreiben, sondern auch Aussagen über
+diese Programme programmieren. In dieser Arbeit sollen die Grundlagen geschaffen
+werden, um Aussagen über Haskell Programme in Coq zu führen. Dazu muss ein
+Haskell-Programm in ein  Coq-Programm übersetzt werden. Um das Verhalten des
+Haskell-Programms korrekt in Coq abzubilden, wird ein monadisches Coq-Programm
+erzeugt. In dieser Arbeit soll ein Haskell-Programm entwickelt werden, das diese
+Transformation übernimmt. Dabei soll ein Schwerpunkt auf der
+Terminierungsanalyse von Coq liegen. In Coq können nur Funktionen definiert
+werden, bei denen erkannt wird, dass alle rekursiven Aufrufe auf einem Teil des
+Orginalargument durchgeführt werden. Es soll untersucht werden, wie die
+Transformation durchgeführt werden muss, um möglichst viele erzeugte Programme
+als terminierend zu erkennen.
