@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2017-02-15
+published: 2017-02-17
 ---
 
 Die hier aufgeführten Masterarbeiten können zum Teil auch in Form von
@@ -20,7 +20,8 @@ Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi
 ist eine Erweiterung der funktionalen
 Konzepte der Programmiersprache Haskell um sogenannte logische Konstrukte.
 Dabei können Haskell-Programme fast identisch in Curry verwendet
-werden. Der am weitesten verbreitete Compiler für diese Programmiersprache, KiCS2,
+werden. Der am weitesten verbreitete Compiler für diese Programmiersprache,
+[KiCS2](https://www-ps.informatik.uni-kiel.de/kics2/),
 übersetzt Curry-Programme in Haskell-Programme. Mit Hilfe eines
 Haskell-Compilers wird das erzeugte Haskell-Programm dann nach C
 übersetzt. Der Haskell-Compiler wendet dabei eine Reihe von
@@ -34,6 +35,28 @@ um die Optimierungen auf den erzeugten Code anwenden zu können. Als
 Voraussetzung für die Arbeit sollten grundlegende Kenntnisse der
 Programmiersprache Haskell und ein Interesse an Compiler-Techniken
 mitgebracht werden.
+
+
+#### Implementierung einer foldr/build-Fusion
+
+Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&rep=rep1&type=pdf)
+ist eine Erweiterung der funktionalen
+Konzepte der Programmiersprache Haskell um sogenannte logische Konstrukte.
+Die Doktorarbeit
+[Tools for Reasoning about Effectful Declarative Programs](http://hss.ulb.uni-bonn.de/2015/4178/4178.htm)
+präsentiert die foldr/build-Fusion für Curry. Dabei wird
+eine Funktion, die eine Liste produziert, mit einer Funktion, die eine Liste
+konsumiert, automatisiert in eine Funktion umgewandelt, die diese Liste gar
+nicht erst erzeugt. Diese Transformation verbessert die Laufzeit er Funktion,
+da der Speicher für die Liste nicht mehr alloziert und wieder freigegeben
+werden muss. In dieser Arbieit soll die foldr/build-Fusion in den Curry-Compiler
+[KiCS2](https://www-ps.informatik.uni-kiel.de/kics2/) integriert werden. Der
+Compiler erzeugt Haskell-Code, der dann wiederum in C-Code übersetzt wird.
+Um die Transformation in den Compiler zu integrieren, muss eine
+[Rewrite-Rules](https://wiki.haskell.org/GHC/Using_rules) zum erzeugten
+Haskell-Code hinzugefügt werden. Diese Regel fordert den Haskell-Compiler dazu
+auf, die entsprechende Transformation durchzuführen. Abschließend soll noch eine
+Evaluation der Tranformation durch praktische Experimente erfolgen.
 
 
 ### Freie Theoreme
