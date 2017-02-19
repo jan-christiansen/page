@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2017-02-17
+published: 2017-02-19
 ---
 
 Die hier aufgeführten Masterarbeiten können zum Teil auch in Form von
@@ -52,10 +52,10 @@ da der Speicher für die Liste nicht mehr alloziert und wieder freigegeben
 werden muss. In dieser Arbieit soll die foldr/build-Fusion in den Curry-Compiler
 [KiCS2](https://www-ps.informatik.uni-kiel.de/kics2/) integriert werden. Der
 Compiler erzeugt Haskell-Code, der dann wiederum in C-Code übersetzt wird.
-Um die Transformation in den Compiler zu integrieren, muss eine
-[Rewrite-Rules](https://wiki.haskell.org/GHC/Using_rules) zum erzeugten
-Haskell-Code hinzugefügt werden. Diese Regel fordert den Haskell-Compiler dazu
-auf, die entsprechende Transformation durchzuführen. Abschließend soll noch eine
+Um die Transformation in den Compiler zu integrieren, müssen
+[Rewrite-Regeln](https://wiki.haskell.org/GHC/Using_rules) zum erzeugten
+Haskell-Code hinzugefügt werden. Diese Regeln fordern den Haskell-Compiler dazu
+auf, die entsprechenden Transformationen durchzuführen. Abschließend soll noch eine
 Evaluation der Tranformation durch praktische Experimente erfolgen.
 
 
