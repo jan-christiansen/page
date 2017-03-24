@@ -1,20 +1,18 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2017-02-19
+published: 2017-03-24
 ---
 
 Die hier aufgeführten Masterarbeiten können zum Teil auch in Form von
 Forschungsprojekten im Master durchgeführt werden. Dabei wird ggf. der Umfang
-des Projektes an die Gegebenheiten des Projektes angepasst.
+des Projektes an die Gegebenheiten des Projektes angepasst. Je nach Vorwissen
+können diese Projekte auch in Form von Bachelorprojekten durchgeführt werden.
 
 
-## Masterarbeiten
+## Compiler-Bau
 
 
-### Compiler-Bau
-
-
-#### Verbesserung von Compiler-Optimierungen
+### Verbesserung von Compiler-Optimierungen
 
 Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&rep=rep1&type=pdf)
 ist eine Erweiterung der funktionalen
@@ -37,7 +35,7 @@ Programmiersprache Haskell und ein Interesse an Compiler-Techniken
 mitgebracht werden.
 
 
-#### Implementierung einer foldr/build-Fusion
+### Implementierung einer foldr/build-Fusion
 
 Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&rep=rep1&type=pdf)
 ist eine Erweiterung der funktionalen
@@ -59,9 +57,9 @@ auf, die entsprechenden Transformationen durchzuführen. Abschließend soll noch
 Evaluation der Tranformation durch praktische Experimente erfolgen.
 
 
-### Freie Theoreme
+## Freie Theoreme
 
-#### Analyse von freien Theoremen in Java
+### Analyse von freien Theoremen in Java
 
 Ein [freies Theorem](http://www.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf)
 ist eine Aussage über eine Funktion/Methode, die allein an Hand
@@ -79,9 +77,9 @@ Voraussetzung für diese Arbeit bringt man im besten Fall gute Kenntnisse der
 Programmiersprache Java und ein Grundverständnis für formale Aussagen mit.
 
 
-### Algorithmen
+## Algorithmen
 
-#### Zufälliges Erzeugen von Permutationen mittels Sortieren
+### Zufälliges Erzeugen von Permutationen mittels Sortieren
 
 In der Arbeit [All Sorts of Permutations](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0ahUKEwiGhrmdrN_RAhWqDMAKHdUdAzUQFggfMAA&url=http%3A%2F%2Finformatik.uni-kiel.de%2F~sad%2Ficfp2016-preprint.pdf&usg=AFQjCNEj488KS-YwcQNA9QVFGFiqSiwZ1A) werden in der Programmiersprache Haskell verschiedene Sortieralgorithmen
 betrachtet. Genauer gesagt werden monadische Erweiterungen von Sortieralgorithmen
@@ -101,23 +99,26 @@ entsprechen. Voraussetzung für diese Arbeit ist Vorwissen in der Programmierspr
 Haskell und ein Interesse an Algorithmen.
 
 
-<!-- #### Berechnung von Machtindizes gewichteter Mehrheitsspiele in Haskell
+### Berechnung von Machtindizes gewichteter Mehrheitsspiele in Haskell
 
 In dieser Arbeit soll die Berechnung von
-[Machtindizes](https://de.wikipedia.org/wiki/Machtindex)
-von gewichteten Mehrheitsspielen in Haskell implementiert werden. Gewichtete
-Mehrheitsspiele sind ein Teilbereich der Spieltheorie und werden vor allem genutzt,
-um Entscheidungen politischer Gremien zu modellieren. Ein Machtindex beschreibt
-die Macht der einzelnen Spieler eines Spieles. In dieser Arbeit
-sollen einige Algorithmen aus der Doktorarbeit
-[A QOBDD-based Approach to Simple Games](http://macau.uni-kiel.de/servlets/MCRFileNodeServlet/dissertation_derivate_00004392/diss_bolus.pdf)
-in Haskell implementiert werden. Als Vorlage für die Implementierung kann
-eine bereits existierende Implementierung in JavaScript genutzt werden.  -->
+[Machtindizes](https://de.wikipedia.org/wiki/Machtindex) von gewichteten
+Mehrheitsspielen in Haskell implementiert werden. Gewichtete Mehrheitsspiele
+sind ein Teilbereich der Spieltheorie und werden vor allem genutzt, um
+Entscheidungen politischer Gremien zu modellieren. Ein Machtindex versucht die
+Macht der einzelnen Spieler eines Spieles in Form einer einzelnen Zahl
+widerzuspiegeln. In dieser Arbeit sollen einige Algorithmen aus der Doktorarbeit
+[A QOBDD-based Approach to Simple
+Games](http://macau.uni-kiel.de/servlets/MCRFileNodeServlet/dissertation_derivate_00004392/diss_bolus.pdf)
+in Haskell implementiert werden. Als Vorlage für die Implementierung kann eine
+bereits existierende Implementierung in JavaScript genutzt werden. Bei der
+Implementierung soll insbesondere betrachtet werden, wie die Implementierung
+möglichst natürlich in eine rein-funktionale Sprache übertragen werden kann.
 
 
-### Interaktive Theorembeweiser
+## Interaktive Theorembeweiser
 
-#### Übersetzung von Haskell nach Coq
+### Übersetzung von Haskell nach Coq
 
 Die Programmiersprache Coq ist eine funktionale Sprache, die auch als
 interaktiver Theorembeweiser genutzt werden kann. Das heißt, man kann in dieser
