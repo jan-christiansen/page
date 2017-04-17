@@ -1,12 +1,31 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2017-03-24
+published: 2017-04-17
 ---
 
 Die hier aufgeführten Masterarbeiten können zum Teil auch in Form von
 Forschungsprojekten im Master durchgeführt werden. Dabei wird ggf. der Umfang
 des Projektes an die Gegebenheiten des Projektes angepasst. Je nach Vorwissen
 können diese Projekte auch in Form von Bachelorprojekten durchgeführt werden.
+
+
+## Security
+
+### Bibliothek für _noninterference_ in Swift
+
+Wenn ein Programm _noninterference_ erfüllt, gibt das Programm keine sensiblen
+Informationen preis. Die Arbeit [Two Can Keep a Secret, If One of Them Uses
+Haskel](http://www.cse.chalmers.se/~russo/publications_files/pearl-russo.pdf)
+implementiert eine Bibliothek in der Programmiersprache Haskell, die verhindert,
+dass sensible Informationen preisgegeben werden können. Zum Beispiel kann mit
+der Implementierung garantiert werden, dass eine Bibliothek sensible
+Informationen wie Passwörter nicht einfach an einen Server weitergegeben kann.
+In dieser Arbeit soll ein Prototyp einer solchen Bibliothek zur Gewährleistung
+von _noninterference_ in der Programmiersprache Swift implementiert werden. Auf
+diese Weise soll gewährleistet werden, dass eine iOS-App zwar auf sensible Daten
+wie das Adressbuch des Nutzers zugreifen, diese Informationen aber nicht einfach
+an Dritte weitergeben kann. Mit Hilfe einer einfachen Beispielanwendung soll
+untersucht werden, ob sich der Ansatz für die praktische Verwendung eignet.
 
 
 ## Compiler-Bau
