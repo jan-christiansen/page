@@ -19,11 +19,14 @@
         <div id="content">
             <h1>Abschlussarbeiten/Projekte</h1>
             <div class="info">
-    Last changed on March 24, 2017
+    Last changed on April 17, 2017
     
 </div>
 
 <p>Die hier aufgeführten Masterarbeiten können zum Teil auch in Form von Forschungsprojekten im Master durchgeführt werden. Dabei wird ggf. der Umfang des Projektes an die Gegebenheiten des Projektes angepasst. Je nach Vorwissen können diese Projekte auch in Form von Bachelorprojekten durchgeführt werden.</p>
+<h2 id="security">Security</h2>
+<h3 id="bibliothek-für-noninterference-in-swift">Bibliothek für <em>noninterference</em> in Swift</h3>
+<p>Wenn ein Programm <em>noninterference</em> erfüllt, gibt das Programm keine sensiblen Informationen preis. Die Arbeit <a href="http://www.cse.chalmers.se/~russo/publications_files/pearl-russo.pdf">Two Can Keep a Secret, If One of Them Uses Haskel</a> implementiert eine Bibliothek in der Programmiersprache Haskell, die verhindert, dass sensible Informationen preisgegeben werden können. Zum Beispiel kann mit der Implementierung garantiert werden, dass eine Bibliothek sensible Informationen wie Passwörter nicht einfach an einen Server weitergegeben kann. In dieser Arbeit soll ein Prototyp einer solchen Bibliothek zur Gewährleistung von <em>noninterference</em> in der Programmiersprache Swift implementiert werden. Auf diese Weise soll gewährleistet werden, dass eine iOS-App zwar auf sensible Daten wie das Adressbuch des Nutzers zugreifen, diese Informationen aber nicht einfach an Dritte weitergeben kann. Mit Hilfe einer einfachen Beispielanwendung soll untersucht werden, ob sich der Ansatz für die praktische Verwendung eignet.</p>
 <h2 id="compiler-bau">Compiler-Bau</h2>
 <h3 id="verbesserung-von-compiler-optimierungen">Verbesserung von Compiler-Optimierungen</h3>
 <p>Die Programmiersprache <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&amp;rep=rep1&amp;type=pdf">Curry</a> ist eine Erweiterung der funktionalen Konzepte der Programmiersprache Haskell um sogenannte logische Konstrukte. Dabei können Haskell-Programme fast identisch in Curry verwendet werden. Der am weitesten verbreitete Compiler für diese Programmiersprache, <a href="https://www-ps.informatik.uni-kiel.de/kics2/">KiCS2</a>, übersetzt Curry-Programme in Haskell-Programme. Mit Hilfe eines Haskell-Compilers wird das erzeugte Haskell-Programm dann nach C übersetzt. Der Haskell-Compiler wendet dabei eine Reihe von Optimierungen an, um effizienteren C-Code zu erzeugen. Diese Optimierungen wurden für handgeschriebenen Haskell-Code entwickelt und werden bei dem vom Curry-Compiler erzeugten Code häufig nicht angewendet. In dieser Arbeit sollen die Ergebnisse der Übersetzung von Haskell-Programmen mit den Ergebnissen entsprechender Curry-Programme verglichen werden. In einem zweiten Schritt soll untersucht werden, wie der erzeugte Code verändert werden müsste, um die Optimierungen auf den erzeugten Code anwenden zu können. Als Voraussetzung für die Arbeit sollten grundlegende Kenntnisse der Programmiersprache Haskell und ein Interesse an Compiler-Techniken mitgebracht werden.</p>
