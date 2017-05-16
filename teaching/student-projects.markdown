@@ -103,7 +103,7 @@ Programmiersprache Java und ein Grundverständnis für formale Aussagen mit.
 In der Arbeit [All Sorts of Permutations](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=0ahUKEwiGhrmdrN_RAhWqDMAKHdUdAzUQFggfMAA&url=http%3A%2F%2Finformatik.uni-kiel.de%2F~sad%2Ficfp2016-preprint.pdf&usg=AFQjCNEj488KS-YwcQNA9QVFGFiqSiwZ1A) werden in der Programmiersprache Haskell verschiedene Sortieralgorithmen
 betrachtet. Genauer gesagt werden monadische Erweiterungen von Sortieralgorithmen
 betrachtet. Betrachtet man von einer solchen monadischen Erweiterung die Instanz
-der Identitäts-Monade, so erhält man die Original-Sortieralgorithmus. Betrachtet
+der Identitäts-Monade, so erhält man die Original-Sortierfunktion. Betrachtet
 man dagegen die Instanz der Listen-Monade, so erhält man eine Funktion, die alle
 Permutationen seines Argumentes aufzählt. In dieser Arbeit soll eine andere
 Monaden-Instanz einer solchen Sortierfunktion betrachtet werden, nämlich die
