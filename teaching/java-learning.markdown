@@ -55,6 +55,19 @@ gewünschten Lösung entspricht, werden Testfälle zur Verfügung gestellt, die 
 falsche Verhalten illustrieren.
 
 
+### Project Euler
+
+Das _Project Euler_ sammelt kleine Programmieraufgaben, die in der
+Programmiersprache der Wahl gelöst werden können. Inzwischen stellt die
+dazugehörige [Internetseite](https://projecteuler.net/archives) mehr als 500
+Programmieraufgaben zur Verfügung. Die Aufgaben haben alle eine mathematische
+Grundlage und lassen sich mit Hilfe von mathematischen Überlegungen sehr viel
+effizienter lösen. Die meisten Aufgaben lassen sich aber auch ohne diese
+Überlegungen lösen. Die Seite selbst stellt keine Lösungen zu den Aufgaben zur
+Verfügung, es gibt aber sehr viele Personen, die ihre Lösungen etwa bei GitHub
+zur Verfügung stellen.
+
+
 ## Referenz
 
 ### Java ist auch eine Insel
