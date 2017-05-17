@@ -44,6 +44,19 @@ in dem man mit anderen Lernenden in der Lösung von Aufgaben konkurrieren kann.
 
 ## Aufgabensammlungen
 
+### CODEFIGHTS
+
+Die Seite [CODEFIGHTS](https://codefights.com) bietet eine Reihe von Aufgaben in
+verschiedenen Programmiersprachen, die in einer Web-IDE gelöst werden können.
+Dabei muss meistens eine Methode implementiert werden, die entweder komplett
+geschrieben, vervollständigt oder korrigiert werden muss. Mit Hilfe von Tests
+wird überprüft, ob die Lösung die vorgegebenen Anforderungen erfüllt. Ein
+Punkte- und Rang-System motiviert zusätzlich weitere Aufgaben zu lösen. Außerdem
+ist es möglich gegen andere Benutzer anzutreten. Um die Seite zu nutzen muss man
+sich mit einem Facebook-Account oder mit einem Seiten-spezifischen Account
+anmelden.
+
+
 ### CodingBat
 
 Die Seite CodingBat stellt Programmieraufgaben zu den Programmiersprachen Java
