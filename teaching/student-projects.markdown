@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2017-04-17
+published: 2017-06-27
 ---
 
 Die hier aufgeführten Masterarbeiten können zum Teil auch in Form von
@@ -11,7 +11,13 @@ können diese Projekte auch in Form von Bachelorprojekten durchgeführt werden.
 
 ## Security
 
-### Bibliothek für _noninterference_ in Swift
+
+### Sicherheit von kryptographischen Primitiven
+
+Um sicherzugehen, dass kryptographische Primitive auch wirklich sicher sind, werden gewünschte Eigenschaften über die Primitive mit Hilfe von Beweisen belegt. Beweise sind aber wie komplexe Programme sehr fehleranfällig und es ist sehr aufwendig, sie manuell zu überprüfen. Aus diesem Grund hat sich das Programmieren von Beweisen mit Hilfe von interaktiven Theorembeweisern in den letzten Jahren in der Wissenschaft immer stärker durchgesetzt. Dabei ist das Beweisen in einem interaktiven Theorembeweiser dem Programmieren in einer statisch getypten Programmiersprache sehr ähnlich. Wenn man zum Beispiel ein Programm in Java schreibt, muss man es so lange ändern, bis es keine Typfehler mehr enthält und vom Compiler akzeptiert wird. In ähnlicher Form akzeptiert ein interaktiver Theorembeweiser einen Beweis erst, wenn er keine Fehler mehr enthält. In dieser Arbeit soll in der Programmiersprache Coq ein Beweis für ein solches kryptographisches Primitiv programmiert werden. Da diese Art der Programmiersprache eine Weiterentwicklung der funktionalen Programmiersprachen darstellt, sollten Sie entweder Kenntnisse in der funktionalen Programmierung oder über spielbasierte Beweise in der Kryptographie mitbringen.
+
+
+<!-- ### Bibliothek für _noninterference_ in Swift
 
 Wenn ein Programm _noninterference_ erfüllt, gibt das Programm keine sensiblen
 Informationen preis. Die Arbeit [Two Can Keep a Secret, If One of Them Uses
@@ -25,7 +31,27 @@ von _noninterference_ in der Programmiersprache Swift implementiert werden. Auf
 diese Weise soll gewährleistet werden, dass eine iOS-App zwar auf sensible Daten
 wie das Adressbuch des Nutzers zugreifen, diese Informationen aber nicht einfach
 an Dritte weitergeben kann. Mit Hilfe einer einfachen Beispielanwendung soll
-untersucht werden, ob sich der Ansatz für die praktische Verwendung eignet.
+untersucht werden, ob sich der Ansatz für die praktische Verwendung eignet. -->
+
+
+## Safety
+
+### Übersetzung von Haskell nach Coq
+
+Die Programmiersprache Coq ist eine funktionale Sprache, die auch als
+interaktiver Theorembeweiser genutzt werden kann. Das heißt, man kann in dieser
+Sprache nicht nur funktionale Programme schreiben, sondern auch Aussagen über
+diese Programme programmieren. In dieser Arbeit sollen die Grundlagen geschaffen
+werden, um Aussagen über Haskell Programme in Coq zu führen. Dazu muss ein
+Haskell-Programm in ein  Coq-Programm übersetzt werden. Um das Verhalten des
+Haskell-Programms korrekt in Coq abzubilden, wird ein monadisches Coq-Programm
+erzeugt. In dieser Arbeit soll ein Haskell-Programm entwickelt werden, das diese
+Transformation übernimmt. Dabei soll ein Schwerpunkt auf der
+Terminierungsanalyse von Coq liegen. In Coq können nur Funktionen definiert
+werden, bei denen erkannt wird, dass alle rekursiven Aufrufe auf einem Teil des
+Orginalargument durchgeführt werden. Es soll untersucht werden, wie die
+Transformation durchgeführt werden muss, um möglichst viele erzeugte Programme
+als terminierend zu erkennen.
 
 
 ## Compiler-Bau
@@ -133,23 +159,3 @@ in Haskell implementiert werden. Als Vorlage für die Implementierung kann eine
 bereits existierende Implementierung in JavaScript genutzt werden. Bei der
 Implementierung soll insbesondere betrachtet werden, wie die Implementierung
 möglichst natürlich in eine rein-funktionale Sprache übertragen werden kann.
-
-
-## Interaktive Theorembeweiser
-
-### Übersetzung von Haskell nach Coq
-
-Die Programmiersprache Coq ist eine funktionale Sprache, die auch als
-interaktiver Theorembeweiser genutzt werden kann. Das heißt, man kann in dieser
-Sprache nicht nur funktionale Programme schreiben, sondern auch Aussagen über
-diese Programme programmieren. In dieser Arbeit sollen die Grundlagen geschaffen
-werden, um Aussagen über Haskell Programme in Coq zu führen. Dazu muss ein
-Haskell-Programm in ein  Coq-Programm übersetzt werden. Um das Verhalten des
-Haskell-Programms korrekt in Coq abzubilden, wird ein monadisches Coq-Programm
-erzeugt. In dieser Arbeit soll ein Haskell-Programm entwickelt werden, das diese
-Transformation übernimmt. Dabei soll ein Schwerpunkt auf der
-Terminierungsanalyse von Coq liegen. In Coq können nur Funktionen definiert
-werden, bei denen erkannt wird, dass alle rekursiven Aufrufe auf einem Teil des
-Orginalargument durchgeführt werden. Es soll untersucht werden, wie die
-Transformation durchgeführt werden muss, um möglichst viele erzeugte Programme
-als terminierend zu erkennen.
