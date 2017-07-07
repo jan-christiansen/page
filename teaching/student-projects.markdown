@@ -144,18 +144,18 @@ entsprechen. Voraussetzung für diese Arbeit ist Vorwissen in der Programmierspr
 Haskell und ein Interesse an Algorithmen.
 
 
-### Berechnung von Machtindizes gewichteter Mehrheitsspiele in Haskell
+### Berechnung von Machtindizes gewichteter Mehrheitsspiele in Elm
 
 In dieser Arbeit soll die Berechnung von
 [Machtindizes](https://de.wikipedia.org/wiki/Machtindex) von gewichteten
-Mehrheitsspielen in Haskell implementiert werden. Gewichtete Mehrheitsspiele
+Mehrheitsspielen in Elm implementiert werden. Gewichtete Mehrheitsspiele
 sind ein Teilbereich der Spieltheorie und werden vor allem genutzt, um
 Entscheidungen politischer Gremien zu modellieren. Ein Machtindex versucht die
 Macht der einzelnen Spieler eines Spieles in Form einer einzelnen Zahl
 widerzuspiegeln. In dieser Arbeit sollen einige Algorithmen aus der Doktorarbeit
 [A QOBDD-based Approach to Simple
 Games](http://macau.uni-kiel.de/servlets/MCRFileNodeServlet/dissertation_derivate_00004392/diss_bolus.pdf)
-in Haskell implementiert werden. Als Vorlage für die Implementierung kann eine
+in Elm implementiert werden. Als Vorlage für die Implementierung kann eine
 bereits existierende Implementierung in JavaScript genutzt werden. Bei der
 Implementierung soll insbesondere betrachtet werden, wie die Implementierung
 möglichst natürlich in eine rein-funktionale Sprache übertragen werden kann.
