@@ -3,9 +3,9 @@ title: Veranstaltungen
 published: 2017-02-17
 ---
 
-<!--
-[Language-based Security](/teaching/language-based-security.html)
-[Konzepte moderner Programmiersprachen](/teaching/concepts-of-modern-programming-languages.html) -->
+## Wintersemester 2017/18
+
+[Funktionale Frontend-Entwicklung](/teaching/functional-frontend-development.html)
 
 
 ## Sommersemester 2017
