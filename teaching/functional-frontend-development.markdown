@@ -26,7 +26,7 @@ Die Anwendung wird genutzt, um Kennwerte von Wahlsystemen zu berechnen.
 Ein Beispiel für ein solches Wahlsystem ist der Ministerrat der europäischen Union.
 Eine Wahl besteht dabei aus einer Menge von Spielern, die jeweils ein Gewicht erhalten.
 Außerdem gibt es eine sogenannte Quota, die beschreibt, wie viele der Stimmen zusammenkommen müssen, damit die Wahl positiv entschieden wird. Wenn sich eine Koalition von Spielern findet, deren Gewichte zusammen mindestens die Quota erreichen, wird eine Entscheidung angenommen.
-Das [Probabilistic Games Lab](https://jan-christiansen.github.io/probabilistic-games-lab/) stellt einen Prototypen der Implementierung zur Verfügung.
+Das [Legislative Bargaining Lab](https://jan-christiansen.github.io/legislative bargaining-lab/) stellt einen Prototypen der Implementierung zur Verfügung.
 Diese Anwendung soll verbessert und erweitert werden.
 
 
