@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2017-10-20
+published: 2017-10-24
 ---
 
 [Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
@@ -109,6 +109,21 @@ Die Arbeit [Monadic parsing in Haskell](http://www.cs.nott.ac.uk/~pszgmh/pearl.p
 Die Arbeit [QuickCheck: a lightweight tool for random testing of Haskell programs](http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf) stellt eine Bibliothek mit dem Namen QuickCheck und das Konzept des _property-based testing_ vor. Während bei einem Unit-Test normalerweise eine Eigenschaft für ein paar Beispieleingaben getestet wird, wird beim _property-based testing_ eine Eigenschaft für sehr viele, zufällig generierte Eingaben getestet. Auf diese Weise kann eine Funktion ohne großen Aufwand für eine Vielzahl von Testfällen getestet werden. Die Erzeugung der Testeingaben wird durch die Struktur des Typs der Eingaben geleitet. Die Idee des _property-based testing_ hat inzwischen Einzug in fast statisch getypten Programmiersprachen gehalten. So gibt es Reimplementierungen des QuickCheck-Ansatzes in Programmiersprachen wie Scala, Java, Swift und Objective-C.
 
 
+### Probabilistic functional programming in Haskell (2006)
+
+Probabilistische Programmiersprachen erlauben es, einfach die Berechnung von Wahrscheinlichkeiten zu modellieren. Solche Programmiersprachen werden zum Beispiel im Bereich der künstlichen Intelligenz zur Modellierung von neuronalen Netzen genutzt. Die Arbeit [Probabilistic functional programming in Haskell](http://icerote.net/doc/library/programming/fp/Probabilistic%20functional%20programming%20in%20Haskell.pdf) demonstriert, wie man in Haskell eine Bibliothek zur probabilistischen Programmierung einfach mit Hilfe einer monadischen Abstraktion implementieren kann. Die Bibliothek ist ein Beispiel für eine _embedded domain specific language_ (EDSL), das heißt, für eine Sprache für einen ganz spezifischen Zweck, die in eine andere Programmiersprache eingebettet ist.
+
+
+### Liquidhaskell: Experience with refinement types in the real world (2014)
+
+Liquidhaskell ist eine Implementierung von _refinement types_ für Haskell. Ein Typsystem mit _refinement types_ erlaubt es, sehr viel stärkere Aussagen über Programme zu treffen als es mit Typsystemen wie dem von Elm möglich ist. So ist es zum Beispiel möglich im Typ die Länge einer Liste auszudrücken. Damit erhält man zum Beispiel die Garantie, dass man nie versucht, auf einen Index außerhalb einer Liste zuzugreifen. Typsysteme wie _refinement types_ eignen sich gut, um sicherheitskritische Anwendungen zu entwickeln. Die Arbeit [Liquidhaskell: Experience with refinement types in the real world](http://goto.ucsd.edu/~nvazou/real_world_liquid.pdf) stellt die Haskell-Bibliothek an einer Reihe von Beispielen vor und zeigt, welche Arten von Garantieren, man mit Hilfe dieser Typen über Programme erhält. Der [Blog](https://ucsd-progsys.github.io/liquidhaskell-blog/) bietet eine ganze Reihe von Artikeln mit motivierenden Beispielen, wie man _refinement types_ nutzen kann, um Garantien über Programme zu erhalten.
+
+
+### Propositions as types (2015)
+
+In der Arbeit [Propositions as types](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.673.269&rep=rep1&type=pdf) geht es um den Zusammenhang zwischen Logik und den Typen in einer funktionalen Programmiersprache. Der Artikel ist in den Communications of the ACM erschienen, einer monatlichen Serie von Artikeln der amerikanischen Gesellschaft für Informatik. Daher adressiert der Artikel Personen aus allen Bereichen der Informatik. Das Thema an sich ist eher abstrakt und beleuchtet einen sehr grundlegenden Zusammenhang zwischen zwei formalen Systemen. Daher erfordert er ein Grundverständnis von formalen Systemen in der Informatik. Der Artikel illustriert, warum jeder Programmier, der in einer statisch getypten Sprache wie Elm oder Java programmiert, tagtäglich mathematische Beweise führt.
+
+
 <!-- ### Debugging Haskell by Observing Intermediate Data Structures - A. Gill (2000)
 
 Da funktionale Programme sehr viel abstrakter sind als imperative Programme, lassen sich Konzepte zum Debuggen von Programmen nicht einfach von imperativen auf funktionale Programmiersprachen übertragen. Diese Arbeit stellt ein Konzept zum Debuggen von funktionalen Programmen vor, das sich als einfache Bibliothek implementieren lässt. Das heißt, es ist nicht notwendig, den Compiler abzuändern, sondern der Debugger steht durch eine einfache Import-Anweisung zur Verfügung. Die vorgestellte Form des Debuggings eignet sich besonders gut, um das Verhalten der Faulheit zu observieren. [Veröffentlichung](http://www.ittc.ku.edu/~andygill/papers/Hood00.pdf)
@@ -132,11 +147,6 @@ Diese Arbeit stellt das Konzept des Software Transactional Memory (STM) vor. Die
 ### Two can keep a secret, if one of them uses Haskell - A. Russo (2015)
 
 In dieser Arbeit wird eine Bibliothek für _Mandatory Access Control (MAC)_ oder _Information-Flow Control (IFC)_ vorgestellt. Während der erste Begriff aus dem Bereich der Betriebssysteme stammt, kommt der zweite Begriff aus dem Bereich der Programmiersprachen. Die Arbeit zeigt, wie man mit Hilfe des Typsystems von Haskell eine Bibliothek entwerfen kann, die nur eingeschränkten Zugriff auf gewisse Informationen erlaubt. [Veröffentlichung](https://pdfs.semanticscholar.org/4be7/7d8e77c95deac350e757220c45c051ace4f5.pdf)
-
-
-### Probabilistic functional programming in Haskell - M. Erwig and S. Kollmansberger (2006)
-
-Probabilistische Programmiersprachen erlauben es, einfach die Berechnung von Wahrscheinlichkeiten zu modellieren. Solche Programmiersprachen werden zum Beispiel im Bereich der künstlichen Intelligenz zur Modellierung von neuronalen Netzen genutzt. Die Arbeit demonstriert, wie man in Haskell eine Bibliothek zur probabilistischen Programmierung einfach mit Hilfe einer monadischen Abstraktion implementieren kann. [Veröffentlichung](http://icerote.net/doc/library/programming/fp/Probabilistic%20functional%20programming%20in%20Haskell.pdf)
 
 
 ### Type-Level Web APIs with Servant - A. Mestanogullari and S. Hahn and J. K. Arni and A. Löh (2015)
@@ -198,12 +208,4 @@ Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden,
 
 In einem Typsystem mit _uniqueness types_ können bestimmte Variablen nur ein einziges Mal genutzt werden. Das Typsystem stellt dabei sicher, dass bestimmte Variablen tatsächlich nur einmal genutzt werden. Nutzt man eine solche Variablen in einem Programm mehrfach, liefert der Compiler einen Typfehler und das Programm lässt sich nicht übersetzen. Ein solches Typsystem kommt der in der funktionalen Programmiersprache Clean zum Einsatz, um Seiteneffekte in die Sprache zu integrieren. [Veröffentlichung](https://pdfs.semanticscholar.org/42e7/e8c61a43578cafb8c9ed939d948f09c5e393.pdf)
 
-
-#### Liquidhaskell: Experience with refinement types in the real world - N. Vazou and E. L. Seidel and R. Jhala (2014)
-
-Liquidhaskell ist eine Implementierung von _refinement types_ für Haskell. Ein Typsystem mit _refinement types_ erlaubt es, sehr viel stärkere Aussagen über Programme zu treffen als es mit Typsystemen wie dem von Haskell möglich ist. So ist es zum Beispiel möglich im Typ die Länge einer Liste auszudrücken. Damit erhält man zum Beispiel die Garantie, dass man nie versucht, auf einen Index außerhalb einer Liste zuzugreifen. Typsysteme wie _refinement types_ eignen sich gut, um sicherheitskritische Anwendungen zu entwickeln. Die Arbeit stellt die Haskell-Bibliothek an einer Reihe von Beispielen vor und zeigt, welche Arten von Garantieren, man mit Hilfe dieser Typen über Programme erhält. [Veröffentlichung](http://goto.ucsd.edu/~nvazou/real_world_liquid.pdf)
-
-
-#### Propositions as types - P. Wadler (2015)
-
-In dieser Arbeit geht es um den Zusammenhang zwischen Logik und den Typen in einer funktionalen Programmiersprache. Die Arbeit ist relativ verständlich geschrieben und erfordert wenig Vorwissen, da es sich nicht um eine wissenschaftliche Veröffentlichung sondern um eine Art Zeitschriftenartikel handelt. Der Artikel ist in den Communications of the ACM erschienen, einer monatlichen Serie von Artikeln der amerikanischen Gesellschaft für Informatik. Daher adressiert der Artikel Personen aus allen Bereichen der Informatik. Das Thema an sich ist aber sehr abstrakt und beleuchtet einen sehr grundlegenden Zusammenhang zwischen zwei formalen Systemen. Daher erfordert er ein Grundverständnis von formalen Systemen in der Informatik. [Veröffentlichung](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.673.269&rep=rep1&type=pdf) -->
+-->
