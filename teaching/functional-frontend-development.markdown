@@ -98,6 +98,11 @@ Die Arbeit [Theorems for free!](http://www.cs.sfu.ca/CourseCentral/831/burton/No
 Die Arbeit [A short cut to deforestation](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.224.4460&rep=rep1&type=pdf) stellt einen Ansatz zur _deforestation_ vor. Bei der Programmierung in einer funktionalen Sprache werden sehr viele Zwischendatenstrukturen erzeugt. Wenn wir zum Beispiel zuerst die Funktion _map_ und im Anschluss die Funktion _filter_ auf eine Liste anwenden, wird durch _map_ eine Liste erzeugt, die durch _filter_ wieder konsumiert wird. Compiler-Optimierungen, die die Erzeugung solcher Zwischendatenstrukturen verhindern, bezeichnet man als _deforestation_. In dieser Arbeit wird einer der ersten Ansätze für _deforestation_ präsentiert, der auch heute noch Verwendung findet.
 
 
+### A system of constructor classes: overloading and implicit higher-order polymorphism (1995)
+
+Die Arbeit [A system of constructor classes: overloading and implicit higher-order polymorphism](http://web.cecs.pdx.edu/~mpj/pubs/fpca93.pdf) stellt eine der wichtigsten Abstraktionsmöglichkeiten vor, die Elm fehlt, aber Programmiersprachen wie Haskell zur Verfügung stellen, Typkonstruktorklassen. Dieses Konzept kann zum Beispiel genutzt werden, um die Implementierung eines Funktors für verschiedene Datentypen durch eine überladene Funktion zu abstrahieren. Typkonstruktorklassen sind außerdem die Grundlage für eine der berühmtesten und berüchtigsten Abstraktionen der Programmiersprache Haskell, Monaden.
+
+
 ### Monadic parsing in Haskell (1998)
 
 Die Arbeit [Monadic parsing in Haskell](http://www.cs.nott.ac.uk/~pszgmh/pearl.pdf) stellt die Idee der Parserkombinatoren vor. Ein Parser ist eine Funktion, die eine Zeichenkette analysiert, zerlegt und in einen strukturierten Datentyp umwandelt. Parserkombinatoren bieten die Möglichkeit einen solchen Parser einfach zu definieren, indem die zur Verfügung gestellten Kombinatoren verwendet werden. Parserkombinatoren sind ein Beispiel für eine _embedded domain specific language_ (EDSL), das heißt, für eine Sprache für einen ganz spezifischen Zweck, die in einer anderen Sprache eingebettet ist. Die Idee der Parserkombinatoren wurde inzwischen in einer Vielzahl von Programmiersprachen implementiert, so gibt es Bibliotheken für Parserkombinatoren zum Beispiel in Java, C#, Ruby, C++, Python und JavaScript.
