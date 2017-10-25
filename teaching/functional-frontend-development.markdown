@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2017-10-24
+published: 2017-10-25
 ---
 
 [Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
@@ -29,6 +29,10 @@ Außerdem gibt es eine sogenannte Quota, die beschreibt, wie viele der Stimmen z
 Das [Legislative Bargaining Lab](https://jan-christiansen.github.io/legislative-bargaining-lab/) stellt einen Prototypen der Implementierung zur Verfügung.
 Diese Anwendung soll verbessert und erweitert werden.
 
+
+### Elm auf Microcontrollern
+
+In diesem Projekt soll eine Elm-Anwendung auf einem Microcontroller ausgeführt werden. Microcontroller haben häufig eine Reihe von Sensoren und reagieren darauf, wenn einer dieser Sensoren Daten empfängt. Eine solche Anwendung passt grundsätzlich gut in das reaktive Muster einer Elm-Anwendung. Daher soll eine reaktive Arichitektur entwickelt werden, die sich zur Programmierung von Microcontrollern eignet. Um diesen Ansatz zu testen, soll mit Hilfe des Frameworks [Espruino](http://www.espruino.com) eine einfache Elm-Anwendung auf einem Microcontroller ausgeführt werden. Espruino ist ein JavaScript-Interpreter, der auf einigen einfachen Microcontrollern läuft. Außerdem bietet Espruino Schnittstellen zu den wichtigsten Funktionen des Microcontrollers.
 
 
 ### Elm-Native-UI
@@ -75,12 +79,7 @@ In dieser Arbeit
 
 
 ### Dynamisch getyptes Elm?
-
-
-### Elm für Microcontroller
-
-Übersetzung von Elm in C, um Microcontroller damit zu steuern.
-Insbesondere der Einsatz der Elm-Architektur ist in diesem Kontext interessant. -->
+-->
 
 
 ## Vorträge
