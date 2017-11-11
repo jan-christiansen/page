@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2017-10-25
+published: 2017-11-12
 ---
 
 [Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
@@ -101,6 +101,11 @@ Die Arbeit [A short cut to deforestation](http://citeseerx.ist.psu.edu/viewdoc/d
 ### A system of constructor classes: overloading and implicit higher-order polymorphism (1995)
 
 Die Arbeit [A system of constructor classes: overloading and implicit higher-order polymorphism](http://web.cecs.pdx.edu/~mpj/pubs/fpca93.pdf) stellt eine der wichtigsten Abstraktionsmöglichkeiten vor, die Elm fehlt, aber Programmiersprachen wie Haskell zur Verfügung stellen, Typkonstruktorklassen. Dieses Konzept kann zum Beispiel genutzt werden, um die Implementierung eines Funktors für verschiedene Datentypen durch eine überladene Funktion zu abstrahieren. Typkonstruktorklassen sind außerdem die Grundlage für eine der berühmtesten und berüchtigsten Abstraktionen der Programmiersprache Haskell, Monaden.
+
+
+### Domain-specific languages (1997)
+
+Die Arbeit [Domain-specific languages](http://haskell.cs.yale.edu/wp-content/uploads/2011/01/DSEL-Little.pdf) stellt die Idee einer domänenspezifischen Sprache vor. Dabei wird eine einfache und eingeschränkte Programmiersprache entwickelt, die von Personen mit Domänenwissen genutzt wird. Eine Variante der domänenspezifischen Sprachen sind die eingebetteten domänenspezifischen Sprachen (EDSL). Dabei wird für die Sprache kein eigener Compiler entwickelt, sondern die Sprache wird in eine Host-Sprache eingebettet. Die Arbeit [Combining Deep and Shallow Embedding for EDSL](http://www.cse.chalmers.se/~emax/documents/svenningsson2013combining.pdf) beschreibt die zwei Möglichkeiten zur Einbettung einer domänenspezifischen Sprache, ein _shallow_ und ein _deep_ _embedding_.
 
 
 ### Monadic parsing in Haskell (1998)
