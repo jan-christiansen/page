@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2017-11-12
+published: 2017-11-17
 ---
 
 [Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
@@ -35,6 +35,11 @@ Diese Anwendung soll verbessert und erweitert werden.
 In diesem Projekt soll eine Elm-Anwendung auf einem Microcontroller ausgeführt werden. Microcontroller haben häufig eine Reihe von Sensoren und reagieren darauf, wenn einer dieser Sensoren Daten empfängt. Eine solche Anwendung passt grundsätzlich gut in das reaktive Muster einer Elm-Anwendung. Daher soll eine reaktive Arichitektur entwickelt werden, die sich zur Programmierung von Microcontrollern eignet. Um diesen Ansatz zu testen, soll mit Hilfe des Frameworks [Espruino](http://www.espruino.com) eine einfache Elm-Anwendung auf einem Microcontroller ausgeführt werden. Espruino ist ein JavaScript-Interpreter, der auf einigen einfachen Microcontrollern läuft. Außerdem bietet Espruino Schnittstellen zu den wichtigsten Funktionen des Microcontrollers.
 
 
+<!-- ### Debugging von Elm-Programmen
+
+In diesem Projekt -->
+
+
 ### Elm-Native-UI
 
 In diesem Projekt soll die Elm-Bibliothek [Elm-Native-UI](https://github.com/ohanhi/elm-native-ui), die auf der JavaScript-Bibliothek [React Native](https://facebook.github.io/react-native/) aufsetzt, genutzt werden, um eine Anwendung für die Platformen iOS und Android in Elm zu entwickeln.
@@ -45,6 +50,10 @@ In diesem Projekt soll die Elm-Bibliothek [Elm-Native-UI](https://github.com/oha
 In diesem Projekt soll die Elm-Bibliothek [elm-aframe](https://github.com/halfzebra/elm-aframe), die auf der JavaScript-Bibliothek [A-Frame](https://aframe.io/docs/0.7.0/introduction/) aufsetzt, genutzt werden, um eine Anwendung im Bereich Virtual Reality in Elm zu entwickeln.
 Der Artikel [Easy VR with Elm and A-Frame](https://medium.com/@tilman_s/easy-vr-with-elm-and-a-frame-a5c72cfb9945) gibt einen kurzen Einblick in die Nutzung der Bibliothek.
 
+
+### Spiel in Elm
+
+In diesem Projekt soll ein einfaches Spiel in Elm implementiert werden.
 
 
 <!-- ### CSS-Styling
@@ -118,6 +127,11 @@ Die Arbeit [Monadic parsing in Haskell](http://www.cs.nott.ac.uk/~pszgmh/pearl.p
 Die Arbeit [QuickCheck: a lightweight tool for random testing of Haskell programs](http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf) stellt eine Bibliothek mit dem Namen QuickCheck und das Konzept des _property-based testing_ vor. Während bei einem Unit-Test normalerweise eine Eigenschaft für ein paar Beispieleingaben getestet wird, wird beim _property-based testing_ eine Eigenschaft für sehr viele, zufällig generierte Eingaben getestet. Auf diese Weise kann eine Funktion ohne großen Aufwand für eine Vielzahl von Testfällen getestet werden. Die Erzeugung der Testeingaben wird durch die Struktur des Typs der Eingaben geleitet. Die Idee des _property-based testing_ hat inzwischen Einzug in fast statisch getypten Programmiersprachen gehalten. So gibt es Reimplementierungen des QuickCheck-Ansatzes in Programmiersprachen wie Scala, Java, Swift und Objective-C.
 
 
+### Generics for the masses (2004)
+
+Die Arbeit [Generics for the masses](http://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP04.pdf) stellt einen Ansatz zur generischen Programmierung in Haskell vor. Die generische Programmierung erlaubt es, eine einzelne Funktion zu definieren, die auf einer Vielzahl von Typen genutzt werden kann. Im Unterschied zu einer polymorphen Funktion verhält sich eine generische Funktion nicht für alle Typen gleich, sondern trifft Entscheidungen abhängig von der Struktur des Typs. Typische Beispiele für generische Funktionen sind etwa die strukturelle Gleichheit von Werten oder die Funktion _toString_, die eine String-Darstellung eines Wertes liefert. Solche Funktionen können mit Hilfe der generischen Programmierung ein einziges Mal definiert und dann für verschiedene algebraische Datentypen genutzt werden.
+
+
 ### Probabilistic functional programming in Haskell (2006)
 
 Probabilistische Programmiersprachen erlauben es, einfach die Berechnung von Wahrscheinlichkeiten zu modellieren. Solche Programmiersprachen werden zum Beispiel im Bereich der künstlichen Intelligenz zur Modellierung von neuronalen Netzen genutzt. Die Arbeit [Probabilistic functional programming in Haskell](http://icerote.net/doc/library/programming/fp/Probabilistic%20functional%20programming%20in%20Haskell.pdf) demonstriert, wie man in Haskell eine Bibliothek zur probabilistischen Programmierung einfach mit Hilfe einer monadischen Abstraktion implementieren kann. Die Bibliothek ist ein Beispiel für eine _embedded domain specific language_ (EDSL), das heißt, für eine Sprache für einen ganz spezifischen Zweck, die in eine andere Programmiersprache eingebettet ist.
@@ -131,6 +145,11 @@ Liquidhaskell ist eine Implementierung von _refinement types_ für Haskell. Ein 
 ### Propositions as types (2015)
 
 In der Arbeit [Propositions as types](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.673.269&rep=rep1&type=pdf) geht es um den Zusammenhang zwischen Logik und den Typen in einer funktionalen Programmiersprache. Der Artikel ist in den Communications of the ACM erschienen, einer monatlichen Serie von Artikeln der amerikanischen Gesellschaft für Informatik. Daher adressiert der Artikel Personen aus allen Bereichen der Informatik. Das Thema an sich ist eher abstrakt und beleuchtet einen sehr grundlegenden Zusammenhang zwischen zwei formalen Systemen. Daher erfordert er ein Grundverständnis von formalen Systemen in der Informatik. Der Artikel illustriert, warum jeder Programmier, der in einer statisch getypten Sprache wie Elm oder Java programmiert, tagtäglich mathematische Beweise führt.
+
+
+### All Sorts of Permutations (2016)
+
+Die Arbeit [All Sorts of Permutations](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf) demonstriert einen Zusammenhang zwischen Sortieren und Permutieren in Haskell. Sortieren beschreibt dabei die Aufgabe mit Hilfe einer Vergleichsfunktion eine Liste von Werten in die richtige Reihenfolge zu bringen. Beim Permutieren wird für eine Liste jede mögliche Reihenfolge der Liste generiert. Der Zusammenhang basiert darauf, dass man zwei verschiedene Instanzen einer monadischen Funktion betrachtet. Dieser Zusammenhang ist nicht auf Sortieren und Permutieren beschränkt, sondern lässt sich auch auf andere Funktionen anwenden, zum Beispiel auf die Funktion _filter_.
 
 
 <!-- ### Debugging Haskell by Observing Intermediate Data Structures - A. Gill (2000)
@@ -188,19 +207,9 @@ In dieser Arbeit werden _monad transformer_ vorgestellt. Diese erlauben es, mehr
 Arrows sind, ähnlich wie Monaden ein allgemeines Konzept zur Abstraktion. Die Arbeit stellt die Idee der _arrows_ sowie praktische Anwendungen dieser Abstraktion vor. Die Arbeit ist vergleichsweise lang, dafür setzt sie aber nur ein geringes Vorwissen voraus, da es sich um den Inhalt einer fortgeschrittenen Vorlesung handelt. [Veröffentlichung](https://karczmarczuk.users.greyc.fr/TEACH/Doc/afp-arrows.pdf)
 
 
-### Generics for the masses - R. Hinze (2004)
-
-Diese Arbeit stellt einen Ansatz zur generischen Programmierung in Haskell vor. Die generische Programmierung erlaubt es, eine einzelne Funktion zu definieren, die auf einer Vielzahl von Typen genutzt werden kann. Im Unterschied zu einer polymorphen Funktion verhält sich eine generische Funktion nicht für alle Typen gleich, sondern trifft Entscheidungen abhängig von der Struktur des Typs. Typische Beispiele für generische Funktionen sind zum Beispiel die strukturelle Gleichheit von Werten oder die Funktion _show_. [Veröffentlichung](http://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP04.pdf)
-
-
 ### Applicative programming with effects - C. McBride and R. Paterson (2008)
 
 Diese Arbeit stellt die Typklasse _Applicative_ vor. Diese Typklasse stellt ähnlich wie eine Monade eine Abstraktion verschiedener Strukturen dar. Die Typklassen _Monad_ und _Applicative_ sind sehr eng miteinander verwandt. Einige Strukturen erfüllen die Anforderung der Typklasse _Applicative_, sind aber keine Monade. Die Entwicklung der Typklasse _Applicative_ wurde vor allem durch Entwicklungen im Bereich der Parserkombinatoren vorangetrieben, erwies sich aber als sehr viel grundlegender. [Veröffentlichung](http://staff.city.ac.uk/~ross/papers/Applicative.pdf)
-
-
-### All Sorts of Permutations - J. Christiansen and N. Danilenko and S. Dylus (2016)
-
-Diese Arbeit demonstriert einen Zusammenhang zwischen Sortieren und Permutieren in Haskell. Sortieren beschreibt dabei die Aufgabe mit Hilfe einer Vergleichsfunktion eine Liste von Werten in die richtige Reihenfolge zu bringen. Beim Permutieren wird für eine Liste jede mögliche Reihenfolge der Liste generiert. Der Zusammenhang basiert darauf, dass man zwei verschiedene Instanzen einer monadischen Funktion betrachtet. Dieser Zusammenhang ist nicht auf Sortieren und Permutieren beschränkt, sondern lässt sich auch auf andere Funktionen anwenden, zum Beispiel auf die Funktion _filter_. [Veröffentlichung](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf)
 
 
 #### Explaining binomial heaps - R. Hinze (1999)
