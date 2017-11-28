@@ -32,7 +32,16 @@ Diese Anwendung soll verbessert und erweitert werden.
 
 ### Elm auf Microcontrollern
 
-In diesem Projekt soll eine Elm-Anwendung auf einem Microcontroller ausgeführt werden. Microcontroller haben häufig eine Reihe von Sensoren und reagieren darauf, wenn einer dieser Sensoren Daten empfängt. Eine solche Anwendung passt grundsätzlich gut in das reaktive Muster einer Elm-Anwendung. Daher soll eine reaktive Arichitektur entwickelt werden, die sich zur Programmierung von Microcontrollern eignet. Um diesen Ansatz zu testen, soll mit Hilfe des Frameworks [Espruino](http://www.espruino.com) eine einfache Elm-Anwendung auf einem Microcontroller ausgeführt werden. Espruino ist ein JavaScript-Interpreter, der auf einigen einfachen Microcontrollern läuft. Außerdem bietet Espruino Schnittstellen zu den wichtigsten Funktionen des Microcontrollers.
+In diesem Projekt soll eine Elm-Anwendung auf einem Microcontroller ausgeführt werden. Microcontroller haben häufig eine Reihe von Sensoren und reagieren darauf, wenn einer dieser Sensoren Daten empfängt. Eine solche Anwendung passt grundsätzlich gut in das reaktive Muster einer Elm-Anwendung. Daher soll eine reaktive Architektur entwickelt werden, die sich zur Programmierung von Microcontrollern eignet. Um diesen Ansatz zu testen, soll mit Hilfe des Frameworks [Espruino](http://www.espruino.com) eine einfache Elm-Anwendung auf einem Microcontroller ausgeführt werden. Espruino ist ein JavaScript-Interpreter, der auf einigen einfachen Microcontrollern läuft. Außerdem bietet Espruino Schnittstellen zu den wichtigsten Funktionen des Microcontrollers.
+
+
+### Processing für Elm
+
+In diesem Projekt soll die Idee der Programmiersparche Processing auf die Programmiersprache Elm übertragen werden.
+Dabei geht es nicht darum, die gleiche Funktionalität bereitzustellen oder eine Anbindung umzusetzen sondern eine Programmiersprache zur Verfügung zu stellen, die für Designer und Künstler leicht zugänglich ist.
+Der Ansatz soll auf den Ideen von domänenspezifischen Sprachen aufbauen, um den Fachexperten eine einfache Nutzung der Sprache zu erlauben.
+Das Projekt [p5.js](https://p5js.org) verfolgt einen ähnlichen Ansatz, in Form einer JavaScript-Bibliothek.
+Bei diesem Projekt ist insbesondere interessant, ob eine pure funktionale Programmiersprache wie Elm für diese Art der Anwendung gut oder schlecht geeignet ist.
 
 
 <!-- ### Debugging von Elm-Programmen
