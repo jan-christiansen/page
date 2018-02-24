@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2017-06-27
+published: 2018-02-24
 ---
 
 Die hier aufgeführten Masterarbeiten können zum Teil auch in Form von
@@ -17,9 +17,9 @@ können diese Projekte auch in Form von Bachelorprojekten durchgeführt werden.
 Um sicherzugehen, dass kryptographische Primitive auch wirklich sicher sind, werden gewünschte Eigenschaften über die Primitive mit Hilfe von Beweisen belegt. Beweise sind aber wie komplexe Programme sehr fehleranfällig und es ist sehr aufwendig, sie manuell zu überprüfen. Aus diesem Grund hat sich das Programmieren von Beweisen mit Hilfe von interaktiven Theorembeweisern in den letzten Jahren in der Wissenschaft immer stärker durchgesetzt. Dabei ist das Beweisen in einem interaktiven Theorembeweiser dem Programmieren in einer statisch getypten Programmiersprache sehr ähnlich. Wenn man zum Beispiel ein Programm in Java schreibt, muss man es so lange ändern, bis es keine Typfehler mehr enthält und vom Compiler akzeptiert wird. In ähnlicher Form akzeptiert ein interaktiver Theorembeweiser einen Beweis erst, wenn er keine Fehler mehr enthält. In dieser Arbeit soll in der Programmiersprache Coq ein Beweis für ein solches kryptographisches Primitiv programmiert werden. Da diese Art der Programmiersprache eine Weiterentwicklung der funktionalen Programmiersprachen darstellt, sollten Sie entweder Kenntnisse in der funktionalen Programmierung oder über spielbasierte Beweise in der Kryptographie mitbringen.
 
 
-### Information-Flow Control in Elm
+<!-- ### Information-Flow Control in Elm
 
-Der Begriff _Information-Flow Control_ beschreibt Techniken, die den Fluss von geheimen Informationen kontrollieren. Dabei soll _noninterference_ gewährleistet werden, das heißt, sensible Informationen dürfen nicht in öffentliche Kanäle geraten. Die Arbeit [Two Can Keep a Secret, If One of Them Uses Haskel](http://www.cse.chalmers.se/~russo/publications_files/pearl-russo.pdf) implementiert eine Bibliothek zur _Information-Flow Control_ in der Programmiersprache Haskell. In dieser Arbeit soll ein Prototyp einer solchen Bibliothek zur _Information-Flow Control_ in der Programmiersprache Elm implementiert werden. Elm ist eine Programmiersprache, die stark an Haskell angelehnt ist und in JavaScript übersetzt wird. Anwendungen in Elm nutzen außerdem eine spezielle reaktive Architektur, so dass die Implementierung der Anwendung selbst keinerlei Seiteneffekte durchführen muss bzw. dies auch nicht kann. In dieser Arbeit soll insbesondere untersucht werden, inwiefern diese Form der Architektur die Implementierung einer solchen Bibliothek unterstützt. Außerdem soll untersucht werden, wie in diesem Fall eine zertifizierende Übersetzung umgesetzt werden kann. Bei einer zertifizierenden Übersetzung wird bei der Übersetzung von Elm nach JavaScript ein Zertifikat erzeugt, das belegt, dass der erzeugte JavaScript-Code gewisse Eigenschaften erfüllt. In diesem Fall soll das Zertifikat belegen, dass der erzeugte JavaScript-Code ebenfalls die _noninterference_-Eigenschaft erfüllt.
+Der Begriff _Information-Flow Control_ beschreibt Techniken, die den Fluss von geheimen Informationen kontrollieren. Dabei soll _noninterference_ gewährleistet werden, das heißt, sensible Informationen dürfen nicht in öffentliche Kanäle geraten. Die Arbeit [Two Can Keep a Secret, If One of Them Uses Haskel](http://www.cse.chalmers.se/~russo/publications_files/pearl-russo.pdf) implementiert eine Bibliothek zur _Information-Flow Control_ in der Programmiersprache Haskell. In dieser Arbeit soll ein Prototyp einer solchen Bibliothek zur _Information-Flow Control_ in der Programmiersprache Elm implementiert werden. Elm ist eine Programmiersprache, die stark an Haskell angelehnt ist und in JavaScript übersetzt wird. Anwendungen in Elm nutzen außerdem eine spezielle reaktive Architektur, so dass die Implementierung der Anwendung selbst keinerlei Seiteneffekte durchführen muss bzw. dies auch nicht kann. In dieser Arbeit soll insbesondere untersucht werden, inwiefern diese Form der Architektur die Implementierung einer solchen Bibliothek unterstützt. Außerdem soll untersucht werden, wie in diesem Fall eine zertifizierende Übersetzung umgesetzt werden kann. Bei einer zertifizierenden Übersetzung wird bei der Übersetzung von Elm nach JavaScript ein Zertifikat erzeugt, das belegt, dass der erzeugte JavaScript-Code gewisse Eigenschaften erfüllt. In diesem Fall soll das Zertifikat belegen, dass der erzeugte JavaScript-Code ebenfalls die _noninterference_-Eigenschaft erfüllt. -->
 
 
 ## Safety
@@ -43,6 +43,17 @@ als terminierend zu erkennen.
 
 
 ## Compiler-Bau
+
+### Reaktive Programmierung eines Microcontrollers
+
+Die Programmiersprache Elm nutzt eine reaktive Architektur zur Implementierung von Frontend-Web-Anwendungen.
+In dieser Arbeit soll untersucht werden, wie diese Architektur genutzt werden kann, um Anwendungen für Microcontroller zu entwickeln.
+Der [Elm-Compiler](https://github.com/elm-lang/elm-compiler) ist in Haskell geschrieben und übersetzt Elm nach JavaScript.
+Um eine Elm-Anwendung auf einem Microcontroller ausführen zu können, muss der Elm-Compiler so erweitert werden, dass an Stelle von JavaScript-Code C-Code erzeugt wird.
+Außerdem muss ein Konzept entwickelt werden, wie sich die [Elm-Architektur](https://guide.elm-lang.org/architecture/) auf die Entwicklung von Anwendungen für Microcontroller anwenden lässt.
+Neben der eigentlichen Übersetzung müssen unter Umständen Optimierungen für den Elm-Compiler implementiert werden.
+So führt der Elm-Compiler zum Beispiel keine _dead code elimination_ durch.
+Dadurch sind die Programme, die durch den Elm-Compiler erzeugt werden, zu groß, um sie direkt auf einem Microcontroller ausführen zu können.
 
 
 ### Verbesserung von Compiler-Optimierungen
