@@ -3,6 +3,11 @@ title: Veranstaltungen
 published: 2017-02-17
 ---
 
+<!-- ## Sommersemester 2018
+
+[Informatik-Seminar](/teaching/seminar.html) -->
+
+
 ## Wintersemester 2017/18
 
 [Funktionale Frontend-Entwicklung](/teaching/functional-frontend-development.html)
