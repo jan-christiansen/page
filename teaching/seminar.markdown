@@ -13,10 +13,14 @@ published: 2018-02-27
 * [An experiment about static and dynamic type systems](https://courses.cs.washington.edu/courses/cse590n/10au/hanenberg-oopsla2010.pdf)
 * [To type or not to type: quantifying detectable bugs in JavaScript](http://www0.cs.ucl.ac.uk/staff/Z.Gao/doc/paper/type_study.pdf)
 * [An empirical study on program comprehension with reactive programming](http://www.guidosalvaneschi.com/attachments/papers/2014_An-Empirical-Study-on-Program-Comprehension-with-Reactive-Programming_pdf.pdf)
+* [An empirical study on the impact of static typing on software maintainability](https://pleiad.cl/papers/2014/hanenbergAl-emse2014.pdf)
+<!-- * [Do developers benefit from generic types?: an empirical comparison of generic and raw types in java]() -->
+<!-- * [An Empirical Study on the Impact of C++ Lambdas and Programmer Experience]() -->
 
 
 ### Software Development Practices
 
+* [Belief & Evidence in Empirical Software Engineering](http://web.cs.ucdavis.edu/~devanbu/belief+evidence.pdf)
 * [Observations on Knowledge Transfer of Professional Software Developers during Pair Programming](http://www.inf.fu-berlin.de/inst/ag-se/pubs/ZiePre16-ppknowtrans2.pdf)
 * [The costs and benefits of pair programming](http://www.cs.utah.edu/~lwilliam/Papers/XPSardinia.PDF)
 * [Expectations, outcomes, and challenges of modern code review](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.362.5866&rep=rep1&type=pdf)
@@ -28,6 +32,7 @@ published: 2018-02-27
 ### Code Comprehension
 
 * [How programmers read regular code: A controlled experiment using eye tracking](http://www.cs.huji.ac.il/~feit/papers/RegEye17EmpSE.pdf)
+* [Tracking Students' Cognitive Processes During Program Debugging—An Eye-Movement Approach](https://www.researchgate.net/profile/Fang-Ying_Yang/publication/284113088_Tracking_Students'_Cognitive_Processes_During_Program_Debugging-An_Eye-Movement_Approach/links/56e1740008ae23524090abd1.pdf)
 * [On Novices' Interaction with Compiler Error Messages: A Human Factors Approach](https://digitalcommons.acu.edu/cgi/viewcontent.cgi?article=1003&amp=&context=info_tech_computing&amp=&sei-redir=1&referer=https%253A%252F%252Fscholar.google.de%252Fscholar%253Fhl%253Dde%2526as_sdt%253D0%25252C5%2526q%253DOn%252BNovices%252527%252BInteraction%252Bwith%252BCompiler%252BError%252BMessages%25253A%252BA%252BHuman%252BFactors%252BApproach%2526btnG%253D#search=%22Novices%20Interaction%20Compiler%20Error%20Messages%3A%20Human%20Factors%20Approach%22)
 * [Is this code written in English? A study of the natural language of comments and identifiers in practice](https://www.cqse.eu/publications/2015-is-this-code-written-in-english-a-study-of-the-natural-language-of-comments-and-identifiers-in-practice.pdf)
 
