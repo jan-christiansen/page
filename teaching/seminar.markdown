@@ -1,6 +1,6 @@
 ---
 title: Informatik-Seminar
-published: 2018-02-27
+published: 2018-02-28
 ---
 
 
@@ -14,6 +14,7 @@ published: 2018-02-27
 * [To type or not to type: quantifying detectable bugs in JavaScript](http://www0.cs.ucl.ac.uk/staff/Z.Gao/doc/paper/type_study.pdf)
 * [An empirical study on program comprehension with reactive programming](http://www.guidosalvaneschi.com/attachments/papers/2014_An-Empirical-Study-on-Program-Comprehension-with-Reactive-Programming_pdf.pdf)
 * [An empirical study on the impact of static typing on software maintainability](https://pleiad.cl/papers/2014/hanenbergAl-emse2014.pdf)
+* [An Empirical Investigation into Programming Language Syntax](http://dl.acm.org/authorize?6968137)
 <!-- * [Do developers benefit from generic types?: an empirical comparison of generic and raw types in java]() -->
 <!-- * [An Empirical Study on the Impact of C++ Lambdas and Programmer Experience]() -->
 
