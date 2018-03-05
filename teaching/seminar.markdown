@@ -28,6 +28,7 @@ published: 2018-02-28
 * [A Perspective on Blending Programming Environments and Games: Beyond Points, Badges, and Leaderboards](https://people.engr.ncsu.edu/ermurph3/papers/vlhcc16-gamification.pdf)
 <!-- * [It was a bit of a race: Gamification of version control](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.467.3152&rep=rep1&type=pdf) -->
 * [Debugging Data-Flows in Reactive Programs](https://repository.tudelft.nl/islandora/object/uuid:d37cac08-195d-4dbd-a076-e3227a756717/datastream/OBJ/download)
+* [Meaningful Identifier Names: The Case of Single-Letter Variables](http://www.cs.huji.ac.il/~feit/papers/SingleLetter17ICPC.pdf)
 
 
 ### Code Comprehension
