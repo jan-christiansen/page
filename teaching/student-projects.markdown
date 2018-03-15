@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2018-03-04
+published: 2018-03-14
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -121,7 +121,7 @@ Einige Teile der Anwendung, zum Beispiel das Einlesen der Beschreibung eines Spi
 Dieser Code soll in Elm neu implementiert werden.
 Außerdem sollen zusätzliche Funktionen zur Anwendung hinzugefügt werden.
 
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
 **Geeignet als:** Bachelorarbeit
 
 
