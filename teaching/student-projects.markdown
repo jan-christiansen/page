@@ -74,6 +74,11 @@ Es soll untersucht werden, wie die Transformation durchgeführt werden muss, um 
 
 ## Security
 
+<!--
+### Information-Flow Control
+
+Der Begriff _Information-Flow Control_ beschreibt Techniken, die den Fluss von geheimen Informationen kontrollieren. Dabei soll _noninterference_ gewährleistet werden, das heißt, sensible Informationen dürfen nicht in öffentliche Kanäle geraten. Die Arbeit [Two Can Keep a Secret, If One of Them Uses Haskel](http://www.cse.chalmers.se/~russo/publications_files/pearl-russo.pdf) implementiert eine Bibliothek zur _Information-Flow Control_ in der Programmiersprache Haskell. In dieser Arbeit soll ein Prototyp einer solchen Bibliothek zur _Information-Flow Control_ in der Programmiersprache Elm implementiert werden. Elm ist eine Programmiersprache, die stark an Haskell angelehnt ist und in JavaScript übersetzt wird. Anwendungen in Elm nutzen außerdem eine spezielle reaktive Architektur, so dass die Implementierung der Anwendung selbst keinerlei Seiteneffekte durchführen muss bzw. dies auch nicht kann. In dieser Arbeit soll insbesondere untersucht werden, inwiefern diese Form der Architektur die Implementierung einer solchen Bibliothek unterstützt. Außerdem soll untersucht werden, wie in diesem Fall eine zertifizierende Übersetzung umgesetzt werden kann. Bei einer zertifizierenden Übersetzung wird bei der Übersetzung von Elm nach JavaScript ein Zertifikat erzeugt, das belegt, dass der erzeugte JavaScript-Code gewisse Eigenschaften erfüllt. In diesem Fall soll das Zertifikat belegen, dass der erzeugte JavaScript-Code ebenfalls die _noninterference_-Eigenschaft erfüllt. -->
+
 
 ### Sicherheit von kryptographischen Primitiven
 
@@ -123,6 +128,25 @@ Außerdem sollen zusätzliche Funktionen zur Anwendung hinzugefügt werden.
 
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
 **Geeignet als:** Bachelorarbeit
+
+
+<!-- ## Analyse sozialer Interaktion mit Hilfe von Bluethooth low energy
+
+Mit Hilfe der Beacon-Technologie (Bluetooth low energy) soll die
+Interaktion von Personen bei Veranstaltungen wie Messen oder
+wissenschaftlichen Konferenzen analysiert werden. Hierzu werden den
+Teilnehmern Beacons um den Hals gehängt. Die Beacons senden ein
+schwaches Signal, das vom gegenüberliegenden Beacon erkannt wird, wenn
+sich zwei Personen frontal gegenüberstehen. Die Information über diese
+Kontakte wird mit Hilfe eines stärkeren Signals an Basisstationen in
+der Umgebung weitergegeben. Neben der Auswahl und Programmierung der
+Hardware und der Umsetzung und Konzeption der Analyse/Visualisierung
+ist auch die Durchführung eines Experiments, das die
+Leistungsfähigkeit der entwickelten Lösung demonstriert, Teil des
+Projektes. Das Projekt wird in Zusammenarbeit mit der Arbeitsgruppe
+Agrarpolitik der Christian-Albrechts-Universität zu Kiel
+durchgeführt. Das Projekt ist dem Schwerpunkt Human-Computer
+Interaction [Hci] zugeordnet. -->
 
 
 <!-- ## Algorithmen
