@@ -3,8 +3,10 @@ title: Veranstaltungen
 published: 2017-02-17
 ---
 
+
 ## Sommersemester 2018
 
+[Language-based Security](/teaching/language-based-security.html)  
 [Informatik-Seminar](/teaching/seminar.html)
 
 
