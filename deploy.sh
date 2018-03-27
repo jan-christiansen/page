@@ -8,6 +8,7 @@ cp -r _site/teaching .
 git add index.html
 git add css
 git add teaching
+git add talks
 git commit -m "Update page"
 git push
 git checkout master
