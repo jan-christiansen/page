@@ -16,9 +16,16 @@ Inhalte des Abschnitts [_Data and Functions_](https://softwarefoundations.cis.up
 
 ### 2. Vorlesung
 
-Abschnitt _3.1 Introduction_ und _3.3 Induction on Terms_ aus dem Kapitel _3 Untyped Arithmetic Expressions_ aus dem Buch [Types and Programming Languages](https://ebookcentral.proquest.com/lib/zhbflensburg-ebooks/detail.action?docID=3338823).
+Inhalte der Abschnitte [_Proof by Simplification_](https://softwarefoundations.cis.upenn.edu/lf-current/Basics.html#lab30), [_Proof by Rewriting_](https://softwarefoundations.cis.upenn.edu/lf-current/Basics.html#lab31), [_Proof by Case Analysis_](https://softwarefoundations.cis.upenn.edu/lf-current/Basics.html#lab34) und [_Proof by Induction_](https://softwarefoundations.cis.upenn.edu/lf-current/Induction.html#lab44) des Buchs [Software Foundations - Volume 1](https://softwarefoundations.cis.upenn.edu/current/lf-current/index.html).
 
-Inhalte der Abschnitte [_Proof by Simplification_](https://softwarefoundations.cis.upenn.edu/lf-current/Basics.html#lab30), [_Proof by Rewriting_](https://softwarefoundations.cis.upenn.edu/lf-current/Basics.html#lab31), [_Proof by Case Analysis_](https://softwarefoundations.cis.upenn.edu/lf-current/Basics.html#lab32) und [_Proof by Induction_](https://softwarefoundations.cis.upenn.edu/lf-current/Induction.html#lab44) des Buchs [Software Foundations - Volume 1](https://softwarefoundations.cis.upenn.edu/current/lf-current/index.html).
+Abschnitt _3.1 Introduction_ aus dem Kapitel _3 Untyped Arithmetic Expressions_ aus dem Buch [Types and Programming Languages](https://ebookcentral.proquest.com/lib/zhbflensburg-ebooks/detail.action?docID=3338823).
+
+
+### 3. Vorlesung
+
+Inhalte der Abschnitte [_The apply Tactic_](https://softwarefoundations.cis.upenn.edu/lf-current/Tactics.html#lab131) und [_The apply ... with ... Tactic_](https://softwarefoundations.cis.upenn.edu/lf-current/Tactics.html#lab135) des Buchs [Software Foundations - Volume 1](https://softwarefoundations.cis.upenn.edu/current/lf-current/index.html).
+
+Abschnitt _3.3 Induction on Terms_ aus dem Kapitel _3 Untyped Arithmetic Expressions_ aus dem Buch [Types and Programming Languages](https://ebookcentral.proquest.com/lib/zhbflensburg-ebooks/detail.action?docID=3338823).
 
 
 ## Funktionale Programmierung in der Industrie
