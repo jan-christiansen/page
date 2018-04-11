@@ -39,3 +39,9 @@ Abschnitt _3.5 Evaluation_ aus dem Kapitel _3 Untyped Arithmetic Expressions_ au
 
 * [Haskell Companies](https://github.com/erkmos/haskell-companies)
 * [Elm Companies](https://github.com/lpil/elm-companies)
+
+
+## Verwendung von Coq in der Forschung
+
+* Die wisenschaftliche Arbeit [Formal verification of a realistic compiler](http://www.cse.iitd.ac.in/~sbansal/csl862-soft/readings/compcert.pdf) stellt einen mit Coq verifizierten C-Compiler vor
+* Die [Liste der Coq-Repositories bei github](https://github.com/search?l=&p=1&q=language%3ACoq&ref=advsearch&type=Repositories) gibt einen guten Eindruck über die Verwendung von Coq
