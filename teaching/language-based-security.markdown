@@ -1,6 +1,6 @@
 ---
 title: Language-based Security
-published: 2018-03-28
+published: 2018-04-11
 ---
 
 
@@ -26,6 +26,13 @@ Abschnitt _3.1 Introduction_ aus dem Kapitel _3 Untyped Arithmetic Expressions_ 
 Inhalte der Abschnitte [_The apply Tactic_](https://softwarefoundations.cis.upenn.edu/lf-current/Tactics.html#lab131) und [_The apply ... with ... Tactic_](https://softwarefoundations.cis.upenn.edu/lf-current/Tactics.html#lab135) des Buchs [Software Foundations - Volume 1](https://softwarefoundations.cis.upenn.edu/current/lf-current/index.html).
 
 Abschnitt _3.3 Induction on Terms_ aus dem Kapitel _3 Untyped Arithmetic Expressions_ aus dem Buch [Types and Programming Languages](https://ebookcentral.proquest.com/lib/zhbflensburg-ebooks/detail.action?docID=3338823).
+
+
+### 4. Vorlesung
+
+Inhalte der Abschnitte [_Inductively Defined Propositions_](https://softwarefoundations.cis.upenn.edu/lf-current/IndProp.html#lab198), [_Using Evidence in Proofs_](https://softwarefoundations.cis.upenn.edu/lf-current/IndProp.html#lab200) und [_Inductive Relations_](https://softwarefoundations.cis.upenn.edu/lf-current/IndProp.html#lab209) des Buchs [Software Foundations - Volume 1](https://softwarefoundations.cis.upenn.edu/current/lf-current/index.html).
+
+Abschnitt _3.5 Evaluation_ aus dem Kapitel _3 Untyped Arithmetic Expressions_ aus dem Buch [Types and Programming Languages](https://ebookcentral.proquest.com/lib/zhbflensburg-ebooks/detail.action?docID=3338823).
 
 
 ## Funktionale Programmierung in der Industrie
