@@ -77,6 +77,14 @@ Die meisten Punkte sind dem Vortrag ["How to give a great research talk"][GoodTa
 [GoodTalks]: https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/
 
 
+## Anforderungen
+
+* Vortrag 25 Minuten
+* Diskussion 15 Minuten (inklusive Selbsteinschätzung, Einschätzung aus dem Publikum, Fragen zur Arbeit)
+* Handout zum Vortrag (maximal eine DinA4-Seite)
+* Anwesenheitspflicht (maximal zwei Fehltermine)
+
+
 ## Termine
 
 ### 8.5.
