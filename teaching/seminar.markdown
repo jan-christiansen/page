@@ -1,6 +1,6 @@
 ---
 title: Informatik-Seminar
-published: 2018-03-27
+published: 2018-04-19
 ---
 
 
