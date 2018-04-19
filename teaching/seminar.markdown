@@ -96,14 +96,18 @@ Die meisten Punkte sind dem Vortrag ["How to give a great research talk"][GoodTa
 
 ### 29.5.
 
-* Philip Hansen, [Meaningful Identifier Names: The Case of Single-Letter Variables](http://www.cs.huji.ac.il/~feit/papers/SingleLetter17ICPC.pdf)
-* Adrian Kurth, [To Scratch or not to Scratch? A controlled experiment comparing plugged first and unplugged first programming lessons](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2017-015.pdf)
+**Fällt aus**
 
 ### 5.6.
 
-* Tim Dohle, [Turning Student Groups into Effective Teams](http://owww.brookes.ac.uk/services/ocsld/group_work/turnin_student_groups_into_effective_teams.pdf)
-* Jan Paulsen
+* Philip Hansen, [Meaningful Identifier Names: The Case of Single-Letter Variables](http://www.cs.huji.ac.il/~feit/papers/SingleLetter17ICPC.pdf)
+* Adrian Kurth, [To Scratch or not to Scratch? A controlled experiment comparing plugged first and unplugged first programming lessons](http://swerl.tudelft.nl/twiki/pub/Main/TechnicalReports/TUD-SERG-2017-015.pdf)
 
 ### 12.6.
+
+* Tim Dohle, [Turning Student Groups into Effective Teams](http://owww.brookes.ac.uk/services/ocsld/group_work/turnin_student_groups_into_effective_teams.pdf)
+* Jan Paulsen, [Comparing Textual and Block Interfaces in a Novice Programming Environment](http://www4.ncsu.edu/~twprice/website/files/ICER%202015.pdf)
+
+### 19.6.
 
 * Nico Hohm, [Meta-analysis of faculty's teaching effectiveness: Student evaluation of teaching ratings and student learning are not related](https://blendedtoolkit.wisc.edu/wp-content/uploads/2016/11/Meta-analysis.pdf)
