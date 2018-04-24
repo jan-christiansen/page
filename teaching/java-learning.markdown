@@ -42,6 +42,15 @@ beantwortet werden muss, um fortzufahren. Die Platform bietet auch einen Modus,
 in dem man mit anderen Lernenden in der Lösung von Aufgaben konkurrieren kann.
 
 
+## Vorlesungen
+
+
+### Folien zu "Sprechen Sie Java?"
+
+Die Seite [Sprechen Sie Java?](http://ssw.jku.at/JavaBuch/Folien/) bietet Folien zu einer einstündigen Vorlesung, die in etwa die Inhalte der Vorlesung Strukturierte Programmierung abdeckt.
+Die Folien bieten die Möglichkeit, die Inhalte aus dem ersten Semester noch einmal mit den Worten einer anderen Person zu lesen.
+
+
 ## Aufgabensammlungen
 
 ### CODEFIGHTS
