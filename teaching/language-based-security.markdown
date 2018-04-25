@@ -42,6 +42,12 @@ Inhalte der Abschnitte [_Relations_](https://softwarefoundations.cis.upenn.edu/l
 Abschnitt _3.4 Semantic Styles_ aus dem Kapitel _3 Untyped Arithmetic Expressions_ aus dem Buch [Types and Programming Languages](https://ebookcentral.proquest.com/lib/zhbflensburg-ebooks/detail.action?docID=3338823).
 
 
+### 6. Vorlesung
+
+Inhalte des Abschnitts [_Varying the Induction Hypothesis_](https://softwarefoundations.cis.upenn.edu/lf-current/Tactics.html#lab142) des Buchs [Software Foundations - Volume 1](https://softwarefoundations.cis.upenn.edu/current/lf-current/index.html).
+
+Kapitel _8 Typed Arithmetic Expressions_ aus dem Buch [Types and Programming Languages](https://ebookcentral.proquest.com/lib/zhbflensburg-ebooks/detail.action?docID=3338823).
+
 
 ## Funktionale Programmierung in der Industrie
 
