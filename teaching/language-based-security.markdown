@@ -56,6 +56,11 @@ Kapitel _8 Typed Arithmetic Expressions_ aus dem Buch [Types and Programming Lan
 Inhalte des Abschnitts [_The eapply and eauto variants_](https://softwarefoundations.cis.upenn.edu/lf-current/Auto.html#lab384) des Buchs [Software Foundations - Volume 1](https://softwarefoundations.cis.upenn.edu/current/lf-current/index.html).
 
 
+### 8. Vorlesung
+
+Abschnitt 4.1 des Kapitels _Typed Assembly Language_ aus dem Buch [Advanced Topics in Types and Programming Languages](?).
+
+
 ## Funktionale Programmierung in der Industrie
 
 * [Haskell Companies](https://github.com/erkmos/haskell-companies)
