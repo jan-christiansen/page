@@ -1,10 +1,12 @@
 ---
 title: Language-based Security
-published: 2018-05-09
+published: 2018-05-16
 ---
 
 
 ## Vorlesungen
+
+Die Vorlesung gibt eine Einführung in den Bereich der [Language-based Security](https://en.wikipedia.org/wiki/Language-based_security).
 
 Im [github-Projekt](https://github.com/jan-christiansen/Language-based-Security) gibt es die Coq-Quelldateien aus der Vorlesung.
 
