@@ -61,6 +61,11 @@ Inhalte des Abschnitts [_The eapply and eauto variants_](https://softwarefoundat
 Abschnitt 4.1 des Kapitels _Typed Assembly Language_ aus dem Buch [Advanced Topics in Types and Programming Languages](?).
 
 
+### 9. Vorlesung
+
+Wiederholung Abschnitt 4.1 des Kapitels _Typed Assembly Language_ aus dem Buch [Advanced Topics in Types and Programming Languages](?).
+
+
 ## Funktionale Programmierung in der Industrie
 
 * [Haskell Companies](https://github.com/erkmos/haskell-companies)
