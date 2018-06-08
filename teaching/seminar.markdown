@@ -1,6 +1,6 @@
 ---
 title: Informatik-Seminar
-published: 2018-04-19
+published: 2018-06-07
 ---
 
 
@@ -113,8 +113,8 @@ Die meisten Punkte sind dem Vortrag ["How to give a great research talk"][GoodTa
 
 ### 12.6.
 
-* Tim Dohle, [Turning Student Groups into Effective Teams](http://owww.brookes.ac.uk/services/ocsld/group_work/turnin_student_groups_into_effective_teams.pdf)
 * Jan Paulsen, [Comparing Textual and Block Interfaces in a Novice Programming Environment](http://www4.ncsu.edu/~twprice/website/files/ICER%202015.pdf)
+* Tim Dohle, [Turning Student Groups into Effective Teams](http://owww.brookes.ac.uk/services/ocsld/group_work/turnin_student_groups_into_effective_teams.pdf)
 
 ### 19.6.
 
