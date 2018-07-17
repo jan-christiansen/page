@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2018-03-14
+published: 2018-07-17
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -59,14 +59,16 @@ Abschließend soll noch eine Evaluation der Transformation durch praktische Expe
 
 ### Übersetzung von Haskell nach Coq
 
-Die Programmiersprache [Coq](https://coq.inria.fr) ist eine funktionale Sprache, die auch als interaktiver Theorembeweiser genutzt werden kann.
-Das heißt, man kann in dieser Sprache nicht nur funktionale Programme schreiben, sondern auch Aussagen über diese Programme programmieren.
-In dieser Arbeit sollen die Grundlagen geschaffen werden, um Aussagen über Haskell Programme in Coq zu führen.
-Dazu muss ein Haskell-Programm in ein Coq-Programm übersetzt werden.
-In dieser Arbeit soll ein Haskell-Programm entwickelt werden, das diese Transformation übernimmt.
-Dabei soll ein Schwerpunkt auf der Terminierungsanalyse von Coq liegen.
-In Coq können nur Funktionen definiert werden, von denen der Coq-Compiler erkennt, dass die Funktionen terminieren.
-Es soll untersucht werden, wie die Transformation durchgeführt werden muss, um möglichst viele erzeugte Programme als terminierend zu erkennen.
+In dieser Arbeit soll ein Haskell-Programm entwickelt werden, das Haskell-Programme in Coq-Programme übersetzt.
+[Coq](https://coq.inria.fr) ist dabei wie Haskell eine funktionale Programmiersprache.
+Zum Einlesen von Haskell-Programmen kann eine bestehende Bibliothek ([haskell-src](https://hackage.haskell.org/package/haskell-src)) genutzt werden.
+Zur Erzeugung von Coq-Programmen muss zuerst eine Bibliothek entwickelt werden, mit der Coq-Programme dargestellt werden können.
+In dieser Arbeit werden grundlegende Techniken aus dem Bereich des Compilerbaus erlernt.
+Bei der Transformation von Haskell nach Coq sollen leichte Änderungen an den Programmen vorgenommen werden.
+So sollen alle Funktionen zum Beispiel durch ein zusätzliches Argument erweitert werden.
+
+Bei der Bearbeitung als Masterarbeit sollen an Hand einiger Beispiele die erzeugten Coq-Programme noch genutzt werden, um formale Aussagen über die ursprünglichen Haskell-Programme zu beweisen.
+
 
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau  
 **Geeignet als:** Bachelor- oder Masterarbeit
@@ -110,10 +112,26 @@ Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche d
 **Geeignet als:** Bachelor- oder Masterarbeit
 
 
-## Anwendungen
+<!-- ## Anwendungen
 
 
-### Anwendung in Elm
+### Sampling
+
+In dieser Arbeit sollen Sampling-Algorithmen für eine Bibliothek zur probabilistischen Programmierung implementiert werden.
+Bei der probabilistischen Programmierung arbeitet ein Programm nicht mit konkreten Werten sondern mit Wahrscheinlichkeitsverteilungen.
+So liefert ein Programm zum Beispiel als Ergebnis nicht den Wert 42, sondern eine Verteilung, die mit 40 prozentiger Wahrscheinlichkeit 42 liefert und mit 60 prozentiger Wahrscheinlichkeit 23.
+Bei einer praktischen Anwendung können die entstehenden Wahrscheinlichkeitsverteilungen sehr groß werden.
+Um dieses Problem in den Griff zu bekommen, werden die Verteilungen nicht konkret berechnet sondern nur angenähert.
+Für diesen Zweck werden sogenannte Sampling-Algorithmen genutzt.
+
+
+
+
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
+**Geeignet als:** Bachelorarbeit
+ -->
+
+<!-- ### Anwendung in Elm
 
 In dieser Arbeit soll eine bestehende Elm-Anwendung erweitert werden.
 [Elm](http://elm-lang.org) ist eine funktionale Programmiersprache, die nach JavaScript übersetzt.
@@ -127,7 +145,7 @@ Dieser Code soll in Elm neu implementiert werden.
 Außerdem sollen zusätzliche Funktionen zur Anwendung hinzugefügt werden.
 
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
-**Geeignet als:** Bachelorarbeit
+**Geeignet als:** Bachelorarbeit -->
 
 
 <!-- ## Analyse sozialer Interaktion mit Hilfe von Bluethooth low energy
