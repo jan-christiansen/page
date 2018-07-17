@@ -19,7 +19,7 @@
         <div id="content">
             <h1>Abschlussarbeiten/Projekte</h1>
             <div class="info">
-    Last changed on March 14, 2018
+    Last changed on July 17, 2018
     
 </div>
 
@@ -38,7 +38,8 @@
 <p><strong>Voraussetzungen:</strong> grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau<br />
 <strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
 <h3 id="übersetzung-von-haskell-nach-coq">Übersetzung von Haskell nach Coq</h3>
-<p>Die Programmiersprache <a href="https://coq.inria.fr">Coq</a> ist eine funktionale Sprache, die auch als interaktiver Theorembeweiser genutzt werden kann. Das heißt, man kann in dieser Sprache nicht nur funktionale Programme schreiben, sondern auch Aussagen über diese Programme programmieren. In dieser Arbeit sollen die Grundlagen geschaffen werden, um Aussagen über Haskell Programme in Coq zu führen. Dazu muss ein Haskell-Programm in ein Coq-Programm übersetzt werden. In dieser Arbeit soll ein Haskell-Programm entwickelt werden, das diese Transformation übernimmt. Dabei soll ein Schwerpunkt auf der Terminierungsanalyse von Coq liegen. In Coq können nur Funktionen definiert werden, von denen der Coq-Compiler erkennt, dass die Funktionen terminieren. Es soll untersucht werden, wie die Transformation durchgeführt werden muss, um möglichst viele erzeugte Programme als terminierend zu erkennen.</p>
+<p>In dieser Arbeit soll ein Haskell-Programm entwickelt werden, das Haskell-Programme in Coq-Programme übersetzt. <a href="https://coq.inria.fr">Coq</a> ist dabei wie Haskell eine funktionale Programmiersprache. Zum Einlesen von Haskell-Programmen kann eine bestehende Bibliothek (<a href="https://hackage.haskell.org/package/haskell-src">haskell-src</a>) genutzt werden. Zur Erzeugung von Coq-Programmen muss zuerst eine Bibliothek entwickelt werden, mit der Coq-Programme dargestellt werden können. In dieser Arbeit werden grundlegende Techniken aus dem Bereich des Compilerbaus erlernt. Bei der Transformation von Haskell nach Coq sollen leichte Änderungen an den Programmen vorgenommen werden. So sollen alle Funktionen zum Beispiel durch ein zusätzliches Argument erweitert werden.</p>
+<p>Bei der Bearbeitung als Masterarbeit sollen an Hand einiger Beispiele die erzeugten Coq-Programme noch genutzt werden, um formale Aussagen über die ursprünglichen Haskell-Programme zu beweisen.</p>
 <p><strong>Voraussetzungen:</strong> grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau<br />
 <strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
 <h2 id="security">Security</h2>
@@ -55,11 +56,39 @@ Der Begriff _Information-Flow Control_ beschreibt Techniken, die den Fluss von g
 <p>Ein <a href="http://www.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf">freies Theorem</a> ist eine Aussage über eine Funktion/Methode, die allein an Hand des Typs der Funktion/Methode getroffen werden kann. Eine Einführung zu freien Theoremen im Kontext von Java bietet zum Beispiel <a href="http://data.tmorris.net/talks/yow-west-2016/1d388b6263e7cbeedfbea224997648daa1d7862d/parametricity.pdf">dieser Vortrag</a>. Die Idee der freien Theoreme stammt aus dem Bereich der funktionalen Programmierung, da Seiteneffekte diese Art von Aussagen häufig zunichte machen. In dieser Arbeit soll geklärt werden, welche Sprachkonstrukte freie Theorem in der Programmiersprache Java zerstören. So kann man zum Beispiel durch Typumwandlungen die Aussagen zerstören. Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche der Java-Sprachkonstrukte freie Theoreme zerstören und unter welchen zusätzlichen Randbedingungen die Aussagen wieder gelten.</p>
 <p><strong>Voraussetzungen:</strong> gute Kenntnisse der Programmiersprache Java, Grundverständnis für formale Aussagen<br />
 <strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
-<h2 id="anwendungen">Anwendungen</h2>
-<h3 id="anwendung-in-elm">Anwendung in Elm</h3>
-<p>In dieser Arbeit soll eine bestehende Elm-Anwendung erweitert werden. <a href="http://elm-lang.org">Elm</a> ist eine funktionale Programmiersprache, die nach JavaScript übersetzt. Der <a href="https://jan-christiansen.github.io/legislative-bargaining-lab/">aktuelle Prototyp der Anwendung</a> hilft bei der Berechnung von <a href="https://de.wikipedia.org/wiki/Machtindex">Machtindizes</a> von gewichteten Mehrheitsspielen. Gewichtete Mehrheitsspiele sind ein Teilbereich der Spieltheorie und werden vor allem genutzt, um Entscheidungen politischer Gremien zu modellieren. Ein Machtindex versucht die Macht der einzelnen Spieler eines Spieles in Form einer einzelnen Zahl widerzuspiegeln. Einige Teile der Anwendung, zum Beispiel das Einlesen der Beschreibung eines Spiels, werden momentan von JavaScript-Code übernommen. Dieser Code soll in Elm neu implementiert werden. Außerdem sollen zusätzliche Funktionen zur Anwendung hinzugefügt werden.</p>
-<p><strong>Voraussetzungen:</strong> grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell<br />
-<strong>Geeignet als:</strong> Bachelorarbeit</p>
+<!-- ## Anwendungen
+
+
+### Sampling
+
+In dieser Arbeit sollen Sampling-Algorithmen für eine Bibliothek zur probabilistischen Programmierung implementiert werden.
+Bei der probabilistischen Programmierung arbeitet ein Programm nicht mit konkreten Werten sondern mit Wahrscheinlichkeitsverteilungen.
+So liefert ein Programm zum Beispiel als Ergebnis nicht den Wert 42, sondern eine Verteilung, die mit 40 prozentiger Wahrscheinlichkeit 42 liefert und mit 60 prozentiger Wahrscheinlichkeit 23.
+Bei einer praktischen Anwendung können die entstehenden Wahrscheinlichkeitsverteilungen sehr groß werden.
+Um dieses Problem in den Griff zu bekommen, werden die Verteilungen nicht konkret berechnet sondern nur angenähert.
+Für diesen Zweck werden sogenannte Sampling-Algorithmen genutzt.
+
+
+
+
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
+**Geeignet als:** Bachelorarbeit
+ -->
+<!-- ### Anwendung in Elm
+
+In dieser Arbeit soll eine bestehende Elm-Anwendung erweitert werden.
+[Elm](http://elm-lang.org) ist eine funktionale Programmiersprache, die nach JavaScript übersetzt.
+Der [aktuelle Prototyp der Anwendung](https://jan-christiansen.github.io/legislative-bargaining-lab/) hilft bei der Berechnung von [Machtindizes](https://de.wikipedia.org/wiki/Machtindex) von gewichteten
+Mehrheitsspielen.
+Gewichtete Mehrheitsspiele sind ein Teilbereich der Spieltheorie und werden vor allem genutzt, um Entscheidungen politischer Gremien zu modellieren.
+Ein Machtindex versucht die Macht der einzelnen Spieler eines Spieles in Form einer einzelnen Zahl
+widerzuspiegeln.
+Einige Teile der Anwendung, zum Beispiel das Einlesen der Beschreibung eines Spiels, werden momentan von JavaScript-Code übernommen.
+Dieser Code soll in Elm neu implementiert werden.
+Außerdem sollen zusätzliche Funktionen zur Anwendung hinzugefügt werden.
+
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
+**Geeignet als:** Bachelorarbeit -->
 <!-- ## Analyse sozialer Interaktion mit Hilfe von Bluethooth low energy
 
 Mit Hilfe der Beacon-Technologie (Bluetooth low energy) soll die
