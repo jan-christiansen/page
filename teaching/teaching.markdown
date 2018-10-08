@@ -1,7 +1,13 @@
 ---
 title: Veranstaltungen
-published: 2017-02-17
+published: 2018-10-08
 ---
+
+
+## Wintersemester 2018/19
+
+<!-- [Deklarative Software-Technologien](/teaching/declarative-software-technologies.html) -->
+[Algorithmen](/teaching/algorithms.html)
 
 
 ## Sommersemester 2018

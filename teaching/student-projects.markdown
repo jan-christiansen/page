@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2018-07-17
+published: 2018-09-10
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -8,22 +8,36 @@ Dabei wird ggf. der Umfang des Projektes an die Gegebenheiten des Projektes ange
 Falls Sie sich für andere Themen aus den Bereichen moderne Methoden der Softwareentwicklung, Compilerbau, Programmiersprachen oder Sicherheit interessieren, wenden Sie sich bitte einfach per Mail an [mich](mailto:jan.christiansen@hs-flensburg.de).
 
 
+## Algorithmen
+
+
+### Gewichtete Mehrheitsspiele in funktionalen Sprachen
+
+In dieser Arbeit soll eine Implementierung von gewichteten Mehrheitsspielen in einer funktionalen Sprache umgesetzt werden.
+Gewichtete Mehrheitsspiele werden genutzt, um Wahlen zu modellieren und zu analysieren.
+Es soll eine bestehende Implementierung in JavaScript in eine funktionale Programmiersprache überführt werden.
+Dabei soll insbesondere darauf geachtet werden, dass die Implementierung effizient ist --- im Sinne der Komplexität der Implementierung.
+Die Komplexitäten der einzelnen Algorithmen sollen jeweils erarbeitet werden.
+
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, gutes Verständnis für Komplexitäten  
+**Geeignet als:** Masterarbeit
+
+
 ## Compilerbau
 
 
-### Analyse von Compiler-Optimierungen
+### Implementierung einer Compiler-Optimierung
 
 Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&rep=rep1&type=pdf) ist eine Erweiterung der funktionalen Konzepte der Programmiersprache Haskell um sogenannte logische Konstrukte.
-Dabei können Haskell-Programme fast identisch in Curry verwendet werden.
 Der am weitesten verbreitete Compiler für diese Programmiersprache, [KiCS2](https://www-ps.informatik.uni-kiel.de/kics2/), übersetzt Curry-Programme in Haskell-Programme.
-Mit Hilfe eines Haskell-Compilers wird das erzeugte Haskell-Programm dann nach C übersetzt.
-Der Haskell-Compiler wendet dabei eine Reihe von Optimierungen an, um effizienteren C-Code zu erzeugen.
-Diese Optimierungen wurden für handgeschriebenen Haskell-Code entwickelt und werden bei dem vom Curry-Compiler erzeugten Code häufig nicht angewendet.
-In dieser Arbeit sollen die Ergebnisse der Übersetzung von Haskell-Programmen mit den Ergebnissen entsprechender Curry-Programme verglichen werden.
-In einem zweiten Schritt soll untersucht werden, wie der erzeugte Code verändert werden müsste, um die Optimierungen auf den erzeugten Code anwenden zu können.
+In dieser Arbeit soll die Erzeugung des Haskell-Codes verbessert werden.
+Zu diesem Zweck soll eine Technik namens Fusion implementiert werden.
+Diese Technik wird zum Beispiel in Haskell eingesetzt, um zu verhindern, dass Datenstrukturen wiederholt auf- und wieder abgebaut werden.
+Die Fusion sorgt dafür, dass die Datenstrukturen nur ein einziges Mal auf- und abgebaut werden.
+Diese Technik soll beispielhaft bei der Übersetzung von Curry nach Haskell eingesetzt werden.
 
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau  
-**Geeignet als:** Bachelor- oder Masterarbeit
+**Geeignet als:** Masterarbeit
 
 
 ### Reaktive Programmierung eines Microcontrollers
@@ -40,7 +54,7 @@ Dadurch sind die Programme, die durch den Elm-Compiler erzeugt werden, zu groß,
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse an Microcontrollern  
 **Geeignet als:** Bachelor- oder Masterarbeit
 
-
+<!--
 ### Implementierung einer `foldr`/`build`-Fusion
 
 Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&rep=rep1&type=pdf) ist eine Erweiterung der funktionalen Konzepte der Programmiersprache Haskell um sogenannte logische Konstrukte.
@@ -53,9 +67,9 @@ Um die Transformation in den Compiler zu integrieren, müssen [Rewrite-Regeln](h
 Diese Regeln fordern den Haskell-Compiler dazu auf, die entsprechenden Transformationen durchzuführen.
 Abschließend soll noch eine Evaluation der Transformation durch praktische Experimente erfolgen.
 
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau  
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau
 **Geeignet als:** Bachelor- oder Masterarbeit
-
+-->
 
 ### Übersetzung von Haskell nach Coq
 
@@ -69,19 +83,28 @@ So sollen alle Funktionen zum Beispiel durch ein zusätzliches Argument erweiter
 
 Bei der Bearbeitung als Masterarbeit sollen an Hand einiger Beispiele die erzeugten Coq-Programme noch genutzt werden, um formale Aussagen über die ursprünglichen Haskell-Programme zu beweisen.
 
-
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau  
 **Geeignet als:** Bachelor- oder Masterarbeit
 
 
+### Effiziente probabilistische Programmierung
+
+Bei der probabilistischen Programmierung arbeitet ein Programm nicht mit konkreten Werten sondern mit Wahrscheinlichkeitsverteilungen.
+
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq
+**Geeignet als:** Masterarbeit
+
+
+<!--
 ## Security
+-->
 
 <!--
 ### Information-Flow Control
 
 Der Begriff _Information-Flow Control_ beschreibt Techniken, die den Fluss von geheimen Informationen kontrollieren. Dabei soll _noninterference_ gewährleistet werden, das heißt, sensible Informationen dürfen nicht in öffentliche Kanäle geraten. Die Arbeit [Two Can Keep a Secret, If One of Them Uses Haskel](http://www.cse.chalmers.se/~russo/publications_files/pearl-russo.pdf) implementiert eine Bibliothek zur _Information-Flow Control_ in der Programmiersprache Haskell. In dieser Arbeit soll ein Prototyp einer solchen Bibliothek zur _Information-Flow Control_ in der Programmiersprache Elm implementiert werden. Elm ist eine Programmiersprache, die stark an Haskell angelehnt ist und in JavaScript übersetzt wird. Anwendungen in Elm nutzen außerdem eine spezielle reaktive Architektur, so dass die Implementierung der Anwendung selbst keinerlei Seiteneffekte durchführen muss bzw. dies auch nicht kann. In dieser Arbeit soll insbesondere untersucht werden, inwiefern diese Form der Architektur die Implementierung einer solchen Bibliothek unterstützt. Außerdem soll untersucht werden, wie in diesem Fall eine zertifizierende Übersetzung umgesetzt werden kann. Bei einer zertifizierenden Übersetzung wird bei der Übersetzung von Elm nach JavaScript ein Zertifikat erzeugt, das belegt, dass der erzeugte JavaScript-Code gewisse Eigenschaften erfüllt. In diesem Fall soll das Zertifikat belegen, dass der erzeugte JavaScript-Code ebenfalls die _noninterference_-Eigenschaft erfüllt. -->
 
-
+<!--
 ### Sicherheit von kryptographischen Primitiven
 
 Um sicherzugehen, dass kryptographische Primitive auch wirklich sicher sind, werden gewünschte Eigenschaften über die Primitive mit Hilfe von Beweisen belegt.
@@ -94,9 +117,19 @@ In dieser Arbeit soll in der Programmiersprache [Coq](https://coq.inria.fr) ein 
 
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, oder Kenntnisse über spielbasierte Beweise in der Kryptographie  
 **Geeignet als:** Masterarbeit
+-->
+
+## Verifikation
 
 
-## Safety
+### Beweise über Eigenschaften von Haskell-Programmen
+
+In dieser Arbeit sollen Beweise über Haskell-Programme im interaktiven Theorembeweiser Coq Aussagen geschrieben werden.
+Diese Beweise besagen zum Beispiel, dass
+
+
+**Voraussetzungen:** grundlegende Kenntnisse in einem interaktiven Theorembeweiser  
+**Geeignet als:** Masterarbeit
 
 
 ### Analyse von freien Theoremen in Java
@@ -110,6 +143,20 @@ Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche d
 
 **Voraussetzungen:** gute Kenntnisse der Programmiersprache Java, Grundverständnis für formale Aussagen  
 **Geeignet als:** Bachelor- oder Masterarbeit
+
+
+## Anwendungen
+
+
+### iOS-App zur Förderung nachhaltigen Einkaufens
+
+In dieser Arbeit soll eine mobile Anwendung für die Platform iOS entwickelt werden.
+Mit Hilfe der Anwendung kann der Nutzer beim Kauf von Gemüse die Kilometer, die das Gemüse zurückgelegt hat, verwalten.
+Auf diese Weise sollen Nutzer dazu animiert werden, beim Kauf von Gemüse auf regionale Waren zu achten.
+Das Interface der Anwendung muss eine sehr schnelle Eingabe der Informationen erlauben.
+
+**Voraussetzungen:** gute Kenntnisse mobiler Entwicklung unter Android oder iOS  
+**Geeignet als:** Bachelorarbeit
 
 
 <!-- ## Anwendungen
@@ -127,25 +174,9 @@ Für diesen Zweck werden sogenannte Sampling-Algorithmen genutzt.
 
 
 
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell
 **Geeignet als:** Bachelorarbeit
  -->
-
-<!-- ### Anwendung in Elm
-
-In dieser Arbeit soll eine bestehende Elm-Anwendung erweitert werden.
-[Elm](http://elm-lang.org) ist eine funktionale Programmiersprache, die nach JavaScript übersetzt.
-Der [aktuelle Prototyp der Anwendung](https://jan-christiansen.github.io/legislative-bargaining-lab/) hilft bei der Berechnung von [Machtindizes](https://de.wikipedia.org/wiki/Machtindex) von gewichteten
-Mehrheitsspielen.
-Gewichtete Mehrheitsspiele sind ein Teilbereich der Spieltheorie und werden vor allem genutzt, um Entscheidungen politischer Gremien zu modellieren.
-Ein Machtindex versucht die Macht der einzelnen Spieler eines Spieles in Form einer einzelnen Zahl
-widerzuspiegeln.
-Einige Teile der Anwendung, zum Beispiel das Einlesen der Beschreibung eines Spiels, werden momentan von JavaScript-Code übernommen.
-Dieser Code soll in Elm neu implementiert werden.
-Außerdem sollen zusätzliche Funktionen zur Anwendung hinzugefügt werden.
-
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
-**Geeignet als:** Bachelorarbeit -->
 
 
 <!-- ## Analyse sozialer Interaktion mit Hilfe von Bluethooth low energy
