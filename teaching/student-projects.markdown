@@ -118,5 +118,5 @@ Die Beacons senden ein schwaches Signal, das vom gegenüberliegenden Beacon erka
 Die Information über diese Kontakte wird mit Hilfe eines stärkeren Signals an Basisstationen in der Umgebung weitergegeben.
 Neben der reinen Programmierung der Kommunikation kann diese Arbeit um eine ganze Reihe anderer Aspekte erweitert werden.
 
-**Voraussetzungen:** Fähigkeit zur selbstständige Einarbeitung in Technologien  
+**Voraussetzungen:** Fähigkeit zur selbstständigen Einarbeitung in Technologien  
 **Geeignet als:** Bachelorarbeit
