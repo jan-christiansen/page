@@ -4,6 +4,11 @@ published: 2018-10-08
 ---
 
 
+## Einrichtungen
+
+[Software-Lab](/teaching/software-lab.html)
+
+
 ## Wintersemester 2018/19
 
 <!-- [Deklarative Software-Technologien](/teaching/declarative-software-technologies.html) -->
