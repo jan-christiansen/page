@@ -71,7 +71,32 @@ Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche d
 **Geeignet als:** Bachelor- oder Masterarbeit
 
 
+### Sicherheit von kryptographischen Primitiven
+
+Um sicherzugehen, dass kryptographische Primitive auch wirklich sicher sind, werden gewünschte Eigenschaften über die Primitive mit Hilfe von Beweisen belegt.
+Beweise sind aber wie komplexe Programme sehr fehleranfällig und es ist sehr aufwendig, sie manuell zu überprüfen.
+Aus diesem Grund hat sich das Programmieren von Beweisen mit Hilfe von interaktiven Theorembeweisern in den letzten Jahren in der Wissenschaft immer stärker durchgesetzt.
+Das manuelle Schreiben solcher Beweise ist sehr aufwendig.
+Daher sollen in dieser Arbeit bestehende Ansätze zur automatischen Erzeugung solcher Beweise evaluiert werden.
+Die Ansätze sollen auf einen bereits bestehenden Beweis angewendet werden.
+
+**Voraussetzungen:** grundlegende Kenntnisse in einem interaktiven Theorembeweiser, z.B. Coq  
+**Geeignet als:** Masterarbeit
+
+
 ## Anwendungen
+
+
+### Sammeln und Aufbereiten von Code-Beispielen
+
+In dieser Arbeit soll eine Anwendung entwickelt werden, die genutzt werden kann, um Code-Beispiele aus öffentlichen Datenquellen zu generieren.
+Ein Code-Beispiel besteht dabei aus einer Methode, die in zwei verschiedenen Programmiersprachen umgesetzt wurde.
+Die Anwendung soll große Mengen solchen Daten sammeln und aufbereiten.
+Dazu sollen verschiedene Ansätze evaluiert werden, um solchen Daten zu sammeln.
+Die Daten sollen in einem späteren Schritt genutzt werden, um ein neuronales Netz darin zu trainieren, Methoden in einer Programmiersprache in eine andere Programmiersprache zu übersetzen.
+
+**Voraussetzungen:** keine  
+**Geeignet als:** Bachelorarbeit
 
 
 ### iOS-App zur Förderung nachhaltigen Einkaufens
