@@ -1,6 +1,6 @@
 ---
 title: About
-published: 2017-10-20
+published: 2018-11-08
 ---
 
 I am a professor of computer science at the
