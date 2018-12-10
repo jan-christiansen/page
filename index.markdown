@@ -1,6 +1,6 @@
 ---
 title: About
-published: 2018-11-08
+published: 2018-12-10
 ---
 
 I am a professor of computer science at the
@@ -12,15 +12,17 @@ programming and software verification. For example, I am interested in
 * functional algorithms [(ICFP 2016)](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf),
 * free theorems [(PLPV 2010)](http://www.janis-voigtlaender.eu/papers/FreeTheoremsForFunctionalLogicPrograms.pdf),
 * testing [(FLOPS 2008)](http://www-ps.informatik.uni-kiel.de/~sebf/data/pub/flops08.pdf),
-* and formal verification.
+* and formal verification [(submitted to &lt;Programming&gt; 2019)](https://arxiv.org/pdf/1805.08059.pdf).
 
 
 ## Publications
 
-* **S. Dylus, J. Christiansen, F. Teegen:** [Probabilistic Functional Logic Programming](http://www-ps.informatik.uni-kiel.de/~sad/padl2018-preprint.pdf) *Practical Aspects of Declarative Languages (PADL)*, 2018
+* **S. Dylus, J. Christiansen, F. Teegen:** [One Monad to Prove Them All](https://arxiv.org/pdf/1805.08059.pdf) **submitted to** *International Conference on the Art, Science, and
+Engineering of Programming (&lt;Programming&gt;)*, 2019
+* **S. Dylus, J. Christiansen, F. Teegen:** [Probabilistic Functional Logic Programming](http://www-ps.informatik.uni-kiel.de/~sad/padl2018-preprint.pdf) *International Symposium on Practical Aspects of Declarative Languages (PADL)*, 2018
 * **J. Christiansen, N. Danilenko, S. Dylus:** [All sorts of permutations (functional pearl)](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf) *International Conference on Functional Programming (ICFP)*, 2016
-* **J. Christiansen, M. Hanus, F. Reck, D. Seidel:** [A semantics for weakly encapsulated search in functional logic programs](https://www.informatik.uni-kiel.de/~mh/publications/papers/PPDP13.pdf) *Symposium on Principles and Practice of Declarative Programming (PPDP)*, 2013
-* **J. Christiansen:** [Sloth - A Tool for Checking Minimal-Strictness](http://www.rpe.informatik.uni-kiel.de/de/rechnergestutzte-programmentwicklung/dateien/forschungunddiplomarbeiten/PADL.pdf) *Practical Aspects of Declarative Languages (PADL)*, 2011
+* **J. Christiansen, M. Hanus, F. Reck, D. Seidel:** [A semantics for weakly encapsulated search in functional logic programs](https://www.informatik.uni-kiel.de/~mh/publications/papers/PPDP13.pdf) *International Symposium on Principles and Practice of Declarative Programming (PPDP)*, 2013
+* **J. Christiansen:** [Sloth - A Tool for Checking Minimal-Strictness](http://www.rpe.informatik.uni-kiel.de/de/rechnergestutzte-programmentwicklung/dateien/forschungunddiplomarbeiten/PADL.pdf) *International Symposium on Practical Aspects of Declarative Languages (PADL)*, 2011
 * **J. Christiansen, D. Seidel:** [Minimally strict polymorphic functions](http://www.rpe.informatik.uni-kiel.de/de/rechnergestutzte-programmentwicklung/dateien/forschungunddiplomarbeiten/PPDP.pdf) *Symposium on Principles and Practice of Declarative Programming (PPDP)*, 2011
 * **J. Christiansen, D. Seidel, J. Voigtländer:** [Free theorems for functional logic programs](http://www.janis-voigtlaender.eu/papers/FreeTheoremsForFunctionalLogicPrograms.pdf) *Workshop Programming Languages meets Program Verification (PLPV)*, 2010
 * **J. Christiansen, D. Seidel, J. Voigtländer:** [An Adequate, Denotational, Functional-Style Semantics for Typed FlatCurry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.186.251&rep=rep1&type=pdf) *Workshop on Functional and Constraint Logic Programming*
