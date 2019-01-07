@@ -1,10 +1,10 @@
 ---
 title: About
-published: 2018-12-10
+published: 2019-01-07
 ---
 
 I am a professor of computer science at the
-[Flensburg University of Applied Sciences](http://www.hs-flensburg.de). I am
+[Flensburg University of Applied Sciences](https://www.hs-flensburg.de). I am
 interested in programming languages as well as theoretical and practical aspects of
 programming and software verification. For example, I am interested in
 

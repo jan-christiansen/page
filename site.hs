@@ -22,9 +22,7 @@ main = hakyll $ do
     --         >>= loadAndApplyTemplate "templates/default.html" postCtx
     --         >>= relativizeUrls
 
-    match "teaching/*" makeHtml
-
-    match "index.markdown" makeHtml
+    match "**.markdown" makeHtml
 
     match "templates/*" $ compile templateBodyCompiler
 
