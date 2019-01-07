@@ -71,8 +71,7 @@ published: 2018-06-07
 
 ## Vortrag
 
-Die [Folien](./../talks/seminar.pdf) liefern einen Anhaltspunkt dafür, welche Aspekte bei einem guten Vortrag berücksichtigt werden sollten.
-Die meisten Punkte sind dem Vortrag ["How to give a great research talk"][GoodTalks] von Simon Peyton-Jones entnommen und können in anderer Form auch dort noch einmal nachgelesen und nachgeschaut werden.
+Anhaltspunkte, wie man einen guten Vortrag zu einem Forschungsthema hält, bietet der Vortrag ["How to give a great research talk"][PeytonJones] von Simon Peyton-Jones.
 
 [GoodTalks]: https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/
 

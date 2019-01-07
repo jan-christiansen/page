@@ -9,15 +9,15 @@ published: 2018-10-08
 [Software-Lab](/teaching/software-lab.html)
 
 
-<!-- ## Wintersemester 2018/19
-
-[Deklarative Software-Technologien](/teaching/declarative-software-technologies.html)
-[Algorithmen](/teaching/2019/algorithms.html) -->
-
-
 ## Sommersemester 2019
 
 [Informatik-Seminar](/teaching/2019/seminar.html)
+
+
+## Wintersemester 2018/19
+
+[Deklarative Software-Technologien](/teaching/2018/declarative-software-technologies.html)
+<!-- [Algorithmen](/teaching/2018/algorithms.html) -->
 
 
 ## Sommersemester 2018
