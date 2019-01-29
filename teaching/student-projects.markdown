@@ -1,12 +1,12 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2018-12-14
+published: 2019-01-29
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
 Dabei wird ggf. der Umfang des Projektes an die Gegebenheiten des Projektes angepasst.
 Falls Sie sich für andere Themen aus den Bereichen moderne Methoden der Softwareentwicklung, Compilerbau, Programmiersprachen, Algorithmen oder Sicherheit interessieren, wenden Sie sich bitte einfach per Mail an [mich](mailto:jan.christiansen@hs-flensburg.de).
-<!-- Unter [Anforderungen bei einer Abschlussarbeit](/teaching/student-project.html) finden Sie eine Auflistung von Anforderungen bei der Durchführung einer Abschlussarbeit/eines Projektes. -->
+Unter [Anforderungen bei einer Abschlussarbeit](/teaching/student-project.html) finden Sie eine Auflistung von Anforderungen bei der Durchführung einer Abschlussarbeit/eines Projektes.
 
 
 ## Algorithmen
@@ -85,7 +85,7 @@ Die Ansätze sollen auf einen bereits bestehenden Beweis angewendet werden.
 **Geeignet als:** Masterarbeit
 
 
-## Anwendungen
+## Neuronale Netze im Software-Engineering
 
 
 ### Sammeln und Aufbereiten von Code-Beispielen
@@ -98,6 +98,21 @@ Die Daten sollen in einem späteren Schritt genutzt werden, um ein neuronales Ne
 
 **Voraussetzungen:** keine  
 **Geeignet als:** Bachelorarbeit
+
+
+### Generieren von Namen aus Funktionsdefinitionen in Haskell
+
+In dieser Arbeit soll eine bestehende Technik zur Generierung von Methodennamen aus der Definition der Methode aus der Publikation [code2vec: Learning Distributed Representations of Code](http://delivery.acm.org/10.1145/3300000/3290353/popl19main-p32-p.pdf?ip=193.175.183.169&id=3290353&acc=OA&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1548752550_57e4fa9092c8fecc4b2fe4640ea47c97) angewendet werden.
+Diese Technik soll auf die Programmiersprache Haskell übertragen werden.
+Im ersten Schrit müssen dazu Traniningsdaten gesammelt werden, am besten von [Hackage](https://hackage.haskell.org/packages/) einer Platform für Haskell-Pakete.
+Die Implementierungen von Haskell-Funktionen mit gesammelt und für das neuronale Netz aufbereitet werden.
+Je nachdem, ob dieses Thema als Bachelor- oder Masterarbeit durchgeführt wird, werden die Daten nur gesammelt oder auch das neuronale Netz trainiert.
+
+**Voraussetzungen:** keine  
+**Geeignet als:** Bachelor- oder Masterarbeit
+
+
+## Anwendungen
 
 
 ### iOS-App zur Förderung nachhaltigen Einkaufens
