@@ -1,6 +1,6 @@
 ---
 title: About
-published: 2019-01-07
+published: 2019-02-24
 ---
 
 I am a professor of computer science at the
@@ -12,12 +12,12 @@ programming and software verification. For example, I am interested in
 * functional algorithms [(ICFP 2016)](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf),
 * free theorems [(PLPV 2010)](http://www.janis-voigtlaender.eu/papers/FreeTheoremsForFunctionalLogicPrograms.pdf),
 * testing [(FLOPS 2008)](http://www-ps.informatik.uni-kiel.de/~sebf/data/pub/flops08.pdf),
-* and formal verification [(submitted to &lt;Programming&gt; 2019)](https://arxiv.org/pdf/1805.08059.pdf).
+* and formal verification [(&lt;Programming&gt; 2019)](https://arxiv.org/pdf/1805.08059.pdf).
 
 
 ## Publications
 
-* **S. Dylus, J. Christiansen, F. Teegen:** [One Monad to Prove Them All](https://arxiv.org/pdf/1805.08059.pdf) **submitted to** *International Conference on the Art, Science, and
+* **S. Dylus, J. Christiansen, F. Teegen:** [One Monad to Prove Them All](https://arxiv.org/pdf/1805.08059.pdf) *International Conference on the Art, Science, and
 Engineering of Programming (&lt;Programming&gt;)*, 2019
 * **S. Dylus, J. Christiansen, F. Teegen:** [Probabilistic Functional Logic Programming](http://www-ps.informatik.uni-kiel.de/~sad/padl2018-preprint.pdf) *International Symposium on Practical Aspects of Declarative Languages (PADL)*, 2018
 * **J. Christiansen, N. Danilenko, S. Dylus:** [All sorts of permutations (functional pearl)](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf) *International Conference on Functional Programming (ICFP)*, 2016
