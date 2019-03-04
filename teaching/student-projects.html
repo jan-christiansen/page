@@ -19,7 +19,7 @@
         <div id="content">
             <h1>Abschlussarbeiten/Projekte</h1>
             <div class="info">
-    Last changed on January 29, 2019
+    Last changed on March  4, 2019
     
 </div>
 
@@ -38,13 +38,28 @@
 <p>Die Programmiersprache <a href="http://elm-lang.org">Elm</a> nutzt eine reaktive Architektur zur Implementierung von Frontend-Web-Anwendungen. In dieser Arbeit soll untersucht werden, wie diese Architektur genutzt werden kann, um Anwendungen für Microcontroller zu entwickeln. Der <a href="https://github.com/elm-lang/elm-compiler">Elm-Compiler</a> ist in Haskell geschrieben und übersetzt Elm nach JavaScript. Um eine Elm-Anwendung auf einem Microcontroller ausführen zu können, muss der Elm-Compiler so erweitert werden, dass an Stelle von JavaScript-Code C-Code erzeugt wird. Außerdem muss ein Konzept entwickelt werden, wie sich die <a href="https://guide.elm-lang.org/architecture/">Elm-Architektur</a> auf die Entwicklung von Anwendungen für Microcontroller anwenden lässt. Neben der eigentlichen Übersetzung müssen unter Umständen Optimierungen für den Elm-Compiler implementiert werden. So führt der Elm-Compiler zum Beispiel keine <em>dead code elimination</em> durch, das heißt, Code, der nicht genutzt wird, ist trotzdem im erzeugten JavaScript enthalten. Dadurch sind die Programme, die durch den Elm-Compiler erzeugt werden, zu groß, um sie direkt auf einem Microcontroller ausführen zu können.</p>
 <p><strong>Voraussetzungen:</strong> grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse an Microcontrollern<br />
 <strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
+<h3 id="transformation-von-haskell-programmen">Transformation von Haskell-Programmen</h3>
+<p>Wenn ein Compiler ein Programm übersetzt, wird das textuelle Programm mit Hilfe eines Parsers in eine Datenstruktur, einen sogenannten abstrakten Syntaxbaum, überführt. In dieser Arbeit soll eine Haskell-Bibliothek entwickelt werden, die verschiedene Umformungen auf dem abstrakten Syntaxbaum für Haskell durchführt. Dabei soll zum Beispiel das Pattern-Matching in Form von Funktionsregeln in Pattern-Matching in Form von case-Ausdrücken umgeformt werden. Für die Implementierung soll eine <a href="http://hackage.haskell.org/package/haskell-src-exts">vorhandene Haskell-Bibliothek</a> verwendet werden, die einen abstrakten Syntaxbaum zur Darstellung von Haskell-Programmen zur Verfügung stellt.</p>
+<p><strong>Voraussetzungen:</strong> grundlegende Kenntnisse der Programmiersprache Haskell<br />
+<strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
 <h2 id="verifikation">Verifikation</h2>
 <h3 id="analyse-von-freien-theoremen-in-java">Analyse von freien Theoremen in Java</h3>
 <p>Ein <a href="http://www.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf">freies Theorem</a> ist eine Aussage über eine Funktion/Methode, die allein an Hand des Typs der Funktion/Methode getroffen werden kann. Eine Einführung zu freien Theoremen im Kontext von Java bietet zum Beispiel <a href="http://data.tmorris.net/talks/yow-west-2016/1d388b6263e7cbeedfbea224997648daa1d7862d/parametricity.pdf">dieser Vortrag</a>. Die Idee der freien Theoreme stammt aus dem Bereich der funktionalen Programmierung, da Seiteneffekte diese Art von Aussagen häufig zunichte machen. In dieser Arbeit soll geklärt werden, welche Sprachkonstrukte freie Theorem in der Programmiersprache Java zerstören. So kann man zum Beispiel durch Typumwandlungen die Aussagen zerstören. Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche der Java-Sprachkonstrukte freie Theoreme zerstören und unter welchen zusätzlichen Randbedingungen die Aussagen wieder gelten.</p>
 <p><strong>Voraussetzungen:</strong> gute Kenntnisse der Programmiersprache Java, Grundverständnis für formale Aussagen<br />
 <strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
-<h3 id="sicherheit-von-kryptographischen-primitiven">Sicherheit von kryptographischen Primitiven</h3>
-<p>Um sicherzugehen, dass kryptographische Primitive auch wirklich sicher sind, werden gewünschte Eigenschaften über die Primitive mit Hilfe von Beweisen belegt. Beweise sind aber wie komplexe Programme sehr fehleranfällig und es ist sehr aufwendig, sie manuell zu überprüfen. Aus diesem Grund hat sich das Programmieren von Beweisen mit Hilfe von interaktiven Theorembeweisern in den letzten Jahren in der Wissenschaft immer stärker durchgesetzt. Das manuelle Schreiben solcher Beweise ist sehr aufwendig. Daher sollen in dieser Arbeit bestehende Ansätze zur automatischen Erzeugung solcher Beweise evaluiert werden. Die Ansätze sollen auf einen bereits bestehenden Beweis angewendet werden.</p>
+<!-- ### Sicherheit von kryptographischen Primitiven
+
+Um sicherzugehen, dass kryptographische Primitive auch wirklich sicher sind, werden gewünschte Eigenschaften über die Primitive mit Hilfe von Beweisen belegt.
+Beweise sind aber wie komplexe Programme sehr fehleranfällig und es ist sehr aufwendig, sie manuell zu überprüfen.
+Aus diesem Grund hat sich das Programmieren von Beweisen mit Hilfe von interaktiven Theorembeweisern in den letzten Jahren in der Wissenschaft immer stärker durchgesetzt.
+Das manuelle Schreiben solcher Beweise ist sehr aufwendig.
+Daher sollen in dieser Arbeit bestehende Ansätze zur automatischen Erzeugung solcher Beweise evaluiert werden.
+Die Ansätze sollen auf einen bereits bestehenden Beweis angewendet werden.
+
+**Voraussetzungen:** grundlegende Kenntnisse in einem interaktiven Theorembeweiser, z.B. Coq  
+**Geeignet als:** Masterarbeit -->
+<h3 id="verifikation-von-haskell-programmen">Verifikation von Haskell-Programmen</h3>
+<p>Um zu garantieren, dass Programme sich mit absoluter Sicherheit wie gewünscht verhalten, werden Eigenschaften von Programmen mit Hilfe von Theorembeweisern bewiesen. In dieser Arbeit sollen Eigenschaften von Haskell-Programmen im interaktiven Theorembeweiser Coq bewiesen werden.</p>
 <p><strong>Voraussetzungen:</strong> grundlegende Kenntnisse in einem interaktiven Theorembeweiser, z.B. Coq<br />
 <strong>Geeignet als:</strong> Masterarbeit</p>
 <h2 id="neuronale-netze-im-software-engineering">Neuronale Netze im Software-Engineering</h2>
@@ -61,10 +76,16 @@
 <p>In dieser Arbeit soll eine mobile Anwendung für die Platform iOS entwickelt werden. Mit Hilfe der Anwendung kann der Nutzer beim Kauf von Gemüse die Kilometer, die das Gemüse zurückgelegt hat, verwalten. Auf diese Weise sollen Nutzer dazu animiert werden, beim Kauf von Gemüse auf regionale Waren zu achten. Das Interface der Anwendung muss eine sehr schnelle Eingabe der Informationen erlauben.</p>
 <p><strong>Voraussetzungen:</strong> gute Kenntnisse mobiler Entwicklung unter Android oder iOS<br />
 <strong>Geeignet als:</strong> Bachelorarbeit</p>
-<h3 id="analyse-sozialer-interaktion-mit-hilfe-von-beacons">Analyse sozialer Interaktion mit Hilfe von Beacons</h3>
-<p>Mit Hilfe der Beacon-Technologie (Bluetooth low energy) soll die Interaktion von Personen bei Veranstaltungen wie Messen oder wissenschaftlichen Konferenzen analysiert werden. Hierzu werden den Teilnehmern Beacons um den Hals gehängt. Die Beacons senden ein schwaches Signal, das vom gegenüberliegenden Beacon erkannt wird, wenn sich zwei Personen frontal gegenüberstehen. Die Information über diese Kontakte wird mit Hilfe eines stärkeren Signals an Basisstationen in der Umgebung weitergegeben. Neben der reinen Programmierung der Kommunikation kann diese Arbeit um eine ganze Reihe anderer Aspekte erweitert werden.</p>
-<p><strong>Voraussetzungen:</strong> Fähigkeit zur selbstständigen Einarbeitung in Technologien<br />
-<strong>Geeignet als:</strong> Bachelorarbeit</p>
+<!-- ### Analyse sozialer Interaktion mit Hilfe von Beacons
+
+Mit Hilfe der Beacon-Technologie (Bluetooth low energy) soll die Interaktion von Personen bei Veranstaltungen wie Messen oder wissenschaftlichen Konferenzen analysiert werden.
+Hierzu werden den Teilnehmern Beacons um den Hals gehängt.
+Die Beacons senden ein schwaches Signal, das vom gegenüberliegenden Beacon erkannt wird, wenn sich zwei Personen frontal gegenüberstehen.
+Die Information über diese Kontakte wird mit Hilfe eines stärkeren Signals an Basisstationen in der Umgebung weitergegeben.
+Neben der reinen Programmierung der Kommunikation kann diese Arbeit um eine ganze Reihe anderer Aspekte erweitert werden.
+
+**Voraussetzungen:** Fähigkeit zur selbstständigen Einarbeitung in Technologien  
+**Geeignet als:** Bachelorarbeit -->
 
         </div>
 
