@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2019-01-29
+published: 2019-03-04
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -56,6 +56,17 @@ Dadurch sind die Programme, die durch den Elm-Compiler erzeugt werden, zu groß,
 **Geeignet als:** Bachelor- oder Masterarbeit
 
 
+### Transformation von Haskell-Programmen
+
+Wenn ein Compiler ein Programm übersetzt, wird das textuelle Programm mit Hilfe eines Parsers in eine Datenstruktur, einen sogenannten abstrakten Syntaxbaum, überführt.
+In dieser Arbeit soll eine Haskell-Bibliothek entwickelt werden, die verschiedene Umformungen auf dem abstrakten Syntaxbaum für Haskell durchführt.
+Dabei soll zum Beispiel das Pattern-Matching in Form von Funktionsregeln in Pattern-Matching in Form von case-Ausdrücken umgeformt werden.
+Für die Implementierung soll eine [vorhandene Haskell-Bibliothek](http://hackage.haskell.org/package/haskell-src-exts) verwendet werden, die einen abstrakten Syntaxbaum zur Darstellung von Haskell-Programmen zur Verfügung stellt.
+
+**Voraussetzungen:** grundlegende Kenntnisse der Programmiersprache Haskell  
+**Geeignet als:** Bachelor- oder Masterarbeit
+
+
 ## Verifikation
 
 
@@ -72,7 +83,7 @@ Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche d
 **Geeignet als:** Bachelor- oder Masterarbeit
 
 
-### Sicherheit von kryptographischen Primitiven
+<!-- ### Sicherheit von kryptographischen Primitiven
 
 Um sicherzugehen, dass kryptographische Primitive auch wirklich sicher sind, werden gewünschte Eigenschaften über die Primitive mit Hilfe von Beweisen belegt.
 Beweise sind aber wie komplexe Programme sehr fehleranfällig und es ist sehr aufwendig, sie manuell zu überprüfen.
@@ -80,6 +91,15 @@ Aus diesem Grund hat sich das Programmieren von Beweisen mit Hilfe von interakti
 Das manuelle Schreiben solcher Beweise ist sehr aufwendig.
 Daher sollen in dieser Arbeit bestehende Ansätze zur automatischen Erzeugung solcher Beweise evaluiert werden.
 Die Ansätze sollen auf einen bereits bestehenden Beweis angewendet werden.
+
+**Voraussetzungen:** grundlegende Kenntnisse in einem interaktiven Theorembeweiser, z.B. Coq  
+**Geeignet als:** Masterarbeit -->
+
+
+### Verifikation von Haskell-Programmen
+
+Um zu garantieren, dass Programme sich mit absoluter Sicherheit wie gewünscht verhalten, werden Eigenschaften von Programmen mit Hilfe von Theorembeweisern bewiesen.
+In dieser Arbeit sollen Eigenschaften von Haskell-Programmen im interaktiven Theorembeweiser Coq bewiesen werden.
 
 **Voraussetzungen:** grundlegende Kenntnisse in einem interaktiven Theorembeweiser, z.B. Coq  
 **Geeignet als:** Masterarbeit
@@ -126,7 +146,7 @@ Das Interface der Anwendung muss eine sehr schnelle Eingabe der Informationen er
 **Geeignet als:** Bachelorarbeit
 
 
-### Analyse sozialer Interaktion mit Hilfe von Beacons
+<!-- ### Analyse sozialer Interaktion mit Hilfe von Beacons
 
 Mit Hilfe der Beacon-Technologie (Bluetooth low energy) soll die Interaktion von Personen bei Veranstaltungen wie Messen oder wissenschaftlichen Konferenzen analysiert werden.
 Hierzu werden den Teilnehmern Beacons um den Hals gehängt.
@@ -135,4 +155,4 @@ Die Information über diese Kontakte wird mit Hilfe eines stärkeren Signals an 
 Neben der reinen Programmierung der Kommunikation kann diese Arbeit um eine ganze Reihe anderer Aspekte erweitert werden.
 
 **Voraussetzungen:** Fähigkeit zur selbstständigen Einarbeitung in Technologien  
-**Geeignet als:** Bachelorarbeit
+**Geeignet als:** Bachelorarbeit -->
