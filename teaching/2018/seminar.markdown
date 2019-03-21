@@ -67,18 +67,3 @@ published: 2018-06-07
 * [Vorstellung der Programmiersprache Rust](https://www.rust-lang.org/)
 * [Vorstellung der Programmiersprache Elm](http://elm-lang.org)
 * [Vorstellung der Programmiersprache Coq](https://coq.inria.fr)
-
-
-## Vortrag
-
-Anhaltspunkte, wie man einen guten Vortrag zu einem Forschungsthema hält, bietet der Vortrag ["How to give a great research talk"][PeytonJones] von Simon Peyton-Jones.
-
-[GoodTalks]: https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/
-
-
-## Anforderungen
-
-* Vortrag 25 Minuten
-* Diskussion 15 Minuten (inklusive Selbsteinschätzung, Einschätzung aus dem Publikum, Fragen zur Arbeit)
-* Handout zum Vortrag (maximal eine DinA4-Seite)
-* Anwesenheitspflicht (maximal zwei Fehltermine)

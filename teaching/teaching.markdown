@@ -14,9 +14,9 @@ published: 2018-10-08
 [Informatik-Seminar](/teaching/2019/seminar.html)
 
 
-## Wintersemester 2018/19
+<!-- ## Wintersemester 2018/19 -->
 
-[Deklarative Software-Technologien](/teaching/2018/declarative-software-technologies.html)
+<!-- [Deklarative Software-Technologien](/teaching/2018/declarative-software-technologies.html) -->
 <!-- [Algorithmen](/teaching/2018/algorithms.html) -->
 
 

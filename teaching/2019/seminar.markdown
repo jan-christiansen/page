@@ -1,6 +1,6 @@
 ---
 title: Informatik-Seminar
-published: 2019-03-18
+published: 2019-03-21
 ---
 
 
@@ -12,7 +12,23 @@ Anhaltspunkte, wie man einen guten Vortrag zu einem Forschungsthema hält, biete
 [Hicks]: http://www.pl-enthusiast.net/2019/01/02/how-to-write-a-conference-talk/
 
 
+## Ausarbeitung
+
+Die Ausarbeitung soll in LaTeX erstellt werden und das `sigconf`-Format der _Accociation for Computing Machinery_ ([ACM][ACM]) verwenden.
+Dazu nutzen Sie das LaTeX-Paket `acmart` mit der Option `sigconf`.
+Sie können [hier][ACMSample] eine Zip-Datei mit der Dokumentation des Paketes `acmart` herunterladen.
+Im Ordner `samples` befinden sich Beispiel-Dateien.
+Die Dateien `sample-sigcon.tex` und `sample-sigconf.pdf` illustrieren, wie Sie die Option `sigconf` und das `acmart`-Paket verwenden und wie das erzeugte PDF-Dokument aussieht.
+
+[ACM]: https://www.acm.org
+[ACMSample]: https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip
+
+
 ## Themen
+
+Der kurze Text ["How to Read a Paper"][ReadPaper] gibt einen oberflächlichen Einblick in das Lesen von wissenschaftlichen Arbeiten.
+
+[ReadPaper]: https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
 
 
 ### Programmiersprachen
