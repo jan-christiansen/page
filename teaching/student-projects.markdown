@@ -27,6 +27,19 @@ Die Komplexitäten der einzelnen Algorithmen sollen jeweils erarbeitet werden.
 ## Compilerbau
 
 
+### Illustration komplexer Modelle
+
+Die Sprache [GAMS](https://en.wikipedia.org/wiki/General_Algebraic_Modeling_System) wird in einigen wissenschaftlichen Bereichen genutzt, um komplexe Systems zu modellieren.
+In dieser Arbeit soll es darum gehen, Laien die mit GAMS erstellten Modelle zu illustrieren.
+Dazu sollen einfache GAMS-Programme in TypeScript übersetzt werden.
+Auf Grundlage der Übersetzung soll in einer weiteren Arbeit eine Web-Anwendung entwickelt werden, in der solche Modelle illustriert werden.
+Dazu soll dann das Model in TypeScript übersetzt und im Frontend ausgeführt werden.
+Die Übersetzung soll in Form eines Haskell-Programmes entwickelt werden, das ein einfaches GAMS-Programm einliest und in ein TypeScript-Programm übersetzt.
+
+**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
+**Geeignet als:** Bachelor- oder Masterarbeit  
+
+
 ### Implementierung einer Compiler-Optimierung
 
 Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&rep=rep1&type=pdf) ist eine Erweiterung der funktionalen Konzepte der Programmiersprache Haskell um sogenannte logische Konstrukte.
