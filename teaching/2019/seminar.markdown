@@ -24,6 +24,13 @@ Die Dateien `sample-sigcon.tex` und `sample-sigconf.pdf` illustrieren, wie Sie d
 [ACMSample]: https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip
 
 
+## Recherche
+
+Im Zuge Ihrer Ausarbeitung sollten Sie sich ggf. auch mit Arbeiten beschäftigen, die von Ihrer Arbeit zitiert werden.
+Um diese Arbeiten ausfindig zu machen, können Sie zum Beispiel die [Google-Scholar-Suche](https://scholar.google.de) nutzen.
+Sollten Sie nicht in der Lage sein, eine PDF-Version einer Arbeit zu finden, wenden Sie sich bitte an mich.
+
+
 ## Themen
 
 Der kurze Text ["How to Read a Paper"][ReadPaper] gibt einen oberflächlichen Einblick in das Lesen von wissenschaftlichen Arbeiten.
