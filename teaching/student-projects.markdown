@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2019-03-04
+published: 2019-04-15
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -159,13 +159,17 @@ Das Interface der Anwendung muss eine sehr schnelle Eingabe der Informationen er
 **Geeignet als:** Bachelorarbeit
 
 
-<!-- ### Analyse sozialer Interaktion mit Hilfe von Beacons
+### Erweiterung einer Anwendung zur Visualisierung sozialer Interaktionen
 
-Mit Hilfe der Beacon-Technologie (Bluetooth low energy) soll die Interaktion von Personen bei Veranstaltungen wie Messen oder wissenschaftlichen Konferenzen analysiert werden.
-Hierzu werden den Teilnehmern Beacons um den Hals gehängt.
-Die Beacons senden ein schwaches Signal, das vom gegenüberliegenden Beacon erkannt wird, wenn sich zwei Personen frontal gegenüberstehen.
-Die Information über diese Kontakte wird mit Hilfe eines stärkeren Signals an Basisstationen in der Umgebung weitergegeben.
-Neben der reinen Programmierung der Kommunikation kann diese Arbeit um eine ganze Reihe anderer Aspekte erweitert werden.
+In einer zuvor durchgeführten Bachelorarbeit wurde eine Anwendung entwickelt, um bei einer Veranstaltung wie einer Messe oder einer wissenschaftlichen Konferenz zu analysieren, welche Personen miteinander kommunizieren.
+Dazu wird jedem Teilnehmer ein Beacon um den Hals gehängt.
+Die Beacons senden schache Signale, die nur wenige Meter weit reichen und durch den Körper abgeschirmt werden.
+Wenn einer der anderen Beacons ein solches Signal empfängt wird diese Information an eine Basisstation weitergereicht.
+Die Anwendung wurde in JavaScript für den [PuckJS-Beacon](https://www.puck-js.com) entwickelt.
+Die Basistation liefert momentan eine prototypische Visualisierung der Daten.
+In diesem Projekt soll die bestehende Anwendungen in verschiedenen Hinsichten erweitert werden.
+Dazu soll im ersten Schritt evaluiert werden, wie gut die aktuelle Implementierung bei einer kleinen Veranstaltung funktioniert.
+Im zweiten Schritt soll eine Visualisierung der gesammelten Daten entwickelt werden.
 
 **Voraussetzungen:** Fähigkeit zur selbstständigen Einarbeitung in Technologien  
-**Geeignet als:** Bachelorarbeit -->
+**Geeignet als:** Bachelorarbeit
