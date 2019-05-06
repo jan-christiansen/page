@@ -1,6 +1,6 @@
 ---
 title: Informatik-Seminar
-published: 2019-03-28
+published: 2019-04-17
 ---
 
 
@@ -85,6 +85,6 @@ Der kurze Text ["How to Read a Paper"][ReadPaper] gibt einen oberflächlichen Ei
 ### Education
 * [Learning how to Prove: From the Coq Proof Assistant to Textbook Style](https://arxiv.org/pdf/1803.01466) (frei)
 * [Teaching how to program using automated assessment and functional glossy games](https://dl.acm.org/ft_gateway.cfm?id=3236777) (vergeben)
-* [Towards an Analysis of Program Complexity From a Cognitive Perspective](https://www.researchgate.net/profile/Rodrigo_Duran5/publication/326918081_Towards_an_Analysis_of_Program_Complexity_From_a_Cognitive_Perspective/links/5b9f7d28299bf13e60381085/Towards-an-Analysis-of-Program-Complexity-From-a-Cognitive-Perspective.pdf?_sg%5B0%5D=DPQ5jA6UMHdN2d5Pr5RPu-5wBPidDIKQKtr2raDfEL3uvR3jzdbBO5H_hExNWKOOcnOKcfim6_fc37foVDHCnA.O2rWZAN1_Ghax2D4zDnUuvXtrGY019ExfVbSdWR9Fcw8NJQ6sqyXVq52-OSKsGbKwOWhKtCYH8PcEBJ-MWNwqA&_sg%5B1%5D=60R_dAq_x7YukEI8kgDq6_7_ZwFdLJVjq1Yjt9DPFmgoGijiFiR4zWLJJXq57gLxHIZosj5kSaxkz4cPwq1Dsqj2d7cJb1p7CwtzsMEbj7qP.O2rWZAN1_Ghax2D4zDnUuvXtrGY019ExfVbSdWR9Fcw8NJQ6sqyXVq52-OSKsGbKwOWhKtCYH8PcEBJ-MWNwqA&_iepl=) (frei)
+* [Towards an Analysis of Program Complexity From a Cognitive Perspective](https://www.researchgate.net/profile/Rodrigo_Duran5/publication/326918081_Towards_an_Analysis_of_Program_Complexity_From_a_Cognitive_Perspective/links/5b9f7d28299bf13e60381085/Towards-an-Analysis-of-Program-Complexity-From-a-Cognitive-Perspective.pdf?_sg%5B0%5D=DPQ5jA6UMHdN2d5Pr5RPu-5wBPidDIKQKtr2raDfEL3uvR3jzdbBO5H_hExNWKOOcnOKcfim6_fc37foVDHCnA.O2rWZAN1_Ghax2D4zDnUuvXtrGY019ExfVbSdWR9Fcw8NJQ6sqyXVq52-OSKsGbKwOWhKtCYH8PcEBJ-MWNwqA&_sg%5B1%5D=60R_dAq_x7YukEI8kgDq6_7_ZwFdLJVjq1Yjt9DPFmgoGijiFiR4zWLJJXq57gLxHIZosj5kSaxkz4cPwq1Dsqj2d7cJb1p7CwtzsMEbj7qP.O2rWZAN1_Ghax2D4zDnUuvXtrGY019ExfVbSdWR9Fcw8NJQ6sqyXVq52-OSKsGbKwOWhKtCYH8PcEBJ-MWNwqA&_iepl=) (vergeben)
 * [Teaching Programming with Gamified Semantics](http://www.cs.cornell.edu/andru/papers/reduct-chi17/reduct-chi17.pdf) (vergeben)
 * [Identifying student misconceptions of programming](http://publish.illinois.edu/glherman/files/2016/03/2010-SIGCSE-Programming-Misconceptions.pdf) (vergeben)

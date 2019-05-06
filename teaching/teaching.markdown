@@ -11,7 +11,8 @@ published: 2018-10-08
 
 ## Sommersemester 2019
 
-[Informatik-Seminar](/teaching/2019/seminar.html)
+[Informatik-Seminar](/teaching/2019/seminar.html)  
+[Funktionale Frontend-Entwicklung](/teaching/2019/functional-frontend-development.html)
 
 
 <!-- ## Wintersemester 2018/19 -->
