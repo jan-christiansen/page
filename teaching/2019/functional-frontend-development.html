@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jan Christiansen - Funktionale Frontend-Entwicklung</title>
+        <link rel="stylesheet" href="../../css/default.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="navigation">
+                <a href="../../">Jan Christiansen</a>
+                <a href="../../teaching/teaching.html">Veranstaltungen</a>
+                <a href="../../teaching/student-projects.html">Abschlussarbeiten/Projekte</a>
+            </div>
+        </div>
+
+        <div id="content">
+            <h1>Funktionale Frontend-Entwicklung</h1>
+            <div class="info">
+    Last changed on May  6, 2019
+    
+</div>
+
+<p><a href="https://github.com/lpil/elm-companies">Elm Companies</a> bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.</p>
+<h2 id="projekte">Projekte</h2>
+<p>Auf dieser Seite werden Themenvorschläge für die Veranstaltung Funktionale Frontend-Entwicklung aufgelistet. Sie sollen im Zuge der Veranstaltung ein Programmier-Projekt in Elm oder Haskell allein oder in einer kleinen Gruppe durchführen.</p>
+<h3 id="spielerisches-lernen-von-programmiergrundlagen">Spielerisches Lernen von Programmiergrundlagen</h3>
+<p>Die wissenschaftliche Arbeit <a href="http://www.cs.cornell.edu/andru/papers/reduct-chi17/reduct-chi17.pdf">Teaching Programming with Gamified Semantics</a> präsentiert einen Ansatz, um die Grundlagen des Programmierens spielerisch zu lernen. Das Spiel, das in dieser Arbeit vorgestellt wird, kann unter <a href="http://www.therottingcartridge.com/games/programming/" class="uri">http://www.therottingcartridge.com/games/programming/</a> getestet werden. In diesem Projekt soll in Elm die Grundlage für ein Spiel mit ähnlichen Prinzipien geschaffen werden. Dazu soll eine einfache Anwendung entwickelt werden, mit der Programmbausteine auf einer Zeichenfläche kombiniert werden können. Bei der Entwicklung soll berücksichtigt werden, dass die Anwendung sich leicht verändern lässt und somit die Möglichkeit bietet, schnell Ideen für Spiele dieser Art auszuprobieren.</p>
+<h3 id="spielerisches-lernen-von-mathematischen-grundlagen">Spielerisches Lernen von mathematischen Grundlagen</h3>
+<p>In diesem Projekt soll eine ähnliche Anwendung wie im Projekt Spielerisches Lernen von Programmiergrundlagen entwickelt werden. Dieses Projekt soll sich aber mit der konkreten Vermittlung von mathematischen Grundlagen wie Mengen beschäftigen. Dazu sollen dem Nutzer verschiedene Mengen und Operatoren zur Verfügung gestellt werden. Außerdem wird eine Zielmenge vorgegeben, die erreicht werden soll. Ist der Nutzer in der Lage, die gewünschte Menge zu konstruieren, wird das nächste Level gestartet.</p>
+<h3 id="debugging-von-elm-programmen">Debugging von Elm-Programmen</h3>
+<p>In diesem Projekt soll eine Idee aus der wissenschaftlichen Arbeit <a href="https://arxiv.org/pdf/1902.00735">Event Loops as First-Class Values: A Case Study in Pedagogic Language Design</a> auf Elm übertragen werden. Die Arbeit stellt eine Programmiersprache vor, die Elm sehr ähnlich ist und im Programmierunterricht an Schulen genutzt wird. Um den Schülern das Debugging einer solchen Anwendung zu erleichtern, wird ein <em>reactor</em>-Objekt genutzt. Dieses Objekt kann inspiziert werden und zum Beispiel genutzt werden, um das Verhalten der Anwendung über die Zeit zu simulieren. In diesem Projekt soll untersucht werden, wie diese Idee auf Elm-Anwendungen übertragen werden kann. Dazu muss zuerst evaluiert werden, wie der Typ <em>Programm</em> in Elm implementiert ist.</p>
+<h3 id="elm-auf-einem-microcontroller">Elm auf einem Microcontroller</h3>
+<p>In diesem Projekt soll untersucht werden, wie die Elm-Architektur genutzt werden kann, um Anwendungen für Microcontroller zu entwickeln. Der <a href="https://github.com/elm-lang/elm-compiler">Elm-Compiler</a> ist in Haskell geschrieben und übersetzt Elm nach JavaScript. Um eine Elm-Anwendung auf einem Microcontroller ausführen zu können, muss der Elm-Compiler so erweitert werden, dass an Stelle von JavaScript-Code C-Code erzeugt wird. Außerdem muss ein Konzept entwickelt werden, wie sich die <a href="https://guide.elm-lang.org/architecture/">Elm-Architektur</a> auf die Entwicklung von Anwendungen für Microcontroller anwenden lässt. Das Ergebnis dieses Projekts soll eine Machbarkeitsstudie sein, die im Wesentlichen überprüft, ob sich die Code-Erzeugung im Compiler leicht anpassen lässt und ob sich das Architektur-Muster einfach auf Microcontroller anwenden lässt.</p>
+<h3 id="interaktive-analyse-von-wissenschaftlichen-modellen">Interaktive Analyse von wissenschaftlichen Modellen</h3>
+<p>In diesem Projekt soll in Zusammenarbeit mit der <a href="http://www.agrarpol.uni-kiel.de/de?set_language=de">Abteilung Agrarpolitik der Christian-Albrechts-Universität zu Kiel</a> eine Anwendung entwickelt werden, mit der sich Benutzer einfache wissenschaftliche Modelle anschauen können. Ein Modell ist im Wesentlichen eine Funktion, die mehrere Eingaben erhält und daraus eine Ausgabe berechnet. Das Verhalten des Modells soll mit Hilfe von Reglern und einer graphischen Darstellung für einen Laien erfahrbar werden. <!-- - möglichst generisch
+- GAMS-Modelle im Browser ausführen
+- fest vorgegebenes Programm
+- Slider für Wahl von Eingabevariablen
+- Visualisierung Entwicklung von Werten
+- Teil der Daten aus JSON-Datei zur Konfiguration
+- zusätzlicher Parameter ist die x-Achse des Diagramms (zum Beispiel Zeit)
+- ggf. mehrdimensionales Modell durch Diagramm darstellen
+- Charttypen fest einprogrammiert
+- besser Konfigurationssprache für Charts
+- weiteres Fenster zum fixieren der Daten --></p>
+<h3 id="programmierkurs-für-schüler">Programmierkurs für Schüler</h3>
+<p>In diesem Projekt soll ein <a href="https://github.com/jan-christiansen/Elm-Kurs">Programmierkurs für Schüler</a>, der auf Elm basiert, so angepasst werden, dass er mit dem Online-Elm-Editor <a href="https://ellie-app.com/new">Ellie</a> genutzt werden kann. Der Kurs basiert auf eine Elm-Bibliothek, die für die aktuelle Elm-Version nicht mehr zur Verfügung steht. Daher muss im ersten Schritt evaluiert werden, wie diese Bibliothek am besten ersetzt werden kann. Dabei soll die Verwendung der Bibliothek für die Schüler möglichst einfach gehalten werden.</p>
+<h3 id="visualisierung-von-algorithmen">Visualisierung von Algorithmen</h3>
+<p>In diesem Projekt soll eine Visualisierung für einfache Algorithmen auf Listen umgesetzt werden. Zum Beispiel soll illustriert werden, wie ein Element in eine einfach verkettete Liste eingefügt wird. Dazu muss im ersten Schritt die Möglichkeit geschaffen werden, eine einfach verkettete Liste in Elm zu zeichnen. Im zweiten Schritt muss ein Ansatz entwickelt werden, wie die Veränderung von einem Zustand in den nächsten präsentiert wird.</p>
+<!-- ### Anwendung zum Vereinbaren von Terminen
+
+In diesem Projekt soll eine Anwendung entwickelt werden, mit der Studiernde Termine, zum Beispiel Prüfungstermine, vereinbaren können. -->
+<!--
+
+### Sammeln und Aufbereiten von Haskell-Programmen
+
+In diesem Projekt soll eine Anwendung in Haskell entwickelt werden.
+Haskell ist Elm sowohl in der Syntax als auch in der Art der Programmierung recht ähnlich.
+Haskell unterscheidet sich aber klar von Elm, da es sich nicht um eine Frontend-Programmiersprache handelt sondern um eine _general purpose language_.
+In diesem Projekt soll es darum gehen, Pakete von der Platform [hackage](http://hackage.haskell.org/packages/browse) herunterzuladen und aufzubereiten.
+
+### Übersetzung von GAMS-Modellen in JavaScript
+
+In diesem Projekt soll in der Programmiersprache Haskell ein kleiner Compiler
+
+### Anwendung für Parson-Probleme
+
+Ein Parson-Problem ist eine einfache Aufgabenstellung zum Lernen von Programmiergrundlagen.
+Dabei hat der Nutzer die Aufgabe mehrere Programmzeilen in die richtige Reihenfolge zu bringen.
+Bei Programmiersprachen, die einrückungssensitiv sind, kann dieser Ansatz noch um eine zweite Dimension erweitert werden.
+Die Bibliothek [js-parsons](https://js-parsons.github.io) kann genutzt werden, um -->
+<!--
+### CSS-Styling
+
+### Implementierung von regulären Ausdrücken
+
+In diesem Projekt soll
+
+### Wahl der richtigen Datenstruktur
+
+In Anlehnung an das Projekt
+Datenstrukturen gegeneinander antreten lassen
+
+### Programmierung für Anfänger
+
+In dieser Arbeit
+
+### Theorem-Proving Game
+
+### Projektmanagement - The Game
+
+### Dynamisch getyptes Elm?
+-->
+
+        </div>
+
+        <div id="footer">
+            Site proudly generated by
+            <a href="http://jaspervdj.be/hakyll">Hakyll</a>
+        </div>
+    </body>
+</html>
