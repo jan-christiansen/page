@@ -76,6 +76,16 @@ Zum Beispiel soll illustriert werden, wie ein Element in eine einfach verkettete
 Dazu muss im ersten Schritt die Möglichkeit geschaffen werden, eine einfach verkettete Liste in Elm zu zeichnen.
 Im zweiten Schritt muss ein Ansatz entwickelt werden, wie die Veränderung von einem Zustand in den nächsten präsentiert wird.
 
+### Anwendung für Parson-Probleme
+
+Ein Parson-Problem ist eine einfache Aufgabenstellung zum Lernen von Programmiergrundlagen.
+Dabei hat der Nutzer die Aufgabe mehrere Programmzeilen in die richtige Reihenfolge zu bringen.
+In diesem Projekt soll eine Anwendung zum Lösen von Parson-Problemen in Elm entwickelt werden.
+In der Arbeit Evaluating the Efficiency and Effectiveness of Adaptive Parsons Problems wird gezeigt, dass adaptive Parson-Probleme, also Parson-Probleme, die sich an die Fähigkeit des Lerners anpassen, besser funktionieren.
+Die Anwendung soll sich daher den Fähigkeiten des Nutzers anpassen.
+So sollen dem Nutzer zum Beispiel Tipps zur Verfügung gestellt werden, wenn er mehrfach an der Lösung einer Aufgabe gescheitert ist.
+
+
 <!-- ### Anwendung zum Vereinbaren von Terminen
 
 In diesem Projekt soll eine Anwendung entwickelt werden, mit der Studiernde Termine, zum Beispiel Prüfungstermine, vereinbaren können. -->
@@ -92,13 +102,6 @@ In diesem Projekt soll es darum gehen, Pakete von der Platform [hackage](http://
 ### Übersetzung von GAMS-Modellen in JavaScript
 
 In diesem Projekt soll in der Programmiersprache Haskell ein kleiner Compiler
-
-### Anwendung für Parson-Probleme
-
-Ein Parson-Problem ist eine einfache Aufgabenstellung zum Lernen von Programmiergrundlagen.
-Dabei hat der Nutzer die Aufgabe mehrere Programmzeilen in die richtige Reihenfolge zu bringen.
-Bei Programmiersprachen, die einrückungssensitiv sind, kann dieser Ansatz noch um eine zweite Dimension erweitert werden.
-Die Bibliothek [js-parsons](https://js-parsons.github.io) kann genutzt werden, um -->
 
 <!--
 ### CSS-Styling
