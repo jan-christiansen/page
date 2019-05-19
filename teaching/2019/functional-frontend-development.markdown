@@ -16,6 +16,8 @@ Sie sollen im Zuge der Veranstaltung ein Programmier-Projekt in Elm oder Haskell
 Bitte verwenden Sie neben [elm-format](https://github.com/avh4/elm-format) auch das Tool [elm-analyse](https://github.com/stil4m/elm-analyse).
 Das Tool elm-format liefert einfache Vorschläge, wie der Code einer Elm-Anwendung verbessert werden kann.
 
+Der Vortrag [The lift of a file](https://www.youtube.com/watch?v=XpDsk374LDE) von Evan Czaplicki vermittelt ein paar Ideen, wie man eine Elm-Anwendung strukturiert.
+
 
 ### Themen
 
