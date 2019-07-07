@@ -1,6 +1,6 @@
 ---
 title: About
-published: 2019-02-24
+published: 2019-07-07
 ---
 
 I am a professor of computer science at the
@@ -8,15 +8,17 @@ I am a professor of computer science at the
 interested in programming languages as well as theoretical and practical aspects of
 programming and software verification. For example, I am interested in
 
-* functional logic programming [(PADL 2018)](http://www-ps.informatik.uni-kiel.de/~sad/padl2018-preprint.pdf),
-* functional algorithms [(ICFP 2016)](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf),
-* free theorems [(PLPV 2010)](http://www.janis-voigtlaender.eu/papers/FreeTheoremsForFunctionalLogicPrograms.pdf),
-* testing [(FLOPS 2008)](http://www-ps.informatik.uni-kiel.de/~sebf/data/pub/flops08.pdf),
-* and formal verification [(&lt;Programming&gt; 2019)](https://arxiv.org/pdf/1805.08059.pdf).
+* probabilistic programming ([PADL 2018](http://www-ps.informatik.uni-kiel.de/~sad/padl2018-preprint.pdf), [TPLP 2019](https://arxiv.org/pdf/1905.07212.pdf)),
+* functional algorithms ([ICFP 2016](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf)),
+* free theorems ([PLPV 2010](http://www.janis-voigtlaender.eu/papers/FreeTheoremsForFunctionalLogicPrograms.pdf)),
+* testing ([FLOPS 2008](http://www-ps.informatik.uni-kiel.de/~sebf/data/pub/flops08.pdf)),
+* and formal verification ([&lt;Programming&gt; 2019](https://arxiv.org/pdf/1805.08059.pdf), [Haskell 2019](https://www-ps.informatik.uni-kiel.de/~sad/haskell2019-preprint.pdf)).
 
 
 ## Publications
 
+* **J. Christiansen, S. Dylus, N. Bunkenburg:** [Verifying Effectful Haskell Programs in Coq](https://www-ps.informatik.uni-kiel.de/~sad/haskell2019-preprint.pdf) Accepted for publication in *International Symposium on Haskell*, 2019
+* **S. Dylus, J. Christiansen, F. Teegen:** [Implementing a Library for Probabilistic Programming using Non-strict Non-determinism](https://arxiv.org/pdf/1905.07212.pdf) Accepted for publication in *Theory and Practice of Logic Programming (TPLP)*, 2019
 * **S. Dylus, J. Christiansen, F. Teegen:** [One Monad to Prove Them All](https://arxiv.org/pdf/1805.08059.pdf) *International Conference on the Art, Science, and
 Engineering of Programming (&lt;Programming&gt;)*, 2019
 * **S. Dylus, J. Christiansen, F. Teegen:** [Probabilistic Functional Logic Programming](http://www-ps.informatik.uni-kiel.de/~sad/padl2018-preprint.pdf) *International Symposium on Practical Aspects of Declarative Languages (PADL)*, 2018
