@@ -1,14 +1,22 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2019-05-07
+published: 2019-09-24
 ---
 
 [Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
+
 
 ## Projekte
 
 Auf dieser Seite werden Themenvorschläge für die Veranstaltung Funktionale Frontend-Entwicklung aufgelistet.
 Sie sollen im Zuge der Veranstaltung ein Programmier-Projekt in Elm oder Haskell allein oder in einer kleinen Gruppe durchführen.
+
+Die folgenden Projekte wurde als Abschlussprojekt in der Vorlesung in Elm umgesetzt.
+
+- [Eine Implementierung der Enigma](https://simonhauck.github.io/Enigma-Elm/) ([Details](https://github.com/simonhauck/Enigma-Elm/blob/master/README.md))
+- [Eine 3D-Variante von Tetris](http://cloud.wentzlaff.com:23000/) ([Details](https://github.com/TobiasWen/3DelmTRIS/blob/master/README.md))
+- [Ein Rennspiel](https://matskockmeyer.github.io/elminator/src/) ([Details](https://matskockmeyer.github.io/elminator/))
+- [Das Spiel Kalaha](http://htmlpreview.github.io/?https://github.com/lwiedema/kalah-game-elm/blob/master/kalah-game.html) ([Details](https://github.com/lwiedema/kalah-game-elm/blob/master/README.md))
 
 
 ### Allgemeines
@@ -16,7 +24,7 @@ Sie sollen im Zuge der Veranstaltung ein Programmier-Projekt in Elm oder Haskell
 Bitte verwenden Sie neben [elm-format](https://github.com/avh4/elm-format) auch das Tool [elm-analyse](https://github.com/stil4m/elm-analyse).
 Das Tool elm-format liefert einfache Vorschläge, wie der Code einer Elm-Anwendung verbessert werden kann.
 
-Der Vortrag [The lift of a file](https://www.youtube.com/watch?v=XpDsk374LDE) von Evan Czaplicki vermittelt ein paar Ideen, wie man eine Elm-Anwendung strukturiert.
+Der Vortrag [The life of a file](https://www.youtube.com/watch?v=XpDsk374LDE) von Evan Czaplicki vermittelt ein paar Ideen, wie man eine Elm-Anwendung strukturiert.
 
 
 ### Themen
