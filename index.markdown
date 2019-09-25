@@ -1,6 +1,6 @@
 ---
 title: About
-published: 2019-07-07
+published: 2019-09-24
 ---
 
 I am a professor of computer science at the
@@ -17,8 +17,8 @@ programming and software verification. For example, I am interested in
 
 ## Publications
 
-* **J. Christiansen, S. Dylus, N. Bunkenburg:** [Verifying Effectful Haskell Programs in Coq](https://www-ps.informatik.uni-kiel.de/~sad/haskell2019-preprint.pdf) Accepted for publication in *International Symposium on Haskell*, 2019
-* **S. Dylus, J. Christiansen, F. Teegen:** [Implementing a Library for Probabilistic Programming using Non-strict Non-determinism](https://arxiv.org/pdf/1905.07212.pdf) Accepted for publication in *Theory and Practice of Logic Programming (TPLP)*, 2019
+* **J. Christiansen, S. Dylus, N. Bunkenburg:** [Verifying Effectful Haskell Programs in Coq](https://www-ps.informatik.uni-kiel.de/~sad/haskell2019-preprint.pdf) *International Symposium on Haskell (Haskell)*, 2019
+* **S. Dylus, J. Christiansen, F. Teegen:** [Implementing a Library for Probabilistic Programming using Non-strict Non-determinism](https://arxiv.org/pdf/1905.07212.pdf) *Theory and Practice of Logic Programming (TPLP)*, 2019
 * **S. Dylus, J. Christiansen, F. Teegen:** [One Monad to Prove Them All](https://arxiv.org/pdf/1805.08059.pdf) *International Conference on the Art, Science, and
 Engineering of Programming (&lt;Programming&gt;)*, 2019
 * **S. Dylus, J. Christiansen, F. Teegen:** [Probabilistic Functional Logic Programming](http://www-ps.informatik.uni-kiel.de/~sad/padl2018-preprint.pdf) *International Symposium on Practical Aspects of Declarative Languages (PADL)*, 2018
