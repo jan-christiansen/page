@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2019-09-24
+published: 2019-10-07
 ---
 
 [Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
@@ -14,7 +14,7 @@ Sie sollen im Zuge der Veranstaltung ein Programmier-Projekt in Elm oder Haskell
 Die folgenden Projekte wurde als Abschlussprojekt in der Vorlesung in Elm umgesetzt.
 
 - [Eine Implementierung der Enigma](https://simonhauck.github.io/Enigma-Elm/) ([Details](https://github.com/simonhauck/Enigma-Elm/blob/master/README.md))
-- [Eine 3D-Variante von Tetris](http://cloud.wentzlaff.com:23000/) ([Details](https://github.com/TobiasWen/3DelmTRIS/blob/master/README.md))
+- [Eine 3D-Variante von Tetris](https://tobiaswen.github.io/3DelmTRIS/) ([Details](https://github.com/TobiasWen/3DelmTRIS/blob/master/README.md))
 - [Ein Rennspiel](https://matskockmeyer.github.io/elminator/src/) ([Details](https://matskockmeyer.github.io/elminator/))
 - [Das Spiel Kalaha](http://htmlpreview.github.io/?https://github.com/lwiedema/kalah-game-elm/blob/master/kalah-game.html) ([Details](https://github.com/lwiedema/kalah-game-elm/blob/master/README.md))
 
