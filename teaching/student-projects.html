@@ -19,7 +19,7 @@
         <div id="content">
             <h1>Abschlussarbeiten/Projekte</h1>
             <div class="info">
-    Last changed on June 13, 2019
+    Last changed on April 15, 2019
     
 </div>
 
@@ -75,11 +75,6 @@ Die Ansätze sollen auf einen bereits bestehenden Beweis angewendet werden.
 <p>In dieser Arbeit soll eine bestehende Technik zur Generierung von Methodennamen aus der Definition der Methode aus der Publikation <a href="http://delivery.acm.org/10.1145/3300000/3290353/popl19main-p32-p.pdf?ip=193.175.183.169&amp;id=3290353&amp;acc=OA&amp;key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&amp;__acm__=1548752550_57e4fa9092c8fecc4b2fe4640ea47c97">code2vec: Learning Distributed Representations of Code</a> angewendet werden. Diese Technik soll auf die Programmiersprache Haskell übertragen werden. Im ersten Schrit müssen dazu Traniningsdaten gesammelt werden, am besten von <a href="https://hackage.haskell.org/packages/">Hackage</a> einer Platform für Haskell-Pakete. Die Implementierungen von Haskell-Funktionen mit gesammelt und für das neuronale Netz aufbereitet werden. Je nachdem, ob dieses Thema als Bachelor- oder Masterarbeit durchgeführt wird, werden die Daten nur gesammelt oder auch das neuronale Netz trainiert.</p>
 <p><strong>Voraussetzungen:</strong> keine<br />
 <strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
-<h2 id="empirische-analysen-im-software-engineering">Empirische Analysen im Software-Engineering</h2>
-<h3 id="automatische-typannotationen-in-javascript">Automatische Typannotationen in JavaScript</h3>
-<p><a href="https://www.typescriptlang.org">TypeScript</a> ist eine Erweiterung von JavaScript, die es erlaubt, statische Typen zu annotieren. Die Publikation <a href="http://discovery.ucl.ac.uk/10064729/1/typestudy.pdf">To type or not to type: quantifying detectable bugs in JavaScript</a> untersucht, wie viel Prozent der Fehler in einer JavaScript-Anwendung durch ein statisches Typsystem erkannt werden könnten. Dazu werden Bugs aus JavaScript-GitHub-Projekten analysiert. In den fehlerhaften Programmen werden Typen hinzugefügt, so dass das Programm mit den Typen einen Typfehler liefert, das veränderte Programm ohne Bug aber keinen Typfehler verursacht. Die Studie kommt zu dem Ergebnis, dass auf diese Weise etwa 15% der Bugs erkannt werden können. Das Hinzufügen von Typen in einer JavaScript-Anwendung ist aber nicht kostenlos, sondern der Entwickler muss eine sogenannte Annotation-Tax aufbringen. In dieser Arbeit soll untersucht werden, welcher Prozentsatz der Fehler erkannt werden kann, wenn man automatisierte Methoden nutzt, um die Typen zu einer JavaScript-Anwendung hinzuzufügen. Zum automatisierten Hinzufügen von Typen zu einer JavaScript-Anwendung kann zum Beispiel der Ansatz aus <a href="http://discovery.ucl.ac.uk/10066386/1/Barr_fse2018-j2t.pdf">Deep Learning Type Inference</a> genutzt werden.</p>
-<p><strong>Voraussetzungen:</strong> JavaScript-Kenntnisse<br />
-<strong>Geeignet als:</strong> Bachelorarbeit</p>
 <h2 id="anwendungen">Anwendungen</h2>
 <h3 id="ios-app-zur-förderung-nachhaltigen-einkaufens">iOS-App zur Förderung nachhaltigen Einkaufens</h3>
 <p>In dieser Arbeit soll eine mobile Anwendung für die Platform iOS entwickelt werden. Mit Hilfe der Anwendung kann der Nutzer beim Kauf von Gemüse die Kilometer, die das Gemüse zurückgelegt hat, verwalten. Auf diese Weise sollen Nutzer dazu animiert werden, beim Kauf von Gemüse auf regionale Waren zu achten. Das Interface der Anwendung muss eine sehr schnelle Eingabe der Informationen erlauben.</p>
@@ -89,57 +84,6 @@ Die Ansätze sollen auf einen bereits bestehenden Beweis angewendet werden.
 <p>In einer zuvor durchgeführten Bachelorarbeit wurde eine Anwendung entwickelt, um bei einer Veranstaltung wie einer Messe oder einer wissenschaftlichen Konferenz zu analysieren, welche Personen miteinander kommunizieren. Dazu wird jedem Teilnehmer ein Beacon um den Hals gehängt. Die Beacons senden schache Signale, die nur wenige Meter weit reichen und durch den Körper abgeschirmt werden. Wenn einer der anderen Beacons ein solches Signal empfängt wird diese Information an eine Basisstation weitergereicht. Die Anwendung wurde in JavaScript für den <a href="https://www.puck-js.com">PuckJS-Beacon</a> entwickelt. Die Basistation liefert momentan eine prototypische Visualisierung der Daten. In diesem Projekt soll die bestehende Anwendungen in verschiedenen Hinsichten erweitert werden. Dazu soll im ersten Schritt evaluiert werden, wie gut die aktuelle Implementierung bei einer kleinen Veranstaltung funktioniert. Im zweiten Schritt soll eine Visualisierung der gesammelten Daten entwickelt werden.</p>
 <p><strong>Voraussetzungen:</strong> Fähigkeit zur selbstständigen Einarbeitung in Technologien<br />
 <strong>Geeignet als:</strong> Bachelorarbeit</p>
-<!-- #### Spielerisches Lernen von Programmiergrundlagen
-
-Die wissenschaftliche Arbeit [Teaching Programming with Gamified Semantics](http://www.cs.cornell.edu/andru/papers/reduct-chi17/reduct-chi17.pdf) präsentiert einen Ansatz, um die Grundlagen des Programmierens spielerisch zu lernen.
-Das Spiel, das in dieser Arbeit vorgestellt wird, kann unter [http://www.therottingcartridge.com/games/programming/](http://www.therottingcartridge.com/games/programming/) getestet werden.
-In diesem Projekt soll in Elm die Grundlage für ein Spiel mit ähnlichen Prinzipien geschaffen werden.
-Dazu soll eine einfache Anwendung entwickelt werden, mit der Programmbausteine auf einer Zeichenfläche kombiniert werden können.
-Bei der Entwicklung soll berücksichtigt werden, dass die Anwendung sich leicht verändern lässt und somit die Möglichkeit bietet, schnell Ideen für Spiele dieser Art auszuprobieren.
-
-#### Debugging von Elm-Programmen
-
-In diesem Projekt soll eine Idee aus der wissenschaftlichen Arbeit [Event Loops as First-Class Values: A Case Study in Pedagogic Language Design](https://arxiv.org/pdf/1902.00735) auf Elm übertragen werden.
-Die Arbeit stellt eine Programmiersprache vor, die Elm sehr ähnlich ist und im Programmierunterricht an Schulen genutzt wird.
-Um den Schülern das Debugging einer solchen Anwendung zu erleichtern, wird ein _reactor_-Objekt genutzt.
-Dieses Objekt kann inspiziert werden und zum Beispiel genutzt werden, um das Verhalten der Anwendung über die Zeit zu simulieren.
-In diesem Projekt soll untersucht werden, wie diese Idee auf Elm-Anwendungen übertragen werden kann.
-Dazu muss zuerst evaluiert werden, wie der Typ _Programm_ in Elm implementiert ist.
-
-#### Interaktive Analyse von wissenschaftlichen Modellen
-
-In diesem Projekt soll in Zusammenarbeit mit der [Abteilung Agrarpolitik der Christian-Albrechts-Universität zu Kiel](http://www.agrarpol.uni-kiel.de/de?set_language=de) eine Anwendung entwickelt werden, mit der sich Benutzer einfache wissenschaftliche Modelle anschauen können.
-Ein Modell ist im Wesentlichen eine Funktion, die mehrere Eingaben erhält und daraus eine Ausgabe berechnet.
-Das Verhalten des Modells soll mit Hilfe von Reglern und einer graphischen Darstellung für einen Laien erfahrbar werden.
-- GAMS-Modelle im Browser ausführen
-- fest vorgegebenes Programm
-- Slider für Wahl von Eingabevariablen
-- Visualisierung Entwicklung von Werten
-- Teil der Daten aus JSON-Datei zur Konfiguration
-- zusätzlicher Parameter ist die x-Achse des Diagramms (zum Beispiel Zeit)
-- ggf. mehrdimensionales Modell durch Diagramm darstellen
-- Charttypen fest einprogrammiert
-- besser Konfigurationssprache für Charts
-- weiteres Fenster zum fixieren der Daten
-
-#### Visualisierung von Algorithmen
-
-In diesem Projekt soll eine Visualisierung für einfache Algorithmen auf Listen umgesetzt werden.
-Zum Beispiel soll illustriert werden, wie ein Element in eine einfach verkettete Liste eingefügt wird.
-Dazu muss im ersten Schritt die Möglichkeit geschaffen werden, eine einfach verkettete Liste in Elm zu zeichnen.
-Im zweiten Schritt muss ein Ansatz entwickelt werden, wie die Veränderung von einem Zustand in den nächsten präsentiert wird.
-
-#### Anwendung für Parson-Probleme
-
-Ein Parson-Problem ist eine einfache Aufgabenstellung zum Lernen von Programmiergrundlagen.
-Dabei hat der Nutzer die Aufgabe mehrere Programmzeilen in die richtige Reihenfolge zu bringen.
-In diesem Projekt soll eine Anwendung zum Lösen von Parson-Problemen in Elm entwickelt werden.
-In der Arbeit Evaluating the Efficiency and Effectiveness of Adaptive Parsons Problems wird gezeigt, dass adaptive Parson-Probleme, also Parson-Probleme, die sich an die Fähigkeit des Lerners anpassen, besser funktionieren.
-Die Anwendung soll sich daher den Fähigkeiten des Nutzers anpassen.
-So sollen dem Nutzer zum Beispiel Tipps zur Verfügung gestellt werden, wenn er mehrfach an der Lösung einer Aufgabe gescheitert ist.
-
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm  
-**Geeignet als:** Bachelorarbeit -->
 
         </div>
 
