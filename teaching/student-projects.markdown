@@ -6,7 +6,7 @@ published: 2019-04-15
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
 Dabei wird ggf. der Umfang des Projektes an die Gegebenheiten des Projektes angepasst.
 Falls Sie sich für andere Themen aus den Bereichen moderne Methoden der Softwareentwicklung, Compilerbau, Programmiersprachen, Algorithmen oder Sicherheit interessieren, wenden Sie sich bitte einfach per Mail an [mich](mailto:jan.christiansen@hs-flensburg.de).
-Unter [Anforderungen bei einer Abschlussarbeit](/teaching/student-project.html) finden Sie eine Auflistung von Anforderungen bei der Durchführung einer Abschlussarbeit/eines Projektes.
+<!-- Unter [Anforderungen bei einer Abschlussarbeit](/teaching/student-project.html) finden Sie eine Auflistung von Anforderungen bei der Durchführung einer Abschlussarbeit/eines Projektes. -->
 
 
 ## Algorithmen

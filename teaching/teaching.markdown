@@ -9,6 +9,11 @@ published: 2018-10-08
 [Software-Lab](/teaching/software-lab.html)
 
 
+## Wintersemester 2019/20
+
+[Deklarative Software-Technologien](/teaching/2019/declarative-software-technologies.html)
+
+
 ## Sommersemester 2019
 
 [Informatik-Seminar](/teaching/2019/seminar.html)  
