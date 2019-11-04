@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2019-04-15
+published: 2019-11-04
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -54,21 +54,6 @@ Diese Technik soll beispielhaft bei der Übersetzung von Curry nach Haskell eing
 **Geeignet als:** Masterarbeit
 
 
-### Reaktive Programmierung eines Microcontrollers
-
-Die Programmiersprache [Elm](http://elm-lang.org) nutzt eine reaktive Architektur zur Implementierung von Frontend-Web-Anwendungen.
-In dieser Arbeit soll untersucht werden, wie diese Architektur genutzt werden kann, um Anwendungen für Microcontroller zu entwickeln.
-Der [Elm-Compiler](https://github.com/elm-lang/elm-compiler) ist in Haskell geschrieben und übersetzt Elm nach JavaScript.
-Um eine Elm-Anwendung auf einem Microcontroller ausführen zu können, muss der Elm-Compiler so erweitert werden, dass an Stelle von JavaScript-Code C-Code erzeugt wird.
-Außerdem muss ein Konzept entwickelt werden, wie sich die [Elm-Architektur](https://guide.elm-lang.org/architecture/) auf die Entwicklung von Anwendungen für Microcontroller anwenden lässt.
-Neben der eigentlichen Übersetzung müssen unter Umständen Optimierungen für den Elm-Compiler implementiert werden.
-So führt der Elm-Compiler zum Beispiel keine _dead code elimination_ durch, das heißt, Code, der nicht genutzt wird, ist trotzdem im erzeugten JavaScript enthalten.
-Dadurch sind die Programme, die durch den Elm-Compiler erzeugt werden, zu groß, um sie direkt auf einem Microcontroller ausführen zu können.
-
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse an Microcontrollern  
-**Geeignet als:** Bachelor- oder Masterarbeit
-
-
 ### Transformation von Haskell-Programmen
 
 Wenn ein Compiler ein Programm übersetzt, wird das textuelle Programm mit Hilfe eines Parsers in eine Datenstruktur, einen sogenannten abstrakten Syntaxbaum, überführt.
@@ -94,19 +79,6 @@ Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche d
 
 **Voraussetzungen:** gute Kenntnisse der Programmiersprache Java, Grundverständnis für formale Aussagen  
 **Geeignet als:** Bachelor- oder Masterarbeit
-
-
-<!-- ### Sicherheit von kryptographischen Primitiven
-
-Um sicherzugehen, dass kryptographische Primitive auch wirklich sicher sind, werden gewünschte Eigenschaften über die Primitive mit Hilfe von Beweisen belegt.
-Beweise sind aber wie komplexe Programme sehr fehleranfällig und es ist sehr aufwendig, sie manuell zu überprüfen.
-Aus diesem Grund hat sich das Programmieren von Beweisen mit Hilfe von interaktiven Theorembeweisern in den letzten Jahren in der Wissenschaft immer stärker durchgesetzt.
-Das manuelle Schreiben solcher Beweise ist sehr aufwendig.
-Daher sollen in dieser Arbeit bestehende Ansätze zur automatischen Erzeugung solcher Beweise evaluiert werden.
-Die Ansätze sollen auf einen bereits bestehenden Beweis angewendet werden.
-
-**Voraussetzungen:** grundlegende Kenntnisse in einem interaktiven Theorembeweiser, z.B. Coq  
-**Geeignet als:** Masterarbeit -->
 
 
 ### Verifikation von Haskell-Programmen
@@ -143,6 +115,20 @@ Je nachdem, ob dieses Thema als Bachelor- oder Masterarbeit durchgeführt wird, 
 
 **Voraussetzungen:** keine  
 **Geeignet als:** Bachelor- oder Masterarbeit
+
+
+### Annotation von Typen in JavaScript-Programmen
+
+In der Publikation [To Type or Not to Type: Quantifying Detectable Bugs in JavaScript](http://discovery.ucl.ac.uk/10064729/1/typestudy.pdf) wird gezeigt, dass Typangaben Fehler verhindern können.
+Dazu werden JavaScript-Projekte von GitHub mit offiziell gemeldeten Bugs betrachtet.
+An den fehlerhaften Stellen werden Typen annotiert und geprüft, ob das Programm mit den Typannotationen einen Typfehler liefert.
+In der Studie können 15 Prozent der Bugs durch die Typ-Annotationen identifiziert werden.
+Ein Nachteil der Annotationen ist die _annotation tax_, also die Kosten die in einem Projekt durch das Verwenden von statischen Typen entstehen.
+In dieser Arbeit soll empirisch untersucht werden, welche Kosten entstehen, wenn die Annotationen nicht händisch vorgenommen werden, sondern durch automatisch.
+Zu diesem Zweck kann zum Beispiel das in [Deep Learning Type Inference](http://discovery.ucl.ac.uk/10066386/1/Barr_fse2018-j2t.pdf) vorgestellte Tool genutzt werden.
+
+**Voraussetzungen:** keine  
+**Geeignet als:** Bachelorarbeit
 
 
 ## Anwendungen
