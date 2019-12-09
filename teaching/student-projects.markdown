@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2019-11-04
+published: 2019-12-09
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -9,7 +9,7 @@ Falls Sie sich für andere Themen aus den Bereichen moderne Methoden der Softwar
 <!-- Unter [Anforderungen bei einer Abschlussarbeit](/teaching/student-project.html) finden Sie eine Auflistung von Anforderungen bei der Durchführung einer Abschlussarbeit/eines Projektes. -->
 
 
-## Algorithmen
+<!-- ## Algorithmen
 
 
 ### Gewichtete Mehrheitsspiele in funktionalen Sprachen
@@ -21,7 +21,7 @@ Dabei soll insbesondere darauf geachtet werden, dass die Implementierung effizie
 Die Komplexitäten der einzelnen Algorithmen sollen jeweils erarbeitet werden.
 
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, gutes Verständnis für Komplexitäten  
-**Geeignet als:** Masterarbeit
+**Geeignet als:** Masterarbeit -->
 
 
 ## Compilerbau
@@ -105,7 +105,7 @@ Die Daten sollen in einem späteren Schritt genutzt werden, um ein neuronales Ne
 **Geeignet als:** Bachelorarbeit
 
 
-### Generieren von Namen aus Funktionsdefinitionen in Haskell
+<!-- ### Generieren von Namen aus Funktionsdefinitionen in Haskell
 
 In dieser Arbeit soll eine bestehende Technik zur Generierung von Methodennamen aus der Definition der Methode aus der Publikation [code2vec: Learning Distributed Representations of Code](http://delivery.acm.org/10.1145/3300000/3290353/popl19main-p32-p.pdf?ip=193.175.183.169&id=3290353&acc=OA&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1548752550_57e4fa9092c8fecc4b2fe4640ea47c97) angewendet werden.
 Diese Technik soll auf die Programmiersprache Haskell übertragen werden.
@@ -114,7 +114,7 @@ Die Implementierungen von Haskell-Funktionen mit gesammelt und für das neuronal
 Je nachdem, ob dieses Thema als Bachelor- oder Masterarbeit durchgeführt wird, werden die Daten nur gesammelt oder auch das neuronale Netz trainiert.
 
 **Voraussetzungen:** keine  
-**Geeignet als:** Bachelor- oder Masterarbeit
+**Geeignet als:** Bachelor- oder Masterarbeit -->
 
 
 ### Annotation von Typen in JavaScript-Programmen
@@ -134,7 +134,7 @@ Zu diesem Zweck kann zum Beispiel das in [Deep Learning Type Inference](http://d
 ## Anwendungen
 
 
-### iOS-App zur Förderung nachhaltigen Einkaufens
+<!-- ### iOS-App zur Förderung nachhaltigen Einkaufens
 
 In dieser Arbeit soll eine mobile Anwendung für die Platform iOS entwickelt werden.
 Mit Hilfe der Anwendung kann der Nutzer beim Kauf von Gemüse die Kilometer, die das Gemüse zurückgelegt hat, verwalten.
@@ -142,7 +142,7 @@ Auf diese Weise sollen Nutzer dazu animiert werden, beim Kauf von Gemüse auf re
 Das Interface der Anwendung muss eine sehr schnelle Eingabe der Informationen erlauben.
 
 **Voraussetzungen:** gute Kenntnisse mobiler Entwicklung unter Android oder iOS  
-**Geeignet als:** Bachelorarbeit
+**Geeignet als:** Bachelorarbeit -->
 
 
 ### Erweiterung einer Anwendung zur Visualisierung sozialer Interaktionen
