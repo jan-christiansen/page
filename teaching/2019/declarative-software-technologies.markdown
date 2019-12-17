@@ -33,7 +33,11 @@ Beispiele für diese Entwicklung sind etwa die Programmiersprache [Swift](https:
 
 ## Funktionale Programmierung in der Industrie
 
-Die folgenden Links sammeln Firmen, welche die entsprechende Programmiersprache einsetzen.
+Der folgende Link sammelt Firmen in Schleswig-Holstein und Hamburg, die funktionale Programiersprachen einsetzen.
+
+* [Funktionale Programmierung in SH und HH](https://github.com/jan-christiansen/fp-companies-sh-hh)
+
+Die folgenden Links sammeln Firmen, die die entsprechenden Programmiersprachen einsetzen.
 
 * [Haskell](https://github.com/erkmos/haskell-companies)
 * [Elm](https://github.com/lpil/elm-companies)
