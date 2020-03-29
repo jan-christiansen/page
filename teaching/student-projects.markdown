@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2019-12-09
+published: 2020-03-29
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -24,10 +24,10 @@ Die Komplexitäten der einzelnen Algorithmen sollen jeweils erarbeitet werden.
 **Geeignet als:** Masterarbeit -->
 
 
-## Compilerbau
+<!-- ## Compilerbau -->
 
 
-### Illustration komplexer Modelle
+<!-- ### Illustration komplexer Modelle
 
 Die Sprache [GAMS](https://en.wikipedia.org/wiki/General_Algebraic_Modeling_System) wird in einigen wissenschaftlichen Bereichen genutzt, um komplexe Systems zu modellieren.
 In dieser Arbeit soll es darum gehen, Laien die mit GAMS erstellten Modelle zu illustrieren.
@@ -37,10 +37,10 @@ Dazu soll dann das Model in TypeScript übersetzt und im Frontend ausgeführt we
 Die Übersetzung soll in Form eines Haskell-Programmes entwickelt werden, das ein einfaches GAMS-Programm einliest und in ein TypeScript-Programm übersetzt.
 
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
-**Geeignet als:** Bachelor- oder Masterarbeit  
+**Geeignet als:** Bachelor- oder Masterarbeit   -->
 
 
-### Implementierung einer Compiler-Optimierung
+<!-- ### Implementierung einer Compiler-Optimierung
 
 Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&rep=rep1&type=pdf) ist eine Erweiterung der funktionalen Konzepte der Programmiersprache Haskell um sogenannte logische Konstrukte.
 Der am weitesten verbreitete Compiler für diese Programmiersprache, [KiCS2](https://www-ps.informatik.uni-kiel.de/kics2/), übersetzt Curry-Programme in Haskell-Programme.
@@ -51,10 +51,10 @@ Die Fusion sorgt dafür, dass die Datenstrukturen nur ein einziges Mal auf- und 
 Diese Technik soll beispielhaft bei der Übersetzung von Curry nach Haskell eingesetzt werden.
 
 **Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau  
-**Geeignet als:** Masterarbeit
+**Geeignet als:** Masterarbeit -->
 
 
-### Transformation von Haskell-Programmen
+<!-- ### Transformation von Haskell-Programmen
 
 Wenn ein Compiler ein Programm übersetzt, wird das textuelle Programm mit Hilfe eines Parsers in eine Datenstruktur, einen sogenannten abstrakten Syntaxbaum, überführt.
 In dieser Arbeit soll eine Haskell-Bibliothek entwickelt werden, die verschiedene Umformungen auf dem abstrakten Syntaxbaum für Haskell durchführt.
@@ -62,7 +62,7 @@ Dabei soll zum Beispiel das Pattern-Matching in Form von Funktionsregeln in Patt
 Für die Implementierung soll eine [vorhandene Haskell-Bibliothek](http://hackage.haskell.org/package/haskell-src-exts) verwendet werden, die einen abstrakten Syntaxbaum zur Darstellung von Haskell-Programmen zur Verfügung stellt.
 
 **Voraussetzungen:** grundlegende Kenntnisse der Programmiersprache Haskell  
-**Geeignet als:** Bachelor- oder Masterarbeit
+**Geeignet als:** Bachelor- oder Masterarbeit -->
 
 
 ## Verifikation
@@ -81,19 +81,19 @@ Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche d
 **Geeignet als:** Bachelor- oder Masterarbeit
 
 
-### Verifikation von Haskell-Programmen
+<!-- ### Verifikation von Haskell-Programmen
 
 Um zu garantieren, dass Programme sich mit absoluter Sicherheit wie gewünscht verhalten, werden Eigenschaften von Programmen mit Hilfe von Theorembeweisern bewiesen.
 In dieser Arbeit sollen Eigenschaften von Haskell-Programmen im interaktiven Theorembeweiser Coq bewiesen werden.
 
 **Voraussetzungen:** grundlegende Kenntnisse in einem interaktiven Theorembeweiser, z.B. Coq  
-**Geeignet als:** Masterarbeit
+**Geeignet als:** Masterarbeit -->
 
 
 ## Neuronale Netze im Software-Engineering
 
 
-### Sammeln und Aufbereiten von Code-Beispielen
+<!-- ### Sammeln und Aufbereiten von Code-Beispielen
 
 In dieser Arbeit soll eine Anwendung entwickelt werden, die genutzt werden kann, um Code-Beispiele aus öffentlichen Datenquellen zu generieren.
 Ein Code-Beispiel besteht dabei aus einer Methode, die in zwei verschiedenen Programmiersprachen umgesetzt wurde.
@@ -102,19 +102,19 @@ Dazu sollen verschiedene Ansätze evaluiert werden, um solchen Daten zu sammeln.
 Die Daten sollen in einem späteren Schritt genutzt werden, um ein neuronales Netz darin zu trainieren, Methoden in einer Programmiersprache in eine andere Programmiersprache zu übersetzen.
 
 **Voraussetzungen:** keine  
-**Geeignet als:** Bachelorarbeit
+**Geeignet als:** Bachelorarbeit -->
 
 
-<!-- ### Generieren von Namen aus Funktionsdefinitionen in Haskell
+### Generieren von Namen aus Funktionsdefinitionen in Haskell
 
-In dieser Arbeit soll eine bestehende Technik zur Generierung von Methodennamen aus der Definition der Methode aus der Publikation [code2vec: Learning Distributed Representations of Code](http://delivery.acm.org/10.1145/3300000/3290353/popl19main-p32-p.pdf?ip=193.175.183.169&id=3290353&acc=OA&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1548752550_57e4fa9092c8fecc4b2fe4640ea47c97) angewendet werden.
-Diese Technik soll auf die Programmiersprache Haskell übertragen werden.
-Im ersten Schrit müssen dazu Traniningsdaten gesammelt werden, am besten von [Hackage](https://hackage.haskell.org/packages/) einer Platform für Haskell-Pakete.
-Die Implementierungen von Haskell-Funktionen mit gesammelt und für das neuronale Netz aufbereitet werden.
-Je nachdem, ob dieses Thema als Bachelor- oder Masterarbeit durchgeführt wird, werden die Daten nur gesammelt oder auch das neuronale Netz trainiert.
+In dieser Arbeit soll eine bestehende Technik zum Lernen von Methodennamen aus Methodendefinitionen mit Hilfe eines neuronalen Netzes auf die Programmiersprache Haskell angewendet werden.
+In einer Vorarbeit wurde eine Anwendung entwickelt, die aus einem Haskell-Modul Daten extrahiert, die zum Training genutzt werden können.
+In dieser Abschlussarbeit soll diese Anwendung genutzt werden, um ein entsprechendes neuronales Netz zu trainieren.
+Dazu muss eine bestehende Anwendung in Python, die mit Java-Programmen arbeitet, angepasst werden, so dass sie mit Haskell-Programmen arbeitet.
+Ggf. muss die Implementierung der Haskellanwendung angepasst oder korrigiert werden, daher ist ein Grundverständnis für die Programmiersprache Haskell von Nutzen.
 
-**Voraussetzungen:** keine  
-**Geeignet als:** Bachelor- oder Masterarbeit -->
+**Voraussetzungen:** Grundkenntnisse in Haskell  
+**Geeignet als:** Bachelor- oder Masterarbeit
 
 
 ### Annotation von Typen in JavaScript-Programmen
@@ -133,6 +133,17 @@ Zu diesem Zweck kann zum Beispiel das in [Deep Learning Type Inference](http://d
 
 ## Anwendungen
 
+### Generierung von Anerkennungen aus Notenlisten
+
+Beim Wechsel der Prüfungsornung muss eine fachliche Anerkennung durchgeführt werden.
+Das heißt, für die Module, die ein Studierender gehört hat, muss eine Liste erstellt werden, welche Fächer für Leistungen in der neuen Prüfungsordnung anerkannt werden.
+In dieser Arbeit soll eine Anwendung in der Programmiersprache Scala geschrieben werden, die eine Notenliste in Form einer PDF-Datei einliest und daraus eine Excel-Datei mit den anerkannten Fächern erzeugt.
+Dazu muss ein Konzept entwickelt werden, wie die Regeln zur Anerkennung von Fächern aus einer Prüfungsordnung in einer anderen Prüfungsordnung in Scala modelliert werden können.
+Am Ende soll der Scala-Code in eine bestehende Web-Anwendung zur Beantragung von Anerkennungen integriert werden.
+
+**Voraussetzungen:** keine  
+**Geeignet als:** Bachelorarbeit
+
 
 <!-- ### iOS-App zur Förderung nachhaltigen Einkaufens
 
@@ -145,7 +156,7 @@ Das Interface der Anwendung muss eine sehr schnelle Eingabe der Informationen er
 **Geeignet als:** Bachelorarbeit -->
 
 
-### Erweiterung einer Anwendung zur Visualisierung sozialer Interaktionen
+<!-- ### Erweiterung einer Anwendung zur Visualisierung sozialer Interaktionen
 
 In einer zuvor durchgeführten Bachelorarbeit wurde eine Anwendung entwickelt, um bei einer Veranstaltung wie einer Messe oder einer wissenschaftlichen Konferenz zu analysieren, welche Personen miteinander kommunizieren.
 Dazu wird jedem Teilnehmer ein Beacon um den Hals gehängt.
@@ -158,4 +169,4 @@ Dazu soll im ersten Schritt evaluiert werden, wie gut die aktuelle Implementieru
 Im zweiten Schritt soll eine Visualisierung der gesammelten Daten entwickelt werden.
 
 **Voraussetzungen:** Fähigkeit zur selbstständigen Einarbeitung in Technologien  
-**Geeignet als:** Bachelorarbeit
+**Geeignet als:** Bachelorarbeit -->
