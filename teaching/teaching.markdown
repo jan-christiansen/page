@@ -1,12 +1,17 @@
 ---
 title: Veranstaltungen
-published: 2018-10-08
+published: 2020-03-29
 ---
 
 
 ## Einrichtungen
 
 [Software-Lab](/teaching/software-lab.html)
+
+
+## Sommersemester 2020
+
+[Funktionale Frontend-Entwicklung](/teaching/2020/functional-frontend-development.html)
 
 
 ## Wintersemester 2019/20
