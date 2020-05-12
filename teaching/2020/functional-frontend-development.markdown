@@ -49,6 +49,18 @@ Der einfachste Ansatz wäre, einfach eine Art gewichteten Mittelwert zu bilden.
 Wenn man als Entwickler an vielen Projekten beteiligt ist, muss man unter Umständen Aufgaben auf verschiedenen Servern wie GitHub und GitLab im Auge behalten.
 Eine andere mögliche Anwendung wäre ein Dashboard, dass die wichtigsten Informationen von GitHub und einem GitLab-Server zusammenfasst.
 
-<!-- ### Visualisierung eines Agenten-basierten Modells
+### Visualisierung eines Agenten-basierten Modells
 
-Mit Hilfe von agentenbasierten Modellen wird zum Beispiel die Verbreitung von Infektionen modelliert. -->
+Mit Hilfe von [agentenbasierten Modellen](https://en.wikipedia.org/wiki/Agent-based_model) wird zum Beispiel die Verbreitung von Infektionen modelliert.
+In diesem Projekt soll ein solches Agenten-basiertes Modell in Elm umgesetzt werden.
+Es kann zum Beispiel das Modell in der wissenschaftlichen Arbeit [ABM model to explore containment and screening policies to control COVID-19 virus spread](https://www.researchgate.net/publication/340183482_ABM_model_to_explore_containment_and_screening_policies_to_control_COVID-19_virus_spread) umgesetzt werden.
+Das "ABM" im Titel der Arbeit steht dabei für für "agent-based model.
+
+<!-- [the standing ovation problem](https://www2.econ.iastate.edu/tesfatsi/StandingOvation.MillerPage.pdf) -->
+
+### Universal Formatting
+
+In diesem Projekt soll eine einfache Anwendung geschrieben werden, bei der man sich Daten gut lesbar formatieren lassen kann.
+Wenn man zum Beispiel einen Fehler in einem Programm sucht, hat man gelegentlich Daten zum Beispiel JSON oder XML in einer unformatierten `String`-Darstellung, die sich sehr schlecht lesen lässt.
+Die Anwendung soll es erlauben, diesen `String` in ein Textfeld zu kopieren und soll dann eine formatierte Version anzeigen.
+Zur Umsetzung ein Parser genutzt werden, der in einem ersten Schritt Klammern nutzt, um eine Formatierung zu erstellen.
