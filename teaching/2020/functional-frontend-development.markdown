@@ -64,3 +64,22 @@ In diesem Projekt soll eine einfache Anwendung geschrieben werden, bei der man s
 Wenn man zum Beispiel einen Fehler in einem Programm sucht, hat man gelegentlich Daten zum Beispiel JSON oder XML in einer unformatierten `String`-Darstellung, die sich sehr schlecht lesen lässt.
 Die Anwendung soll es erlauben, diesen `String` in ein Textfeld zu kopieren und soll dann eine formatierte Version anzeigen.
 Zur Umsetzung ein Parser genutzt werden, der in einem ersten Schritt Klammern nutzt, um eine Formatierung zu erstellen.
+
+### Einkaufsliste mit Conflict-free replicated data type
+
+Ein _Conflict-free replicated data type_ (CRDT) ist eine Art von Datenstruktur, die bei der Umsetzung von verteilten Systemen genutzt wird.
+Dabei ist die Idee, dass jeder Teilnehmer auf seinem lokalen Zustand arbeitet.
+Wenn eine Internetverbindung zur Verfügung steht, werden Informationen an die anderen Teilnehmer versendet.
+Der CRDT erlaubt es dann aus dem lokalen Zustand und den Informationen von den anderen Teilnehmern einen neuen Zustand zu berechnen.
+Der CRDT sorgt dabei dafür, dass alle Teilnehmer bei dieser Berechnung das gleiche Ergebnis erhalten.
+Das einfachste Beispiel für einen CRDT ist ein [Zähler](https://github.com/pfrazee/crdt_notes/blob/master/README.md#state-based-increment-only-counter-g-counter), der von jedem Teilnehmer hochgezählt werden kann.
+In diesem Projekt soll eine einfache Einkaufsliste mit Hilfe eines CRDT implementiert werden.
+Für die Umsetzung soll ein [_positive/negative set_](https://github.com/pfrazee/crdt_notes/blob/master/README.md) genutzt werden.
+
+### Auswertung von Ausdrücken
+
+In diesem Projekt soll ein ganz einfacher Klon der Anwendung [Bubble Pop!](https://chrisuehlinger.com/LambdaBubblePop/) erstellt werden.
+Die Anwendung ermöglicht es, Ausdrücke in einer Programmiersprache wie Elm Stück für Stück auszuwerten.
+Dazu muss zuerst ein abstrakter Syntaxbaum definiert werden.
+Es handelt sich dabei um eine Datenstruktur, die ein Programm in einer Programmiersprache darstellen kann.
+Mit Hilfe dieser Datenstruktur kann dann definiert werden, wie ein Ausdruck Stück für Stück ausgewertet wird.
