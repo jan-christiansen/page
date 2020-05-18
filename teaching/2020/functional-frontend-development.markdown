@@ -27,12 +27,15 @@ Hierbei muss allerdings entweder eine sehr einfache künstliche Intelligenz oder
 Da es ggf. rechtliche Probleme mit der Umsetzung eines Brettspieles gibt, kann das Ergebnis vermutlich nicht öffentlich gemacht werden.
 Alternativ kann man auch ein [Brettspiel](https://boardgamegeek.com/geeklist/33151/creative-commonsopen-source-games) umsetzen, das eine freie Lizenz hat.
 
-### Visualisierung von Algorithmen
+### Visualisierung von Inhalten einer Vorlesung
 
-In diesem Projekt soll eine Visualisierung für einfache Algorithmen auf Listen umgesetzt werden.
+In diesem Projekt sollen Inhalte einer Vorlesung visualisiert werden.
+Ein Beispiel wäre die Visualisierung von einfachen Algorithmen auf Listen.
 Zum Beispiel soll illustriert werden, wie ein Element in eine einfach verkettete Liste eingefügt wird.
 Dazu muss im ersten Schritt die Möglichkeit geschaffen werden, eine einfach verkettete Liste in Elm zu zeichnen.
 Im zweiten Schritt muss ein Ansatz entwickelt werden, wie die Veränderung von einem Zustand in den nächsten präsentiert wird.
+Eine andere Möglichkeit wäre die Visualisierung von endlichen Automaten, wie sie in der theoretischen Informatik vermittelt werden.
+Dabei wird visualisiert, wie ein Automat Schritt für Schritt ein Eingabewort verarbeitet.
 
 ### Anwendung für Parson-Probleme
 
