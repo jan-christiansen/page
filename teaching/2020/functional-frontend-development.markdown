@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2020-05-12
+published: 2020-06-08
 ---
 
 [Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
@@ -86,3 +86,11 @@ Die Anwendung ermöglicht es, Ausdrücke in einer Programmiersprache wie Elm St�
 Dazu muss zuerst ein abstrakter Syntaxbaum definiert werden.
 Es handelt sich dabei um eine Datenstruktur, die ein Programm in einer Programmiersprache darstellen kann.
 Mit Hilfe dieser Datenstruktur kann dann definiert werden, wie ein Ausdruck Stück für Stück ausgewertet wird.
+
+### Analyse von GitHub-Repos
+
+In diesem Projekt soll die API von GitHub angesprochen werden.
+Zu diesem Zweck kann man den Namen eines Repos in einer Elm-Anwendung angeben.
+Die Anwendung soll dann für das Projekt eine Zahl berechnen, die sich _truck factor_ nennt.
+Diese Zahl gibt an, wie viele Entwickler überfahren werden können, ohne das Projekt zu gefährden.
+Diese Zahl soll errechnet werden, indem für alle Dateien eines Projektes berechnet wird, wie viele Zeilen von verschiedenen Entwicklern geschrieben wurden.
