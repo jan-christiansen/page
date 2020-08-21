@@ -1,72 +1,24 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2020-03-29
+published: 2020-08-21
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
 Dabei wird ggf. der Umfang des Projektes an die Gegebenheiten des Projektes angepasst.
 Falls Sie sich für andere Themen aus den Bereichen moderne Methoden der Softwareentwicklung, Compilerbau, Programmiersprachen, Algorithmen oder Sicherheit interessieren, wenden Sie sich bitte einfach per Mail an [mich](mailto:jan.christiansen@hs-flensburg.de).
-<!-- Unter [Anforderungen bei einer Abschlussarbeit](/teaching/student-project.html) finden Sie eine Auflistung von Anforderungen bei der Durchführung einer Abschlussarbeit/eines Projektes. -->
 
+## Programmiersprachen
 
-<!-- ## Algorithmen
+### Reaktive Programmierung eines Arduino
 
+In dieser Arbeit soll ein Compiler, der die Programmiersprache [Elm](<https://de.wikipedia.org/wiki/Elm_(Programmiersprache)>) nach C++ für den Arduino übersetzt, erweitert werden.
+Elm wird eigentlich genutzt, um Frontendanwendungen zu entwickelt.
+In dieser Arbeit soll der bestehende Prototyp erweitert werden und zum Beispiel erarbeitet werden, wie die sogenannte Elm-Architektur auf die Programmierung eines Microcontrollers übertragen werden kann.
 
-### Gewichtete Mehrheitsspiele in funktionalen Sprachen
-
-In dieser Arbeit soll eine Implementierung von gewichteten Mehrheitsspielen in einer funktionalen Sprache umgesetzt werden.
-Gewichtete Mehrheitsspiele werden genutzt, um Wahlen zu modellieren und zu analysieren.
-Es soll eine bestehende Implementierung in JavaScript in eine funktionale Programmiersprache überführt werden.
-Dabei soll insbesondere darauf geachtet werden, dass die Implementierung effizient ist --- im Sinne der Komplexität der Implementierung.
-Die Komplexitäten der einzelnen Algorithmen sollen jeweils erarbeitet werden.
-
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, gutes Verständnis für Komplexitäten  
-**Geeignet als:** Masterarbeit -->
-
-
-<!-- ## Compilerbau -->
-
-
-<!-- ### Illustration komplexer Modelle
-
-Die Sprache [GAMS](https://en.wikipedia.org/wiki/General_Algebraic_Modeling_System) wird in einigen wissenschaftlichen Bereichen genutzt, um komplexe Systems zu modellieren.
-In dieser Arbeit soll es darum gehen, Laien die mit GAMS erstellten Modelle zu illustrieren.
-Dazu sollen einfache GAMS-Programme in TypeScript übersetzt werden.
-Auf Grundlage der Übersetzung soll in einer weiteren Arbeit eine Web-Anwendung entwickelt werden, in der solche Modelle illustriert werden.
-Dazu soll dann das Model in TypeScript übersetzt und im Frontend ausgeführt werden.
-Die Übersetzung soll in Form eines Haskell-Programmes entwickelt werden, das ein einfaches GAMS-Programm einliest und in ein TypeScript-Programm übersetzt.
-
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell  
-**Geeignet als:** Bachelor- oder Masterarbeit   -->
-
-
-<!-- ### Implementierung einer Compiler-Optimierung
-
-Die Programmiersprache [Curry](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.207.2248&rep=rep1&type=pdf) ist eine Erweiterung der funktionalen Konzepte der Programmiersprache Haskell um sogenannte logische Konstrukte.
-Der am weitesten verbreitete Compiler für diese Programmiersprache, [KiCS2](https://www-ps.informatik.uni-kiel.de/kics2/), übersetzt Curry-Programme in Haskell-Programme.
-In dieser Arbeit soll die Erzeugung des Haskell-Codes verbessert werden.
-Zu diesem Zweck soll eine Technik namens Fusion implementiert werden.
-Diese Technik wird zum Beispiel in Haskell eingesetzt, um zu verhindern, dass Datenstrukturen wiederholt auf- und wieder abgebaut werden.
-Die Fusion sorgt dafür, dass die Datenstrukturen nur ein einziges Mal auf- und abgebaut werden.
-Diese Technik soll beispielhaft bei der Übersetzung von Curry nach Haskell eingesetzt werden.
-
-**Voraussetzungen:** grundlegende Kenntnisse einer funktionalen Programmiersprache, z.B. Haskell, Elm oder Coq, Interesse am Thema Compilerbau  
-**Geeignet als:** Masterarbeit -->
-
-
-<!-- ### Transformation von Haskell-Programmen
-
-Wenn ein Compiler ein Programm übersetzt, wird das textuelle Programm mit Hilfe eines Parsers in eine Datenstruktur, einen sogenannten abstrakten Syntaxbaum, überführt.
-In dieser Arbeit soll eine Haskell-Bibliothek entwickelt werden, die verschiedene Umformungen auf dem abstrakten Syntaxbaum für Haskell durchführt.
-Dabei soll zum Beispiel das Pattern-Matching in Form von Funktionsregeln in Pattern-Matching in Form von case-Ausdrücken umgeformt werden.
-Für die Implementierung soll eine [vorhandene Haskell-Bibliothek](http://hackage.haskell.org/package/haskell-src-exts) verwendet werden, die einen abstrakten Syntaxbaum zur Darstellung von Haskell-Programmen zur Verfügung stellt.
-
-**Voraussetzungen:** grundlegende Kenntnisse der Programmiersprache Haskell  
-**Geeignet als:** Bachelor- oder Masterarbeit -->
-
+**Voraussetzungen:** Kenntnisse in Haskell  
+**Geeignet als:** Bachelor- oder Masterarbeit
 
 ## Verifikation
-
 
 ### Analyse von freien Theoremen in Java
 
@@ -80,42 +32,18 @@ Daher soll in dieser Arbeit in Form einer Fallstudie untersucht werden, welche d
 **Voraussetzungen:** gute Kenntnisse der Programmiersprache Java, Grundverständnis für formale Aussagen  
 **Geeignet als:** Bachelor- oder Masterarbeit
 
-
-<!-- ### Verifikation von Haskell-Programmen
-
-Um zu garantieren, dass Programme sich mit absoluter Sicherheit wie gewünscht verhalten, werden Eigenschaften von Programmen mit Hilfe von Theorembeweisern bewiesen.
-In dieser Arbeit sollen Eigenschaften von Haskell-Programmen im interaktiven Theorembeweiser Coq bewiesen werden.
-
-**Voraussetzungen:** grundlegende Kenntnisse in einem interaktiven Theorembeweiser, z.B. Coq  
-**Geeignet als:** Masterarbeit -->
-
-
-## Neuronale Netze im Software-Engineering
-
-
-<!-- ### Sammeln und Aufbereiten von Code-Beispielen
-
-In dieser Arbeit soll eine Anwendung entwickelt werden, die genutzt werden kann, um Code-Beispiele aus öffentlichen Datenquellen zu generieren.
-Ein Code-Beispiel besteht dabei aus einer Methode, die in zwei verschiedenen Programmiersprachen umgesetzt wurde.
-Die Anwendung soll große Mengen solchen Daten sammeln und aufbereiten.
-Dazu sollen verschiedene Ansätze evaluiert werden, um solchen Daten zu sammeln.
-Die Daten sollen in einem späteren Schritt genutzt werden, um ein neuronales Netz darin zu trainieren, Methoden in einer Programmiersprache in eine andere Programmiersprache zu übersetzen.
-
-**Voraussetzungen:** keine  
-**Geeignet als:** Bachelorarbeit -->
-
+## Neuronale Netze im _Software Engineering_
 
 ### Generieren von Namen aus Funktionsdefinitionen in Haskell
 
 In dieser Arbeit soll eine bestehende Technik zum Lernen von Methodennamen aus Methodendefinitionen mit Hilfe eines neuronalen Netzes auf die Programmiersprache Haskell angewendet werden.
 In einer Vorarbeit wurde eine Anwendung entwickelt, die aus einem Haskell-Modul Daten extrahiert, die zum Training genutzt werden können.
-In dieser Abschlussarbeit soll diese Anwendung genutzt werden, um ein entsprechendes neuronales Netz zu trainieren.
+In dieser Abschlussarbeit soll diese bestehende Anwendung genutzt werden, um ein entsprechendes neuronales Netz zu trainieren.
 Dazu muss eine bestehende Anwendung in Python, die mit Java-Programmen arbeitet, angepasst werden, so dass sie mit Haskell-Programmen arbeitet.
 Ggf. muss die Implementierung der Haskellanwendung angepasst oder korrigiert werden, daher ist ein Grundverständnis für die Programmiersprache Haskell von Nutzen.
 
 **Voraussetzungen:** Grundkenntnisse in Haskell  
 **Geeignet als:** Bachelor- oder Masterarbeit
-
 
 ### Annotation von Typen in JavaScript-Programmen
 
@@ -124,12 +52,37 @@ Dazu werden JavaScript-Projekte von GitHub mit offiziell gemeldeten Bugs betrach
 An den fehlerhaften Stellen werden Typen annotiert und geprüft, ob das Programm mit den Typannotationen einen Typfehler liefert.
 In der Studie können 15 Prozent der Bugs durch die Typ-Annotationen identifiziert werden.
 Ein Nachteil der Annotationen ist die _annotation tax_, also die Kosten die in einem Projekt durch das Verwenden von statischen Typen entstehen.
-In dieser Arbeit soll empirisch untersucht werden, welche Kosten entstehen, wenn die Annotationen nicht händisch vorgenommen werden, sondern durch automatisch.
-Zu diesem Zweck kann zum Beispiel das in [Deep Learning Type Inference](http://discovery.ucl.ac.uk/10066386/1/Barr_fse2018-j2t.pdf) vorgestellte Tool genutzt werden.
+In dieser Arbeit soll empirisch untersucht werden, welche Kosten entstehen, wenn die Typ-Annotationen nicht händisch hinzugefügt werden, sondern durch eine Anwendung.
+Eine Anwendung, die Typ-Annotationen zu einer JavaScript-Anwendung hinzufügt ist zum Beispiel das in [Deep Learning Type Inference](http://discovery.ucl.ac.uk/10066386/1/Barr_fse2018-j2t.pdf) vorgestellte Werkzeug.
 
 **Voraussetzungen:** keine  
 **Geeignet als:** Bachelorarbeit
 
+<!--
+## _Software Engineering_
+-->
+
+<!-- ### Berechung des _Truck Factor_
+
+In der Publikation [What is the Truck Factor of Popular GitHub Applications? A First Assessment](https://peerj.com/preprints/1233.pdf) wird der _Truck Factor_ für verschiedene GitHub-Projekte berechnet.
+Der _Truck Factor_ gibt dabei an, wie viele Entwickler eines Projektes von einem Truck überfahren werden müssen, damit das Wissen über Teile des Projektes verloren geht.
+In dieser Arbeit soll eine Web-Anwendung entwickelt werden, die für ein gegebenes GitHub-Projekt diesen _Truck Factor_ berechnet.
+Die Berechung soll dabei für die Berechnung das Schema nutzen, das in [What is the Truck Factor of Popular GitHub Applications? A First Assessment](https://peerj.com/preprints/1233.pdf) genutzt wird.
+
+**Voraussetzungen:** keine
+**Geeignet als:** Bachelorarbeit -->
+
+## Algorithmen
+
+### Implementierung eines Algorithmus zur Lebenszeitbestimmung
+
+In dieser Arbeit soll die Implementierung eines Algorithmus, die in Matlab vorliegt, in die Sprache [Julia](<https://de.wikipedia.org/wiki/Julia_(Programmiersprache)>) übertragen werden.
+Der Algorithmus berechnet für elektronische Bausteine eine geschätzte Lebenszeit.
+Bei der Umsetzung des Algorithmus soll besonderer Wert auf die Effizienz der Implementierung gelegt werden.
+Nach der Implementierung sollen die Laufzeiten für die Matlab- und die Julia-Implementierung verglichen werden.
+
+**Voraussetzungen:** keine  
+**Geeignet als:** Bachelorarbeit
 
 ## Anwendungen
 
@@ -141,32 +94,5 @@ In dieser Arbeit soll eine Anwendung in der Programmiersprache Scala geschrieben
 Dazu muss ein Konzept entwickelt werden, wie die Regeln zur Anerkennung von Fächern aus einer Prüfungsordnung in einer anderen Prüfungsordnung in Scala modelliert werden können.
 Am Ende soll der Scala-Code in eine bestehende Web-Anwendung zur Beantragung von Anerkennungen integriert werden.
 
-**Voraussetzungen:** keine  
+**Voraussetzungen:** Kenntnisse in der Web-Entwicklung  
 **Geeignet als:** Bachelorarbeit
-
-
-<!-- ### iOS-App zur Förderung nachhaltigen Einkaufens
-
-In dieser Arbeit soll eine mobile Anwendung für die Platform iOS entwickelt werden.
-Mit Hilfe der Anwendung kann der Nutzer beim Kauf von Gemüse die Kilometer, die das Gemüse zurückgelegt hat, verwalten.
-Auf diese Weise sollen Nutzer dazu animiert werden, beim Kauf von Gemüse auf regionale Waren zu achten.
-Das Interface der Anwendung muss eine sehr schnelle Eingabe der Informationen erlauben.
-
-**Voraussetzungen:** gute Kenntnisse mobiler Entwicklung unter Android oder iOS  
-**Geeignet als:** Bachelorarbeit -->
-
-
-<!-- ### Erweiterung einer Anwendung zur Visualisierung sozialer Interaktionen
-
-In einer zuvor durchgeführten Bachelorarbeit wurde eine Anwendung entwickelt, um bei einer Veranstaltung wie einer Messe oder einer wissenschaftlichen Konferenz zu analysieren, welche Personen miteinander kommunizieren.
-Dazu wird jedem Teilnehmer ein Beacon um den Hals gehängt.
-Die Beacons senden schache Signale, die nur wenige Meter weit reichen und durch den Körper abgeschirmt werden.
-Wenn einer der anderen Beacons ein solches Signal empfängt wird diese Information an eine Basisstation weitergereicht.
-Die Anwendung wurde in JavaScript für den [PuckJS-Beacon](https://www.puck-js.com) entwickelt.
-Die Basistation liefert momentan eine prototypische Visualisierung der Daten.
-In diesem Projekt soll die bestehende Anwendungen in verschiedenen Hinsichten erweitert werden.
-Dazu soll im ersten Schritt evaluiert werden, wie gut die aktuelle Implementierung bei einer kleinen Veranstaltung funktioniert.
-Im zweiten Schritt soll eine Visualisierung der gesammelten Daten entwickelt werden.
-
-**Voraussetzungen:** Fähigkeit zur selbstständigen Einarbeitung in Technologien  
-**Geeignet als:** Bachelorarbeit -->
