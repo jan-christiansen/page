@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2020-08-21
+published: 2020-08-28
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -86,9 +86,21 @@ Nach der Implementierung sollen die Laufzeiten für die Matlab- und die Julia-Im
 
 ## Anwendungen
 
+### Umstellung und ggf. Erweiterung eines Scala-Web-Anwendung
+
+In dieser Arbeit soll eine bestehende Anwendung, die in Scala geschrieben wurde, umstrukturiert werden.
+Die Anwendung kann genutzt werden, um Anerkennungen einzureichen.
+Aktuell liefert die Scala-Anwendung HTML-Seiten aus.
+Nach der Umstrukturierung soll die Anwendung Daten in Form von JSON ausliefern und ein in Elm geschriebenes Frontend verwenden.
+Je, nach Dauer soll die Anwendung noch um weitere Funktionen erweitert werden.
+Zum Beispiel soll es ermöglicht werden, dass die fachliche Einschätzung von Dritten eingeholt werden kann.
+
+**Voraussetzungen:** Kenntnisse in der Web-Entwicklung  
+**Geeignet als:** Bachelorarbeit
+
 ### Generierung von Anerkennungen aus Notenlisten
 
-Beim Wechsel der Prüfungsornung muss eine fachliche Anerkennung durchgeführt werden.
+Beim Wechsel der Prüfungsordnung muss eine fachliche Anerkennung durchgeführt werden.
 Das heißt, für die Module, die ein Studierender gehört hat, muss eine Liste erstellt werden, welche Fächer für Leistungen in der neuen Prüfungsordnung anerkannt werden.
 In dieser Arbeit soll eine Anwendung in der Programmiersprache Scala geschrieben werden, die eine Notenliste in Form einer PDF-Datei einliest und daraus eine Excel-Datei mit den anerkannten Fächern erzeugt.
 Dazu muss ein Konzept entwickelt werden, wie die Regeln zur Anerkennung von Fächern aus einer Prüfungsordnung in einer anderen Prüfungsordnung in Scala modelliert werden können.
