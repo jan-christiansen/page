@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2020-08-28
+published: 2020-09-16
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -82,9 +82,20 @@ Bei der Umsetzung des Algorithmus soll besonderer Wert auf die Effizienz der Imp
 Nach der Implementierung sollen die Laufzeiten für die Matlab- und die Julia-Implementierung verglichen werden.
 
 **Voraussetzungen:** keine  
-**Geeignet als:** Bachelorarbeit
+**Geeignet als:** Bachelor- oder Masterarbeit
 
 ## Anwendungen
+
+### Intelligenter Briefkasten
+
+Im Rahmen dieser Arbeit soll ein intelligenter Briefkasten entwickelt werden.
+Der Briefkasten soll genutzt werden, um mit Studierenden Unterlagen sicher auszutauschen.
+Der Kasten soll einen Raspberry Pi enthalten und mit einer einfachen mobilen Anwendung gesteuert werden.
+Man kann sich mit der mobilen Anwendung mit dem Schloss verbinden.
+Nach Eingabe einer PIN, kann man das Schloss öffnen und später wieder verschließen.
+
+**Voraussetzungen** Interesse an der Arbeit mit Hardware  
+**Geeignet als** Bachelorarbeit
 
 ### Umstellung und ggf. Erweiterung eines Scala-Web-Anwendung
 
