@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2020-09-16
+published: 2020-10-16
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -85,6 +85,15 @@ Nach der Implementierung sollen die Laufzeiten für die Matlab- und die Julia-Im
 **Geeignet als:** Bachelor- oder Masterarbeit
 
 ## Anwendungen
+
+### Vergabe von Terminen
+
+In dieser Arbeit soll eine Anwendung entwickelt werden, mit der Dozenten Termine mit Studierenden vereinbaren können.
+Die Anwendung kann zum Beispiel genutzt werden, um in Corona-Zeiten Termine für die Klausureinsicht zu vereinbaren.
+Dazu bietet die Anwendung den Studierenden eine konfigurierbare Menge an Terminen, welche die Studierenden wählen können.
+
+**Voraussetzungen** Kenntnisse in der Web-Entwicklung  
+**Geeignet als** Bachelorarbeit
 
 ### Intelligenter Briefkasten
 
