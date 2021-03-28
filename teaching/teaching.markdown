@@ -6,7 +6,13 @@ published: 2020-03-29
 
 ## Einrichtungen
 
-[Software-Lab](/teaching/software-lab.html)
+[Software Factory](/teaching/software-factory.html)
+
+
+## Sommersemester 2021
+
+[Funktionale Frontend-Entwicklung](/teaching/2021/functional-frontend-development.html)  
+<!-- [Deklarative Software-Technologien](/teaching/2021/declarative-software-technologies.html) -->
 
 
 ## Sommersemester 2020
