@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2021-03-27
+published: 2021-04-26
 ---
 
 ## Projekte
@@ -15,16 +15,10 @@ So können die Daten zum Beispiel für eine Visualisierung genutzt werden, etwa 
 Als Ideengeber sei hier das [COVID-19-Dashboard des RKI](https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4) genannt.
 Alternativ können diese offenen Daten aber auch für andere Arten von Anwendungen genutzt werden, zum Beispiel um ein Quiz umzusetzen.
 Als Beispiel sei hier [How many European cities can you name?](https://iafisher.com/projects/cities/europe) genannt.
+Das [GitHub-Repo Public APIs](https://github.com/public-apis/public-apis) listet weitere öffentlich zugängliche APIs zu verschiedensten Themen auf.
+Auf Grundlage dieser Daten können mit Elm verschiedenste Anwendungen umgesetzt werden.
 
-
-<!-- ### Inhalte
-
-Illustration von Informationen zum Beispiel von Vorlesungsinhalten -->
-
-
-
-
-<!-- ### Umsetzung eines historischen Spieles
+### Historisches Computerspiel
 
 Einfache Spiele eignen sich relativ gut für eine Umsetzung als Frontend-Anwendung.
 Zum einen bieten einfache Spiele im Normalfall genügend Interaktion, um ausreichend Anspruch zu bieten.
@@ -32,12 +26,19 @@ Zum anderen wird im besten Fall gar keine Backend-Komponente benötigt.
 Als Ideengeber eignen sich zum Beispiel sehr alte [Spielekonsolen](https://www.dailydot.com/parsec/atari-2600-games/).
 Bei der Umsetzung eines relativ einfachen Spielprinzips wie Tetris kann man die Umsetzung durch eine neue technische Dimension noch aufwerten ([3D-Tetris](https://tobiaswen.github.io/3DelmTRIS/))
 
-### Umsetzung eines Karten- oder Brettspieles
+### Karten- oder Brettspiel
 
-Eine Möglichkeit ist die Umsetzung eines Brettspieles.
-Hierbei muss allerdings entweder eine sehr einfache künstliche Intelligenz oder ein sehr einfaches Backend umgesetzt werden.
+Eine weitere Möglichkeit ist die Umsetzung eines Karten- oder Brettspiels.
+Um zu verhindern, dass eine künstliche Intelligenz für das Spiel oder ein Backend umgesetzt werden muss, kann das Spiel im _hot seat_-Modus implementiert werden.
+Das heißt, die Spieler wechseln sich beim Spielen nacheinander ab.
 Da es ggf. rechtliche Probleme mit der Umsetzung eines Brettspieles gibt, kann das Ergebnis vermutlich nicht öffentlich gemacht werden.
 Alternativ kann man auch ein [Brettspiel](https://boardgamegeek.com/geeklist/33151/creative-commonsopen-source-games) umsetzen, das eine freie Lizenz hat.
+
+
+<!-- ### Inhalte
+
+Illustration von Informationen zum Beispiel von Vorlesungsinhalten
+
 
 ### Visualisierung von Inhalten einer Vorlesung
 
