@@ -1,11 +1,31 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2021-04-26
+published: 2021-04-30
 ---
+
+
+## Allgemeines
+
+[Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
+Das Repo [fp-companies-sh-hh](https://github.com/hsfl-pltp/fp-companies-sh-hh) listet ein paar Firmen in der Region auf, die funktionale Programmierung einsetzen.
+
+Der Vortrag [The life of a file](https://www.youtube.com/watch?v=XpDsk374LDE) von Evan Czaplicki vermittelt ein paar Ideen, wie man eine Elm-Anwendung strukturiert.
+
 
 ## Projekte
 
+Beispiele aus vorherigen Veranstaltungen:
+
+- [Eine Implementierung der Enigma](https://simonhauck.github.io/Enigma-Elm/)
+- [Eine 3D-Variante von Tetris](https://tobiaswen.github.io/3DelmTRIS/)
+- [Ein Rennspiel](https://matskockmeyer.github.io/elminator/src/)
+- [Das Spiel Kalaha](http://htmlpreview.github.io/?https://github.com/lwiedema/kalah-game-elm/blob/master/kalah-game.html)
+- [Pacman](https://timokramer4.github.io/elm-pacman/)
+- [Visualisierung von Sortieralgorithmen](https://kluddizz.github.io/elmgorithm/)
+- [ElmLord](https://kind-ardinghelli-25b6c3.netlify.app)
+
 Hier werden ein paar Kategorien von Projektideen beschrieben, die genutzt werden können, um eine Idee für die konkrete Umsetzung des Projektes zu erarbeiten.
+
 
 ### Offene Datenquellen
 
@@ -33,6 +53,7 @@ Um zu verhindern, dass eine künstliche Intelligenz für das Spiel oder ein Back
 Das heißt, die Spieler wechseln sich beim Spielen nacheinander ab.
 Da es ggf. rechtliche Probleme mit der Umsetzung eines Brettspieles gibt, kann das Ergebnis vermutlich nicht öffentlich gemacht werden.
 Alternativ kann man auch ein [Brettspiel](https://boardgamegeek.com/geeklist/33151/creative-commonsopen-source-games) umsetzen, das eine freie Lizenz hat.
+
 
 
 <!-- ### Inhalte
