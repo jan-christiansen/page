@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2025--05-16
+published: 2021-05-25
 ---
 
 
