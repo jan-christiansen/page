@@ -1,6 +1,6 @@
 ---
 title: Funktionale Frontend-Entwicklung
-published: 2021-05-16
+published: 2025--05-16
 ---
 
 
@@ -9,7 +9,11 @@ published: 2021-05-16
 [Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
 Das Repo [fp-companies-sh-hh](https://github.com/hsfl-pltp/fp-companies-sh-hh) listet ein paar Firmen in der Region auf, die funktionale Programmierung einsetzen.
 
+
+## Weitere Ressourcen
+
 Der Vortrag [The life of a file](https://www.youtube.com/watch?v=XpDsk374LDE) von Evan Czaplicki vermittelt ein paar Ideen, wie man eine Elm-Anwendung strukturiert.
+Der Vortrag [Making Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8) von Richard Feldman gibt Tipps zur Modellierung von Datentypen in Elm.
 
 
 ## Abschlussprojekte
