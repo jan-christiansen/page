@@ -1,73 +1,86 @@
 ---
 title: Deklarative Software-Technologien
-published: 2021-03-28
+published: 2021-05-26
 ---
 
 
-## Funktionale Programmiersprachen
+## Allgemeines
 
-Neben der Programmiersprache Haskell gibt es eine ganze Reihe anderer Sprachen, die mehr oder weniger eng mit Haskell verwandt sind.
-Die Programmiersprache [ML](https://en.wikipedia.org/wiki/ML_(programming_language)) stammt aus den 70ern und hat viele Kernkonzepte geprägt, die auch in Haskell zur Verfügung stehen, etwa _first class functions_, Typinferenz oder _currying_.
-Die Sprache wird aber in der Praxis wenig verwendet.
-
-Eine Art moderne Variante von ML stellt die Programmiersprache [F#](https://en.wikipedia.org/wiki/F_Sharp_(programming_language)) dar.
-F# wird von Microsoft entwickelt und ist eine Sprache der .Net-Plattform und kann somit mit Sprachen wie C# oder Visual Basic zusammen verwendet werden.
-
-Die Programmiersprache [Elm](https://elm-lang.org) ist eine Art vereinfachte Variante von Haskell.
-Sie unterstützt im Wesentlichen den Sprachumfang, den wir in der Vorlesung kennengelernt haben, aber viele moderne Konzepte von Haskell nicht.
-Elm ist als Einsteigersprache gedacht und wird genutzt, um Frontendanwendungen zu entwickeln.
-Daher wird die Sprache in JavaScript übersetzt.
-
-
-## Funktionale Programmiersprachen im _Mainstream_
-
-Viele der Konzepte der funktionalen Programmierung haben mittlerweile Einzug in stärker verbreitete Programmiersprachen gehalten.
-Auf diese Entwicklung hatte die Programmiersprache [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)) starken Einfluss.
-Die Sprache übersetzt in die JVM und kann daher sehr einfach mit Java zusammen genutzt werden.
-Scala wurde mit dem Ziel entwickelt, die Konzepte der funktionalen Programmierung stärker in der Industrie zu verbreiten.
-Zu diesem Zweck ist Scala eine Mischung aus funktionaler und objekt-orientierter Programmierung.
-
-Dem Hybrid-Konzept von Scala sind in der Folge viele Programmiersprachen gefolgt.
-Beispiele für diese Entwicklung sind etwa die Programmiersprache [Swift](https://en.wikipedia.org/wiki/Swift_(programming_language)) von Apple, die zur Programmierung von iOS- und MacOS-Anwendungen genutzt wird oder die Sprache [Kotlin](https://en.wikipedia.org/wiki/Kotlin_(programming_language)), die seit kurzem die Standard-Sprache zur Entwicklung von Android-Anwendungen ist.
-
-
-## Funktionale Programmierung in der Industrie
-
-Der folgende Link sammelt Firmen in Schleswig-Holstein und Hamburg, die funktionale Programiersprachen einsetzen.
-
-* [Funktionale Programmierung in SH und HH](https://github.com/jan-christiansen/fp-companies-sh-hh)
-
-Die folgenden Links sammeln Firmen, die die entsprechenden Programmiersprachen einsetzen.
-
-* [Haskell](https://github.com/erkmos/haskell-companies)
-* [Elm](https://github.com/lpil/elm-companies)
-* [F#](https://github.com/Kavignon/fsharp-companies)
-
-Programmiersprachen wie Scala sind im Vergleich dazu sehr viel stärker verbreitet, da man Scala zum Beispiel auch als leichtgewichtiges Java verwenden und auf viele der funktionalen Konzepte verzichten kann.
-Zu den Unternehmen, die Scala einsetzen, gehören zum Beispiel
-
-* LinkedIn
-* Twitter
-* Foursquare
-* Netflix
-* und AirBnB
-
-und in Deutschland zum Beispiel
-
-* Otto
-* und Zalando.
-
-
-## Programmiersprachenkonzepte im _Mainstream_
-
-Viele Programmiersprachenkonzepte, die ihren Ursprung in Programmiersprachen wie ML hatten, haben inzwischen Einzug in _Mainstream_-Sprachen gehalten.
-Um dies zu illustrieren, hier ein paar Beispiel von Konzepten, die wir in der Vorlesung besprochen haben.
-
-* Parameterischer Polymorphismus: Java, C#, TypeScript, Scala, Swift, Kotlin
-* Funktionen höherer Ordnung und Lambda-Funktionen: Java, C#, TypeScript, JavaScript, Scala, Swift, Kotlin
-* _Pattern-Matching_: Scala, Swift, Kotlin
-<!-- * Typinferenz: -->
+[Elm Companies](https://github.com/lpil/elm-companies) bietet eine Liste von Firmen, die Elm in der Frontend-Entwicklung einsetzen.
+Das Repo [fp-companies-sh-hh](https://github.com/hsfl-pltp/fp-companies-sh-hh) listet ein paar Firmen in der Region auf, die funktionale Programmierung einsetzen.
 
 
 ## Weitere Ressourcen
-- Alle Inhalte der Vorlesung und mehr können Sie auch im Online-Buch [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters) noch einmal nachlesen
+
+Der Vortrag [The life of a file](https://www.youtube.com/watch?v=XpDsk374LDE) von Evan Czaplicki vermittelt ein paar Ideen, wie man eine Elm-Anwendung strukturiert.
+Der Vortrag [Making Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8) von Richard Feldman gibt Tipps zur Modellierung von Datentypen in Elm.
+
+
+## Abschlussprojekte
+
+Beispiele aus vorherigen Veranstaltungen:
+
+- [Eine Implementierung der Enigma](https://simonhauck.github.io/Enigma-Elm/)
+- [Eine 3D-Variante von Tetris](https://tobiaswen.github.io/3DelmTRIS/)
+- [Ein Rennspiel](https://matskockmeyer.github.io/elminator/src/)
+- [Das Spiel Kalaha](http://htmlpreview.github.io/?https://github.com/lwiedema/kalah-game-elm/blob/master/kalah-game.html)
+- [Pacman](https://timokramer4.github.io/elm-pacman/)
+- [Visualisierung von Sortieralgorithmen](https://kluddizz.github.io/elmgorithm/)
+- [ElmLord](https://kind-ardinghelli-25b6c3.netlify.app)
+
+Hier werden ein paar Kategorien von Projektideen beschrieben, die genutzt werden können, um eine Idee für die konkrete Umsetzung des Projektes zu erarbeiten.
+Es sollte bisher keine Umsetzung Ihrer Projektidee in Elm geben.
+Im besten Fall hat Ihre Idee eine innovative Komponente, das heißt, es gibt bisher nicht nur keine Umsetzung in Elm sondern auch keine Umsetzung in einer anderen Sprache.
+Sie können das Projekt zum Beispiel nutzen, um einen Prototyp für eine Geschäftsidee zu entwickeln, die Sie schon immer einmal realisieren wollten.
+Oder Sie können das Projekt nutzen, um eine Kombination von Spielmechaniken zu testen, die es so noch in keinen Spiel gibt.
+Oder Sie können das Projekt nutzen, um ein kleines Werkzeug zu entwickeln, das Ihnen das tägliche Leben vereinfacht.
+
+
+### Offene Datenquellen
+
+Es gibt viele offene Datenquellen, etwa von staatlichen Stellen ([Open Data Schleswig-Holstein](https://www.schleswig-holstein.de/DE/Landesregierung/Themen/Digitalisierung/openData/openData_node.html), [Das Datenportal für Deutschland](https://www.govdata.de), [Offenes Datenportal der EU](https://data.europa.eu/euodp/de/data/), [Das Datenportal der Deutschen Bahn AG](https://data.deutschebahn.com)) aus der Wissenschaft ([Deutscher Wetterdienst](https://opendata.dwd.de)), Kultur ([Coding da Vinci](https://codingdavinci.de/de/daten)) oder von Organisationen ([Open Food Facts](https://de.openfoodfacts.org)).
+Auf Grundlage dieser Datenquellen können verschiedene Formen von Anwendungen entwickelt werden.
+So können die Daten zum Beispiel für eine Visualisierung genutzt werden, etwa in Form eines Dashboards.
+Als Ideengeber sei hier das [COVID-19-Dashboard des RKI](https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4) genannt.
+Alternativ können diese offenen Daten aber auch für andere Arten von Anwendungen genutzt werden, zum Beispiel um ein Quiz umzusetzen.
+Als Beispiel sei hier [How many European cities can you name?](https://iafisher.com/projects/cities/europe) genannt.
+Das [GitHub-Repo Public APIs](https://github.com/public-apis/public-apis) listet weitere öffentlich zugängliche APIs zu verschiedensten Themen auf.
+Auf Grundlage dieser Daten können mit Elm verschiedenste Anwendungen umgesetzt werden.
+
+Sie könnten zum Beispiel ein Quiz entwickeln, in dem man zu einem Wort raten soll, um welche Sprache es sich handelt.
+Oder Sie entwickeln ein Quiz, in dem man anhand der Zutaten eines Cocktails raten soll, um welchen Cocktail es sich handelt.
+Häufig entsteht ein Mehrwert für einen Nutzer, indem man die Daten von mehreren Web-Anwendungen, die bereits existieren, zusammenfasst.
+Zum Beispiel könnten Sie eine Anwendung entwickeln, die _Issues_ von verschiedenen Plattformen anzeigt und es erlaubt, diese an einer zentralen Stelle zu verwalten.
+Das heißt, die Anwendung würde mit Web-Anwendungen wie GitHub, GitLab und Trello kommunizieren.
+Ein weiteres Beispiel wäre eine kleine Wetteranwendung, die Informationen von mehreren Wetterdiensten bezieht und diese aufbereitet.
+Der einfachste Ansatz wäre eine Art gewichteten Mittelwert zu bilden.
+
+
+### Historisches Computerspiel
+
+Einfache Spiele eignen sich relativ gut für eine Umsetzung als Frontend-Anwendung.
+Zum einen bieten einfache Spiele im Normalfall genügend Interaktion, um ausreichend Anspruch zu bieten.
+Zum anderen wird im besten Fall gar keine Backend-Komponente benötigt.
+Als Ideengeber eignen sich zum Beispiel sehr alte [Spielekonsolen](https://www.dailydot.com/parsec/atari-2600-games/).
+Für eine innovative Komponente bei der Umsetzung eines historischen Spiels kann die Umsetzung durch eine neue technische Dimension erweitert werden (siehe etwa [3D-Tetris](https://tobiaswen.github.io/3DelmTRIS/)).
+
+Sie könnten ein historisches Spiel zum Beispiel für das Smartphone umsetzen und eine Steuerung über das Gyroskop vorsehen.
+
+
+### Karten- oder Brettspiel
+
+Eine weitere Möglichkeit ist die Umsetzung eines Karten- oder Brettspiels.
+Um zu verhindern, dass eine künstliche Intelligenz für das Spiel oder ein Backend umgesetzt werden muss, kann das Spiel im _Hot Seat_-Modus implementiert werden.
+Das heißt, die Spieler wechseln sich beim Spielen nacheinander ab.
+In Zeiten der Corona-Pandemie bieten digitale Varianten von Brettspielen eine gute Alternative.
+Bei Brettspielen von kleineren Verlagen hat der Verlag zu Werbezwecken ggf. auch ein Interesse an der Veröffentlichung der Implementierung.
+Alternativ kann auch ein [Brettspiel](https://boardgamegeek.com/geeklist/33151/creative-commonsopen-source-games) umgesetzt werden, das eine freie Lizenz hat.
+Ein Beispiel für eine solche Anwendung wäre etwa eine Web-Variante von [Secret Hitler](https://netgames.io/games/secret-hitler/).
+
+
+### Interaktive Erklärungen
+
+Frontend-Anwendungen eignen sich gut, um interaktiv Konzepte zu erläutern.
+Dabei kann es sich zum Beispiel um die [Implementierung einer Verschlüsselungsmethode wie der Enigma](https://simonhauck.github.io/Enigma-Elm/) handeln oder um Visualisierungen, etwa die [Visualisierung von Sortieralgorithmen](https://kluddizz.github.io/elmgorithm/).
+Als Frontend-Anwendung lassen sich aber auch ganze interaktive Geschichten umsetzen, die Konzepte erläutern (siehe zum Beispiel [Explorable Explanations](https://explorabl.es) und [The Evolution of Trust: An Interactive Guide to Game Theory](https://ncase.me/trust/)).
+Als Grundlage für die Umsetzung solcher interaktiven Erklärungen eignen sich zum Beispiel die Inhalte anderer Vorlesungen aber auch einfach persönliches Interesse.

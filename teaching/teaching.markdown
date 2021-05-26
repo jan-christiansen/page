@@ -11,8 +11,8 @@ published: 2020-03-29
 
 ## Sommersemester 2021
 
-[Funktionale Frontend-Entwicklung](/teaching/2021/functional-frontend-development.html)  
-<!-- [Deklarative Software-Technologien](/teaching/2021/declarative-software-technologies.html) -->
+[Deklarative Software-Technologien](/teaching/2021/declarative-software-technologies.html)  
+[Funktionale Frontend-Entwicklung](/teaching/2021/functional-frontend-development.html)
 
 
 ## Sommersemester 2020
