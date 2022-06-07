@@ -11,6 +11,7 @@ published: 2022-03-22
 
 ## Sommersemester 2022
 
+* [Deklarative Software-Technologien](/teaching/2022/declarative-software-technologies.html)
 * [Trends in Types and Programming Languages](/teaching/2022/trends-in-types-and-programming-languages.html)
 
 
