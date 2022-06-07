@@ -1,6 +1,6 @@
 ---
 title: Abschlussarbeiten/Projekte
-published: 2021-03-23
+published: 2022-06-07
 ---
 
 Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden.
@@ -9,16 +9,7 @@ Falls Sie sich für andere Themen aus den Bereichen moderne Methoden der Softwar
 
 ## Design und Implementierung von Programmiersprachen
 
-<!-- ### Reaktive Programmierung eines Arduino
-
-In dieser Arbeit soll ein Compiler, der die Programmiersprache [Elm](<https://de.wikipedia.org/wiki/Elm_(Programmiersprache)>) nach C++ für den Arduino übersetzt, erweitert werden.
-Elm wird eigentlich genutzt, um Frontendanwendungen zu entwickelt.
-In dieser Arbeit soll der bestehende Prototyp erweitert werden und zum Beispiel erarbeitet werden, wie die sogenannte Elm-Architektur auf die Programmierung eines Microcontrollers übertragen werden kann.
-
-**Voraussetzungen:** Kenntnisse in Haskell  
-**Geeignet als:** Bachelor- oder Masterarbeit -->
-
-### GAMS-Programme im Browser
+<!-- ### GAMS-Programme im Browser
 
 Die Programmiersprache GAMS wird in verschiedenen wissenschaftlichen Bereichen genutzt, um Modelle zu programmieren.
 Dabei handelt es sich zum Beispiel um Modelle, die Klimaprognosen abgeben oder Modelle, die darstellen, welche Auswirkungen politische Entscheidungen haben.
@@ -45,8 +36,8 @@ Aus der Grammatik für JavaScript kann mittels BNF Converter ein AST für JavaSc
 Im letzten Schritt soll dann Übersetzung des AST für GAMS-Programme in den AST für JavaScript-Programme geschrieben werden.
 Durch die Verwendung des Parsers und einer Methode, die einen AST in die entsprechende String-Darstellung überführt, kann so dann ein GAMS-Programm in ein JavaScript-Programm übersetzt werden.
 
-**Voraussetzungen:** Kenntnisse in Java oder Haskell   
-**Geeignet als:** Bachelor- oder Masterarbeit
+**Voraussetzungen:** Kenntnisse in Java oder Haskell
+**Geeignet als:** Bachelor- oder Masterarbeit -->
 
 
 ### Freie Theoreme in Java
@@ -70,129 +61,47 @@ Freie Theoreme basieren auf der Grundidee, dass man keinen Wert von einem polymo
 Die Funktion `foo` kann in der Ergebnisliste zum Beispiel kein neues Element hinzufügen, die Funktion kann eigentlich nur die Elemente der Argumentliste verwenden, um die Ergebnisliste zu konstruieren.
 
 Je nach dem, welche Sprachkonstrukte eine Programmiersprache zur Verfügung stellt, sind freie Theoreme nur noch in eingeschränkter Form gültig.
-So können zum Beispiel Sprachfeatures wie Typwandlung oder Typprüfung dafür sorgen, dass freie Theoreme nur mit Einschränkungen gültig sind.
+So können zum Beispiel Sprachfeatures wie Typumwandlung oder Typprüfung dafür sorgen, dass freie Theoreme nur mit Einschränkungen gültig sind.
 In dieser Arbeit soll eine Fallstudie über Sprachfeatures in Java gemacht werden.
 Dabei soll untersucht werden, bei der Verwendung von welchen Sprachfeatures in Java freie Theoreme nur noch unter Einschränkungen gültig sind.
 
-**Voraussetzungen:** gute Kenntnisse der Programmiersprache Java, Grundkenntnisse in Haskell   
+**Voraussetzungen:** gute Kenntnisse der Programmiersprache Java, Grundkenntnisse in Haskell  
 **Geeignet als:** Bachelor- oder Masterarbeit
 
 
-<!-- ## Künstliche Intelligenz im _Software Engineering_
+### Programmierstil in Elm
+
+In dieser Arbeit soll der Programmierstil analysiert werden, der in Elm-Projekten bei GitHub verwendet wird.
+Es existiert bereits eine Haskell-Anwendung, die Elm-Projekte bei GitHub sammelt und Kennwerte für diese Anwendungen erhebt, zum Beispiel die Anzahl der Module oder die durchschnittliche Anzahl an Definitionen pro Modul.
+In diesem Projekt sollen Eigenschaften der Projekte analysiert werden, die sehr Elm-spezifisch sind.
+Zum Beispiel kann überprüft werden, wie die Projekte _underscore pattern_ einsetzen und ob Funktionen immer eta-reduziert sind.
+Oder es kann überprüft werden, in welcher Reihenfolge die Definitionen in einem Modul sortiert sind, also zum Beispiel zuerst alle Datentypdefinitionen und dann alle Funktionsdefinitionen oder gemischt.
+Es kann aber auch geprüft werden, in welcher Reihenfolge das Pattern Matching der `update`-Funktion durchgeführt wird, also zuerst Pattern Matching auf `Model` und anschließend auf `Msg` oder andersherum.
+Oder es kann überprüft werden, wie Funktionen genannt werden, die eine `Html`-Struktur liefern, also aus `view` heraus aufgerufen werden.
+
+Im ersten Schritt muss in dieser Arbeit definiert werden, welche Eigenschaften evaluiert werden sollen und wie diese Eigenschaften bewertet, gruppiert werden.
+Danach muss die jeweilige Analyse in das Bestehende Tool integriert werden.
+
+**Voraussetzungen:** gute Kenntnisse in Elm  
+**Geeignet als:** Bachelor- oder Masterarbeit
+
+
+## Künstliche Intelligenz im _Software Engineering_
 
 ### Generieren von Funktionsnamen aus Funktionsdefinitionen
 
-[CODE2VEC](https://code2vec.org) ist ein neuronales Netz, das
-
-
 In dieser Arbeit soll eine bestehende Technik zum Lernen von Methodennamen aus Methodendefinitionen mit Hilfe eines neuronalen Netzes auf die Programmiersprache Haskell angewendet werden.
+[CODE2VEC](https://code2vec.org) ist eine Technik, mit der Programme in Vektoren mit Zahlen umgewandelt werden können.
+Diese Vektoren können dann genutzt werden, um neuronale Netze zu trainieren, die Programme verarbeiten können.
+In einer ersten Anwendung wurde diese Technik verwendet, um für eine gegebene Java-Methode einen möglichst gut passenden Namen zu generieren.
+In dieser Arbeit soll genau diese Technik auf Funktionen in der Programmiersprache Haskell angewendet werden.
+In einer Vorarbeit wurde eine Haskell-Anwendung entwickelt, die ein Haskell-Modul einliest und daraus die entsprechenden Vektoren erzeugt.
 
-
-
-In einer Vorarbeit wurde eine Anwendung entwickelt, die aus einem Haskell-Modul Daten extrahiert, die zum Training genutzt werden können.
-In dieser Abschlussarbeit soll diese bestehende Anwendung genutzt werden, um ein entsprechendes neuronales Netz zu trainieren.
-Dazu muss eine bestehende Anwendung in Python, die mit Java-Programmen arbeitet, angepasst werden, so dass sie mit Haskell-Programmen arbeitet.
-Ggf. muss die Implementierung der Haskellanwendung angepasst oder korrigiert werden, daher ist ein Grundverständnis für die Programmiersprache Haskell von Nutzen.
+Im ersten Schritt müssen in dieser Arbeit Haskell-Module gesammelt werden, zum Beispiel von GitHub.
+Diese Module werden dann mit Hilfe der bestehenden Anwendung in Vektoren umgewandelt.
+Mit Hilfe der auf diese Weise generierten Trainingsdaten muss dann ein neuronales Netz trainiert werden.
+Dazu muss eine Python-Anwendung, die für das Training mit den Java-Programmen genutzt wird, entsprechend angepasst werden.
+Es ist zu erwarten, dass die Haskell-Anwendung zur Generierung der Vektoren aus Haskell-Modulen noch angepasst werden muss.
 
 **Voraussetzungen:** Grundkenntnisse in Haskell  
-**Geeignet als:** Bachelor- oder Masterarbeit -->
-
-<!-- ### Annotation von Typen in JavaScript-Programmen
-
-In der Publikation [To Type or Not to Type: Quantifying Detectable Bugs in JavaScript](http://discovery.ucl.ac.uk/10064729/1/typestudy.pdf) wird gezeigt, dass Typangaben Fehler verhindern können.
-Dazu werden JavaScript-Projekte von GitHub mit offiziell gemeldeten Bugs betrachtet.
-An den fehlerhaften Stellen werden Typen annotiert und geprüft, ob das Programm mit den Typannotationen einen Typfehler liefert.
-In der Studie können 15 Prozent der Bugs durch die Typ-Annotationen identifiziert werden.
-Ein Nachteil der Annotationen ist die _annotation tax_, also die Kosten die in einem Projekt durch das Verwenden von statischen Typen entstehen.
-In dieser Arbeit soll empirisch untersucht werden, welche Kosten entstehen, wenn die Typ-Annotationen nicht händisch hinzugefügt werden, sondern durch eine Anwendung.
-Eine Anwendung, die Typ-Annotationen zu einer JavaScript-Anwendung hinzufügt ist zum Beispiel das in [Deep Learning Type Inference](http://discovery.ucl.ac.uk/10066386/1/Barr_fse2018-j2t.pdf) vorgestellte Werkzeug.
-
-**Voraussetzungen:** keine  
-**Geeignet als:** Bachelorarbeit -->
-
-<!--
-## _Software Engineering_
--->
-
-<!-- ### Berechung des _Truck Factor_
-
-In der Publikation [What is the Truck Factor of Popular GitHub Applications? A First Assessment](https://peerj.com/preprints/1233.pdf) wird der _Truck Factor_ für verschiedene GitHub-Projekte berechnet.
-Der _Truck Factor_ gibt dabei an, wie viele Entwickler eines Projektes von einem Truck überfahren werden müssen, damit das Wissen über Teile des Projektes verloren geht.
-In dieser Arbeit soll eine Web-Anwendung entwickelt werden, die für ein gegebenes GitHub-Projekt diesen _Truck Factor_ berechnet.
-Die Berechung soll dabei für die Berechnung das Schema nutzen, das in [What is the Truck Factor of Popular GitHub Applications? A First Assessment](https://peerj.com/preprints/1233.pdf) genutzt wird.
-
-**Voraussetzungen:** keine
-**Geeignet als:** Bachelorarbeit -->
-<!--
-## Algorithmen
-
-### Implementierung eines Algorithmus zur Lebenszeitbestimmung
-
-In dieser Arbeit soll die Implementierung eines Algorithmus, die in Matlab vorliegt, in die Sprache [Julia](<https://de.wikipedia.org/wiki/Julia_(Programmiersprache)>) übertragen werden.
-Der Algorithmus berechnet für elektronische Bausteine eine geschätzte Lebenszeit.
-Bei der Umsetzung des Algorithmus soll besonderer Wert auf die Effizienz der Implementierung gelegt werden.
-Nach der Implementierung sollen die Laufzeiten für die Matlab- und die Julia-Implementierung verglichen werden.
-
-**Voraussetzungen:** keine  
 **Geeignet als:** Bachelor- oder Masterarbeit
-
-## Anwendungen
-
-### Weiterentwicklung einer Webanwendung
-
-In dieser Arbeit soll der Prototyp einer Webanwendung weiterentwickelt werden.
-Das Frontend der Anwendung ist in React geschrieben und setzt ein einfaches Tauschspiel um.
-Das Spiel soll genutzt werden, um Schülern*innen zu illustrieren, wie politische Kompromisse entstehen.
-Im Zuge der Arbeit kann zum Beispiel ein
-
-
-**Voraussetzungen:** Kenntnisse in der Web-Entwicklung
-**Geeignet als:** Bachelorarbeit
-
-
-**Voraussetzungen** Kenntnisse in der Web-Entwicklung  
-**Geeignet als** Bachelorarbeit -->
-
-
-<!-- ### Vergabe von Terminen
-
-In dieser Arbeit soll eine Anwendung entwickelt werden, mit der Dozenten Termine mit Studierenden vereinbaren können.
-Die Anwendung kann zum Beispiel genutzt werden, um in Corona-Zeiten Termine für die Klausureinsicht zu vereinbaren.
-Dazu bietet die Anwendung den Studierenden eine konfigurierbare Menge an Terminen, welche die Studierenden wählen können.
-
-**Voraussetzungen** Kenntnisse in der Web-Entwicklung  
-**Geeignet als** Bachelorarbeit
-
-### Intelligenter Briefkasten
-
-Im Rahmen dieser Arbeit soll ein intelligenter Briefkasten entwickelt werden.
-Der Briefkasten soll genutzt werden, um mit Studierenden Unterlagen sicher auszutauschen.
-Der Kasten soll einen Raspberry Pi enthalten und mit einer einfachen mobilen Anwendung gesteuert werden.
-Man kann sich mit der mobilen Anwendung mit dem Schloss verbinden.
-Nach Eingabe einer PIN, kann man das Schloss öffnen und später wieder verschließen.
-
-**Voraussetzungen** Interesse an der Arbeit mit Hardware  
-**Geeignet als** Bachelorarbeit -->
-
-<!-- ### Umstellung und ggf. Erweiterung eines Scala-Web-Anwendung
-
-In dieser Arbeit soll eine bestehende Anwendung, die in Scala geschrieben wurde, umstrukturiert werden.
-Die Anwendung kann genutzt werden, um Anerkennungen einzureichen.
-Aktuell liefert die Scala-Anwendung HTML-Seiten aus.
-Nach der Umstrukturierung soll die Anwendung Daten in Form von JSON ausliefern und ein in Elm geschriebenes Frontend verwenden.
-Je, nach Dauer soll die Anwendung noch um weitere Funktionen erweitert werden.
-Zum Beispiel soll es ermöglicht werden, dass die fachliche Einschätzung von Dritten eingeholt werden kann.
-
-**Voraussetzungen:** Kenntnisse in der Web-Entwicklung  
-**Geeignet als:** Bachelorarbeit -->
-
-<!-- ### Generierung von Anerkennungen aus Notenlisten
-
-Beim Wechsel der Prüfungsordnung muss eine fachliche Anerkennung durchgeführt werden.
-Das heißt, für die Module, die ein Studierender gehört hat, muss eine Liste erstellt werden, welche Fächer für Leistungen in der neuen Prüfungsordnung anerkannt werden.
-In dieser Arbeit soll eine Anwendung in der Programmiersprache Scala geschrieben werden, die eine Notenliste in Form einer PDF-Datei einliest und daraus eine Excel-Datei mit den anerkannten Fächern erzeugt.
-Dazu muss ein Konzept entwickelt werden, wie die Regeln zur Anerkennung von Fächern aus einer Prüfungsordnung in einer anderen Prüfungsordnung in Scala modelliert werden können.
-Am Ende soll der Scala-Code in eine bestehende Web-Anwendung zur Beantragung von Anerkennungen integriert werden.
-
-**Voraussetzungen:** Kenntnisse in der Web-Entwicklung  
-**Geeignet als:** Bachelorarbeit -->
