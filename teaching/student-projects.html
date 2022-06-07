@@ -19,19 +19,41 @@
         <div id="content">
             <h1>Abschlussarbeiten/Projekte</h1>
             <div class="info">
-    Last changed on August 19, 2021
+    Last changed on June  7, 2022
     
 </div>
 
 <p>Die hier aufgeführten Bachelor- und Masterarbeiten können in Absprache auch in Form von Bachelor- bzw. Masterprojekten bearbeitet werden. Dabei wird ggf. der Umfang des Projektes an die Gegebenheiten des Projektes angepasst. Falls Sie sich für andere Themen aus den Bereichen moderne Methoden der Softwareentwicklung, Compilerbau, Programmiersprachen, Algorithmen oder Sicherheit interessieren, wenden Sie sich bitte einfach per Mail an <a href="mailto:jan.christiansen@hs-flensburg.de">mich</a>.</p>
 <h2 id="design-und-implementierung-von-programmiersprachen">Design und Implementierung von Programmiersprachen</h2>
-<h3 id="gams-programme-im-browser">GAMS-Programme im Browser</h3>
-<p>Die Programmiersprache GAMS wird in verschiedenen wissenschaftlichen Bereichen genutzt, um Modelle zu programmieren. Dabei handelt es sich zum Beispiel um Modelle, die Klimaprognosen abgeben oder Modelle, die darstellen, welche Auswirkungen politische Entscheidungen haben. Fernziel dieses Projektes ist es, dem*r normalen Bürger*in diese Modelle zu erläutern, damit er*sie entscheiden kann, welche Handlungen diese Prozesse wie beeinflussen. Die Modelle sollen in Form einer Web-Anwendung präsentiert werden. Um möglichst einfach ein solches Modell als Web-Anwendung zu präsentieren, soll in einem ersten Schritt ein Programm entwickelt werden, das GAMS-Programme in JavaScript-Programme übersetzt.</p>
-<p>In dieser Arbeit soll ein erster Schritt in diese Richtung umgesetzt werden. Dazu soll die Anwendung <a href="http://bnfc.digitalgrammars.com">BNF Converter</a> genutzt werden. Zuerst gibt man dazu für einen kleinen Teil von GAMS eine Grammatik in Backus-Naur-Form an. Der BNF Converter bietet ein <a href="https://github.com/BNFC/bnfc.github.com/blob/master/tutorial/calc/Calc.cf">einfaches Beispiel für eine Grammatik</a>, die arithmetische Ausdrücke darstellt. Der BNF Converter erzeugt dann aus der Grammatik einen abstrakten Syntaxbaum (AST), das heißt, eine Datenstruktur, die genutzt werden kann, um ein Programm zu repräsentieren. Als Beispiel gibt es <a href="https://github.com/BNFC/bnfc.github.com/tree/master/tutorial/calc/java/Calc/Absyn">einen AST in Java</a>, der für die arithmetischen Ausdrücke erzeugt wird. Neben dem AST erzeugt der BNF Converter noch einen Parser, also ein Programm, das ein Programm in Form eines Strings in die AST-Darstellung des Programms übersetzt. Das heißt, wird sind dann in der Lage ein GAMS-Programm in Form eines Strings in seine AST-Repräsentation zu überführen.</p>
-<p>In der Arbeit muss im ersten Schritt eine Grammatik für einen sehr kleinen Teil von GAMS erstellt werden. Zum Beispiel sollten GAMS-Sprachkonstrukte wie Scalar, Set und Parameter unterstützt werden, sowie Konstrukte wie Konditional und Schleife. Die Grammatik wird anhand der <a href="https://www.gams.com/latest/docs/UG_GAMSPrograms.html">GAMS-Dokumentation</a> und der GAMS-Programmierumgebung erarbeitet. Dabei soll bei jedem Sprachkonstrukt immer nur der Standardfall berücksichtigt werden.</p>
-<p>Für JavaScript wird eine bereits bestehende Grammatik verwendet. Aus der Grammatik für JavaScript kann mittels BNF Converter ein AST für JavaScript erzeugt werden. Im letzten Schritt soll dann Übersetzung des AST für GAMS-Programme in den AST für JavaScript-Programme geschrieben werden. Durch die Verwendung des Parsers und einer Methode, die einen AST in die entsprechende String-Darstellung überführt, kann so dann ein GAMS-Programm in ein JavaScript-Programm übersetzt werden.</p>
-<p><strong>Voraussetzungen:</strong> Kenntnisse in Java oder Haskell<br />
-<strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
+<!-- ### GAMS-Programme im Browser
+
+Die Programmiersprache GAMS wird in verschiedenen wissenschaftlichen Bereichen genutzt, um Modelle zu programmieren.
+Dabei handelt es sich zum Beispiel um Modelle, die Klimaprognosen abgeben oder Modelle, die darstellen, welche Auswirkungen politische Entscheidungen haben.
+Fernziel dieses Projektes ist es, dem\*r normalen Bürger\*in diese Modelle zu erläutern, damit er*sie entscheiden kann, welche Handlungen diese Prozesse wie beeinflussen.
+Die Modelle sollen in Form einer Web-Anwendung präsentiert werden.
+Um möglichst einfach ein solches Modell als Web-Anwendung zu präsentieren, soll in einem ersten Schritt ein Programm entwickelt werden, das GAMS-Programme in JavaScript-Programme übersetzt.
+
+In dieser Arbeit soll ein erster Schritt in diese Richtung umgesetzt werden.
+Dazu soll die Anwendung [BNF Converter](http://bnfc.digitalgrammars.com) genutzt werden.
+Zuerst gibt man dazu für einen kleinen Teil von GAMS eine Grammatik in Backus-Naur-Form an.
+Der BNF Converter bietet ein [einfaches Beispiel für eine Grammatik](https://github.com/BNFC/bnfc.github.com/blob/master/tutorial/calc/Calc.cf), die arithmetische Ausdrücke darstellt.
+Der BNF Converter erzeugt dann aus der Grammatik einen abstrakten Syntaxbaum (AST), das heißt, eine Datenstruktur, die genutzt werden kann, um ein Programm zu repräsentieren.
+Als Beispiel gibt es [einen AST in Java](https://github.com/BNFC/bnfc.github.com/tree/master/tutorial/calc/java/Calc/Absyn), der für die arithmetischen Ausdrücke erzeugt wird.
+Neben dem AST erzeugt der BNF Converter noch einen Parser, also ein Programm, das ein Programm in Form eines Strings in die AST-Darstellung des Programms übersetzt.
+Das heißt, wird sind dann in der Lage ein GAMS-Programm in Form eines Strings in seine AST-Repräsentation zu überführen.
+
+In der Arbeit muss im ersten Schritt eine Grammatik für einen sehr kleinen Teil von GAMS erstellt werden.
+Zum Beispiel sollten GAMS-Sprachkonstrukte wie Scalar, Set und Parameter unterstützt werden, sowie Konstrukte wie Konditional und Schleife.
+Die Grammatik wird anhand der [GAMS-Dokumentation](https://www.gams.com/latest/docs/UG_GAMSPrograms.html) und der GAMS-Programmierumgebung erarbeitet.
+Dabei soll bei jedem Sprachkonstrukt immer nur der Standardfall berücksichtigt werden.
+
+Für JavaScript wird eine bereits bestehende Grammatik verwendet.
+Aus der Grammatik für JavaScript kann mittels BNF Converter ein AST für JavaScript erzeugt werden.
+Im letzten Schritt soll dann Übersetzung des AST für GAMS-Programme in den AST für JavaScript-Programme geschrieben werden.
+Durch die Verwendung des Parsers und einer Methode, die einen AST in die entsprechende String-Darstellung überführt, kann so dann ein GAMS-Programm in ein JavaScript-Programm übersetzt werden.
+
+**Voraussetzungen:** Kenntnisse in Java oder Haskell
+**Geeignet als:** Bachelor- oder Masterarbeit -->
 <h3 id="freie-theoreme-in-java">Freie Theoreme in Java</h3>
 <p>Ein <a href="http://www.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf">freies Theorem</a> ist eine Aussage über eine Funktion/Methode, die allein an Hand des Typs der Funktion/Methode getroffen werden kann. Als Beispiel betrachten wir die Signatur der folgenden Haskellfunktion.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" title="1"><span class="ot">foo ::</span> [a] <span class="ot">-&gt;</span> [a]</a></code></pre></div>
@@ -39,6 +61,11 @@
 <p>Diese Form der Gesetzmäßigkeit gilt nicht nur in Sprachen wie Haskell, sondern auch in anderen Programmiersprachen die Polymorphismus/Generics zur Verfügung stellen. Eine Einführung zu freien Theoremen im Kontext von Java bietet zum Beispiel <a href="http://data.tmorris.net/talks/yow-west-2016/1d388b6263e7cbeedfbea224997648daa1d7862d/parametricity.pdf">dieser Vortrag</a>. Freie Theoreme basieren auf der Grundidee, dass man keinen Wert von einem polymorphen Typ erfinden kann. Die Funktion <code>foo</code> kann in der Ergebnisliste zum Beispiel kein neues Element hinzufügen, die Funktion kann eigentlich nur die Elemente der Argumentliste verwenden, um die Ergebnisliste zu konstruieren.</p>
 <p>Je nach dem, welche Sprachkonstrukte eine Programmiersprache zur Verfügung stellt, sind freie Theoreme nur noch in eingeschränkter Form gültig. So können zum Beispiel Sprachfeatures wie Typumwandlung oder Typprüfung dafür sorgen, dass freie Theoreme nur mit Einschränkungen gültig sind. In dieser Arbeit soll eine Fallstudie über Sprachfeatures in Java gemacht werden. Dabei soll untersucht werden, bei der Verwendung von welchen Sprachfeatures in Java freie Theoreme nur noch unter Einschränkungen gültig sind.</p>
 <p><strong>Voraussetzungen:</strong> gute Kenntnisse der Programmiersprache Java, Grundkenntnisse in Haskell<br />
+<strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
+<h3 id="programmierstil-in-elm">Programmierstil in Elm</h3>
+<p>In dieser Arbeit soll der Programmierstil analysiert werden, der in Elm-Projekten bei GitHub verwendet wird. Es existiert bereits eine Haskell-Anwendung, die Elm-Projekte bei GitHub sammelt und Kennwerte für diese Anwendungen erhebt, zum Beispiel die Anzahl der Module oder die durchschnittliche Anzahl an Definitionen pro Modul. In diesem Projekt sollen Eigenschaften der Projekte analysiert werden, die sehr Elm-spezifisch sind. Zum Beispiel kann überprüft werden, wie die Projekte <em>underscore pattern</em> einsetzen und ob Funktionen immer eta-reduziert sind. Oder es kann überprüft werden, in welcher Reihenfolge die Definitionen in einem Modul sortiert sind, also zum Beispiel zuerst alle Datentypdefinitionen und dann alle Funktionsdefinitionen oder gemischt. Es kann aber auch geprüft werden, in welcher Reihenfolge das Pattern Matching der <code>update</code>-Funktion durchgeführt wird, also zuerst Pattern Matching auf <code>Model</code> und anschließend auf <code>Msg</code> oder andersherum. Oder es kann überprüft werden, wie Funktionen genannt werden, die eine <code>Html</code>-Struktur liefern, also aus <code>view</code> heraus aufgerufen werden.</p>
+<p>Im ersten Schritt muss in dieser Arbeit definiert werden, welche Eigenschaften evaluiert werden sollen und wie diese Eigenschaften bewertet, gruppiert werden. Danach muss die jeweilige Analyse in das Bestehende Tool integriert werden.</p>
+<p><strong>Voraussetzungen:</strong> gute Kenntnisse in Elm<br />
 <strong>Geeignet als:</strong> Bachelor- oder Masterarbeit</p>
 <h2 id="künstliche-intelligenz-im-software-engineering">Künstliche Intelligenz im <em>Software Engineering</em></h2>
 <h3 id="generieren-von-funktionsnamen-aus-funktionsdefinitionen">Generieren von Funktionsnamen aus Funktionsdefinitionen</h3>
