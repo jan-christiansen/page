@@ -1,6 +1,6 @@
 ---
 title: Deklarative Software-Technologien
-published: 2022-06-07
+published: 2022-06-09
 ---
 
 
@@ -78,8 +78,29 @@ Alternativ kann auch ein [Brettspiel](https://boardgamegeek.com/geeklist/33151/c
 Ein Beispiel für eine solche Anwendung wäre etwa eine Web-Variante von [Secret Hitler](https://netgames.io/games/secret-hitler/).
 
 
-### Backend
+### Technische Aspekte
+
+Hier werden noch ein paar eher technische Aspekte der Umsetzung diskutiert.
+
+
+#### Backend
 
 Falls Ihre Idee nicht auf ein Backend verzichten kann, können Sie einen Dienst wie [Supabase](https://supabase.com) nutzen.
 Dort definieren Sie ein Datenbankschema und die Anwendung stellt Ihnen eine REST-API zur Verfügung, mit der Sie die Daten in der Datenbank abrufen und manipulieren können.
 Auf diese Weise können Sie relativ schnell und ohne Entwicklungsarbeit ein Datenbackend implementieren.
+
+
+#### Umsetzung eines Spiels
+
+Bei der Umsetzung eines Spiels sind einige weitere Aspekte zu berücksichtigen, von denen einige hier erwähnt werden sollen.
+Zuerst sollte man sich Gedanken darüber machen, welche Technologie zur Darstellung genutzt wird.
+Im Wesentlichen gäbe es da die Wahl zwischen SVG, Canvas und WebGL.
+Diese Ansätze haben verschiedene Vor- und Nachteile, die universell, also zum Beispiel auch in JavaScript, gültig sind.
+Unter [elm games](https://github.com/rofrol/elm-games) finden sich einige in Elm implementierte Spiele.
+Dort können Sie sich zum Beispiel anschauen, welche Technologien/Bibliotheken von ähnlichen Spielen verwendet werden.
+
+Für die Implementierung der Snake-Anwendung wurde ein Timer verwendet.
+Dieser eignet sich aber nicht mehr, wenn das Spiel eine höhere Aktualisierungsrate hat.
+In diesen Fällen sollten eher `onAnimationFrame` bzw. `onAnimationFrameDelta` ([Browser.Events](https://package.elm-lang.org/packages/elm/browser/latest/Browser-Events)) genutzt werden.
+Hier wird die Aktualisierung mit dem Neuzeichnen des Browserfensters synchronisiert.
+Weitere Hintergrundinformationen findet man, wenn man nach der entsprechenden JavaScript-Funktion `requestAnimationFrame` sucht.
