@@ -19,7 +19,7 @@
         <div id="content">
             <h1>Deklarative Software-Technologien</h1>
             <div class="info">
-    Last changed on June  7, 2022
+    Last changed on June  9, 2022
     
 </div>
 
@@ -46,8 +46,13 @@
 <p>Einfache Spiele eignen sich relativ gut für eine Umsetzung als Frontend-Anwendung. Zum einen bieten einfache Spiele im Normalfall genügend Interaktion, um ausreichend Anspruch zu bieten. Zum anderen wird im besten Fall gar keine Backend-Komponente benötigt. Als Ideengeber eignen sich zum Beispiel sehr <a href="https://www.dailydot.com/parsec/atari-2600-games/">alte Spielekonsolen</a>. Für eine innovative Komponente bei der Umsetzung eines historischen Spiels kann die Umsetzung durch eine neue technische Dimension erweitert werden (siehe etwa <a href="https://tobiaswen.github.io/3DelmTRIS/">3D-Tetris</a>). Sie könnten ein historisches Spiel zum Beispiel für das Smartphone umsetzen und eine Steuerung über das Gyroskop vorsehen.</p>
 <h4 id="karten--oder-brettspiel">Karten- oder Brettspiel</h4>
 <p>Eine weitere Möglichkeit ist die Umsetzung eines Karten- oder Brettspiels. Um zu verhindern, dass eine künstliche Intelligenz für das Spiel oder ein Backend umgesetzt werden muss, kann das Spiel im <em>Hot Seat</em>-Modus implementiert werden. Das heißt, die Spieler wechseln sich beim Spielen nacheinander ab. In Zeiten der Corona-Pandemie bieten digitale Varianten von Brettspielen eine gute Alternative. Bei Brettspielen von kleineren Verlagen hat der Verlag zu Werbezwecken ggf. auch ein Interesse an der Veröffentlichung der Implementierung. Alternativ kann auch ein <a href="https://boardgamegeek.com/geeklist/33151/creative-commonsopen-source-games">Brettspiel</a> umgesetzt werden, das eine freie Lizenz hat. Ein Beispiel für eine solche Anwendung wäre etwa eine Web-Variante von <a href="https://netgames.io/games/secret-hitler/">Secret Hitler</a>.</p>
-<h3 id="backend">Backend</h3>
+<h3 id="technische-aspekte">Technische Aspekte</h3>
+<p>Hier werden noch ein paar eher technische Aspekte der Umsetzung diskutiert.</p>
+<h4 id="backend">Backend</h4>
 <p>Falls Ihre Idee nicht auf ein Backend verzichten kann, können Sie einen Dienst wie <a href="https://supabase.com">Supabase</a> nutzen. Dort definieren Sie ein Datenbankschema und die Anwendung stellt Ihnen eine REST-API zur Verfügung, mit der Sie die Daten in der Datenbank abrufen und manipulieren können. Auf diese Weise können Sie relativ schnell und ohne Entwicklungsarbeit ein Datenbackend implementieren.</p>
+<h4 id="umsetzung-eines-spiels">Umsetzung eines Spiels</h4>
+<p>Bei der Umsetzung eines Spiels sind einige weitere Aspekte zu berücksichtigen, von denen einige hier erwähnt werden sollen. Zuerst sollte man sich Gedanken darüber machen, welche Technologie zur Darstellung genutzt wird. Im Wesentlichen gäbe es da die Wahl zwischen SVG, Canvas und WebGL. Diese Ansätze haben verschiedene Vor- und Nachteile, die universell, also zum Beispiel auch in JavaScript, gültig sind. Unter <a href="https://github.com/rofrol/elm-games">elm games</a> finden sich einige in Elm implementierte Spiele. Dort können Sie sich zum Beispiel anschauen, welche Technologien/Bibliotheken von ähnlichen Spielen verwendet werden.</p>
+<p>Für die Implementierung der Snake-Anwendung wurde ein Timer verwendet. Dieser eignet sich aber nicht mehr, wenn das Spiel eine höhere Aktualisierungsrate hat. In diesen Fällen sollten eher <code>onAnimationFrame</code> bzw. <code>onAnimationFrameDelta</code> (<a href="https://package.elm-lang.org/packages/elm/browser/latest/Browser-Events">Browser.Events</a>) genutzt werden. Hier wird die Aktualisierung mit dem Neuzeichnen des Browserfensters synchronisiert. Weitere Hintergrundinformationen findet man, wenn man nach der entsprechenden JavaScript-Funktion <code>requestAnimationFrame</code> sucht.</p>
 
         </div>
 
