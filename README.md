@@ -1,3 +1,1 @@
-# page
-
-My homepage, deployed to [http://jan-christiansen.github.io/page/](http://jan-christiansen.github.io/page).
+Redirects to my homepage at [http://hs-flensburg-pltp.github.io](http://hs-flensburg-pltp.github.io).
